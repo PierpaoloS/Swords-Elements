@@ -14,5 +14,6 @@ public class testing_z : MonoBehaviour
     void Update()
     {
         print("Questo è lo script creato nel branch-testing-zzizaa");
+        print("Questo è il print del secondo branch di zzizaa");
     }
 }
