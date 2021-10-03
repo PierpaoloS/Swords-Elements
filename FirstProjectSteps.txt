@@ -1,0 +1,11 @@
+Work done before the repository was created:
+1) Base Settings XR
+2) Hands creation and control
+3) Input VR Controllers
+4) Movement Detection
+5) Player Movement
+6) Enemy AI and Navigation Mesh
+7) Spawner Enemy 
+8) Earth Wall (spawn)
+9) Fire Ball (spawn)
+10) Damage to Enemy with Sword
