@@ -123,17 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!114 &90180556 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 2074667902121116752, guid: 3dd1505960c30c140a2cfeb29724253c, type: 3}
-  m_PrefabInstance: {fileID: 4070145964113012871}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7c90acc4077108444bdd65c5b61bc5be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &105102592
 GameObject:
   m_ObjectHideFlags: 0
@@ -209,9 +198,21 @@ MonoBehaviour:
   OnRecognize:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 90180556}
-        m_TargetAssemblyTypeName: WallSpawner, Assembly-CSharp
-        m_MethodName: MagicWall
+      - m_Target: {fileID: 1326246164}
+        m_TargetAssemblyTypeName: PowersManager, Assembly-CSharp
+        m_MethodName: ChangeWallspValue
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1326246164}
+        m_TargetAssemblyTypeName: PowersManager, Assembly-CSharp
+        m_MethodName: Update
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -257,18 +258,6 @@ MonoBehaviour:
   leftHand: {fileID: 1526025428}
   damage: 10
   delayFireBall: 1
---- !u!114 &426414253
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 426414251}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bd92facd8b16e424b842576c109e3d1c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &449512668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -695,26 +684,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5422075425742332909, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
   m_PrefabInstance: {fileID: 1526025427}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1244022631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244022630}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65687cc5e62259b42acc9fb11879a83a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  wall: {fileID: 2934082899127569995, guid: 8352b55589e0a8d48a2f2ea8616df2ee, type: 3}
-  player: {fileID: 1244022630}
-  spawnDistance: 5
 --- !u!4 &1244022635 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5422075425742332905, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
   m_PrefabInstance: {fileID: 1526025427}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1326246163 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 20072939338550045, guid: 3dd1505960c30c140a2cfeb29724253c, type: 3}
+  m_PrefabInstance: {fileID: 4070145964113012871}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1326246164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1326246163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0758f530cc9d6ac4bbc8acc7682392fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1367386764
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1067,6 +1058,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 426414251}
+    - target: {fileID: 2074667902121116752, guid: 3dd1505960c30c140a2cfeb29724253c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2074667902121116752, guid: 3dd1505960c30c140a2cfeb29724253c, type: 3}
       propertyPath: spawnDistance
       value: 5
