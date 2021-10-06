@@ -51,6 +51,7 @@ public class PowersManager : MonoBehaviour
         
         if (primaryButtonValue)
         {
+            MagicWall();
             Debug.Log("Premuto bottone X");
             if (powers.wallPower == true)
             {
