@@ -43,7 +43,6 @@ GameObject:
   m_Component:
   - component: {fileID: 5422075425348355886}
   - component: {fileID: 5422075425348355883}
-  - component: {fileID: 5422075425348355880}
   - component: {fileID: 5422075425348355881}
   m_Layer: 0
   m_Name: Left Hand test
@@ -140,19 +139,6 @@ MonoBehaviour:
   m_PlayHapticsOnHoverCanceled: 0
   m_HapticHoverCancelIntensity: 0
   m_HapticHoverCancelDuration: 0
---- !u!135 &5422075425348355880
-SphereCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5422075425348355887}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 1
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Radius: 0.2
-  m_Center: {x: 0, y: -0.31422383, z: 0}
 --- !u!114 &5422075425348355881
 MonoBehaviour:
   m_ObjectHideFlags: 0
