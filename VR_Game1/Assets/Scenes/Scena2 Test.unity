@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481694, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -269,6 +269,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bd92facd8b16e424b842576c109e3d1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &426414254
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426414251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c24841723bffa184e8393a5afebbf65b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dashSpeed: 15
+  VRrig: {fileID: 1526025429}
+  dashEffect: {fileID: 0}
+--- !u!54 &426414257
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426414251}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &449512668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -948,6 +979,11 @@ PrefabInstance:
 --- !u!1 &1526025428 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5422075425348355887, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
+  m_PrefabInstance: {fileID: 1526025427}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1526025429 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5422075426393253682, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
   m_PrefabInstance: {fileID: 1526025427}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1544683056
