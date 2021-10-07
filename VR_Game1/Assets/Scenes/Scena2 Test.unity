@@ -123,67 +123,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &16821638
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2563454403767538656, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4455853852645887178, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_Name
-      value: WallStoneAnimated 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.3631103
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1.6754105
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -0.39708638
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9202508519299878449, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
 --- !u!1 &48474076 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2417476957321269427, guid: dcd0b251a47810544b2346d9227e757e, type: 3}
@@ -202,7 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   wallPower: 0
-  firePower: 0
+  firePower: 1
 --- !u!1 &105102592
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,7 +219,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1326246164}
         m_TargetAssemblyTypeName: SwitchPowersValue, Assembly-CSharp
-        m_MethodName: ChangeWallspValue
+        m_MethodName: ChangeWallPowerValue
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -321,6 +260,25 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5422075424393580371, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
   m_PrefabInstance: {fileID: 1526025427}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &426414252
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426414251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0758f530cc9d6ac4bbc8acc7682392fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cam: {fileID: 1244022630}
+  player: {fileID: 426414251}
+  leftHand: {fileID: 1526025428}
+  wall: {fileID: 4455853852645887178, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
+  fireBall: {fileID: 2468664956209684978, guid: 8ea479a42b7a9f44ea0f289d123ef92b, type: 3}
+  damage: 10
+  delayFireBall: 2
 --- !u!1001 &449512668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -747,25 +705,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5422075425742332909, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
   m_PrefabInstance: {fileID: 1526025427}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1244022631
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1244022630}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0758f530cc9d6ac4bbc8acc7682392fc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  cam: {fileID: 1244022630}
-  player: {fileID: 426414251}
-  leftHand: {fileID: 1526025428}
-  wall: {fileID: 4455853852645887178, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
-  fireBall: {fileID: 2468664956209684978, guid: 8ea479a42b7a9f44ea0f289d123ef92b, type: 3}
-  damage: 10
-  delayFireBall: 2
 --- !u!4 &1244022635 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5422075425742332905, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
@@ -788,7 +727,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30601747bbfa3014686dace8cc240f61, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  wallPower: 0
+  wallPower: 1
   firePower: 0
 --- !u!1001 &1367386764
 PrefabInstance:

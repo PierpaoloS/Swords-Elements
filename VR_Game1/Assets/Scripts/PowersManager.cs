@@ -46,32 +46,27 @@ public class PowersManager : MonoBehaviour
     // Update is called once per frame
     public void Update()
     {
-        //premuto il bottone X dovrebbe spawnare il muro
+        
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
         
         if (primaryButtonValue)
         {
-            MagicWall();
+            
             Debug.Log("Premuto bottone X");
             if (powers.wallPower == true)
             {
                 MagicWall();
             }
 
-            if (powers.firePower == true)
+            else if (powers.firePower == true)
             {
                 Shoot();
             }
         }
     }
 
+ 
     
-    ////////////// Wall Superpower //////////////////
-   /* public void ChangeWallspValue()
-    {
-        firePower = false;
-        wallPower = true;
-    }*/
     public void MagicWall()
     {
         float dirX = cam.transform.forward.x;
@@ -97,12 +92,7 @@ public class PowersManager : MonoBehaviour
         
     }
     
-    ////////// FireBall Superpower ////////////////////
-    /*public void ChangeFirePowerValue()
-    {
-        wallPower = false;
-        firePower = true;
-    }*/
+    
     private void Shoot()
     {
         GameObject circle = GameObject.FindWithTag("MagicCircle");
