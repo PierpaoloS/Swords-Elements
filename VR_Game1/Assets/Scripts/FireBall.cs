@@ -41,7 +41,7 @@ public class FireBall : MonoBehaviour
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
         if (primaryButtonValue  && isFireBallShooted == false)
         {
-            Shoot();
+           // Shoot();
         }
 
     }
@@ -59,7 +59,7 @@ public class FireBall : MonoBehaviour
         Invoke("resetFireBallCount", delayFireBall);
 
     }
-
+    
     private void resetFireBallCount()
     {
         isFireBallShooted = false;
