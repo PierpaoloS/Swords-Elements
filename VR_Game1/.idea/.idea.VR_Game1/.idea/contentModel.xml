@@ -6,8 +6,6 @@
     <e p="D:\UNIMI\Realtà Virtuale\Swords&amp;Elements\Swords-Elements\VR_Game1" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="ActivateEarth.cs" t="Include" />
-        <e p="ActivateFire.cs" t="Include" />
         <e p="Nav" t="Include">
           <e p="Editor" t="Include">
             <e p="NavMeshComponents.asmdef" t="Include" />
@@ -61,8 +59,9 @@
             </e>
           </e>
         </e>
-        <e p="PowerManager.cs" t="Include" />
         <e p="Scripts" t="Include">
+          <e p="ActivateEarth.cs" t="Include" />
+          <e p="ActivateFire.cs" t="Include" />
           <e p="EnemyAI.cs" t="Include" />
           <e p="FireBall.cs" t="Include" />
           <e p="GenerateEnemies.cs" t="Include" />
@@ -70,13 +69,12 @@
           <e p="healthBar.cs" t="Include" />
           <e p="MagieTest.cs" t="Include" />
           <e p="MovmentRecognizer.cs" t="Include" />
-          <e p="PowersManager_2.cs" t="Include" />
+          <e p="PowerManager.cs" t="Include" />
           <e p="ProjectileManage.cs" t="Include" />
-          <e p="SwitchPowersValue.cs" t="Include" />
+          <e p="SelectPowerBoolean.cs" t="Include" />
+          <e p="SwitchPower.cs" t="Include" />
           <e p="WallSpawner.cs" t="Include" />
         </e>
-        <e p="SelectPowerBoolean.cs" t="Include" />
-        <e p="SwitchPower.cs" t="Include" />
       </e>
       <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
       <e p="NavMeshComponentsEditor.csproj" t="IncludeRecursive" />
