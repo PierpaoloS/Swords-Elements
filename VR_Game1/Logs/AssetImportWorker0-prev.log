@@ -1,0 +1,1031 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1237; Version 2009; 64bit' Language: 'it' Physical Memory: 12254 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62156
+Successfully changed project path to: C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
+C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 115.59 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 3.07 ms.
+Initialize engine version: 2020.3.16f1 (049d6eca3c44)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Vendor:   
+    VRAM:     2007 MB
+    Driver:   30.0.14.7196
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56336
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.007506 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 92.94 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.44 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.334 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4334ms)
+		BeginReloadAssembly (104ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (882ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (336ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (336ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (151ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.020146 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 97.22 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.390 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3392ms)
+		BeginReloadAssembly (325ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (2912ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (838ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (113ms)
+			SetupLoadedEditorAssemblies (1490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (98ms)
+				BeforeProcessingInitializeOnLoad (375ms)
+				ProcessInitializeOnLoadAttributes (961ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 1.13 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 2159 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 91.9 MB.
+System memory in use after: 91.9 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2600.
+Total: 6.806300 ms (FindLiveObjects: 0.440600 ms CreateObjectMapping: 0.184200 ms MarkObjects: 5.972500 ms  DeleteObjects: 0.206700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Scripts/PowerManager.cs
+  artifactKey: Guid(338982db65ba7624fb9be25fb1cc9999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PowerManager.cs using Guid(338982db65ba7624fb9be25fb1cc9999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eff4f3bbbccf983444afed0cfb82b60') in 0.050759 seconds 
+  Import took 0.057787 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.020671 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.282 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2283ms)
+		BeginReloadAssembly (222ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1921ms)
+			LoadAssemblies (171ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (597ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (835ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (173ms)
+				ProcessInitializeOnLoadAttributes (608ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (3ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.24 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.46 ms.
+Unloading 2129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 98.8 MB.
+System memory in use after: 98.9 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2606.
+Total: 5.655300 ms (FindLiveObjects: 0.413600 ms CreateObjectMapping: 0.122900 ms MarkObjects: 5.012700 ms  DeleteObjects: 0.104100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 233.834958 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb726c58bc5d861c63bd621dc0a727d') in 0.045564 seconds 
+  Import took 0.051400 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.663294 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs
+  artifactKey: Guid(822c94bc47009e2409b4b857f24030f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs using Guid(822c94bc47009e2409b4b857f24030f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937d35f0c416d4b1f2f0ce47afa46c00') in 0.016613 seconds 
+  Import took 0.022149 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076496 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.1 Dual Ribbon.prefab
+  artifactKey: Guid(92741d35de61d3548a1a78f80df11ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.1 Dual Ribbon.prefab using Guid(92741d35de61d3548a1a78f80df11ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35bcdc32915070f16f310466395b50ca') in 0.147850 seconds 
+  Import took 0.154406 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000309 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.4.1 Ribbon Rainbow trail.prefab
+  artifactKey: Guid(1478ae28b6fad154a8e5dc2e2555a7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.4.1 Ribbon Rainbow trail.prefab using Guid(1478ae28b6fad154a8e5dc2e2555a7ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1744197311f04346c8bf10d22a63709e') in 0.038284 seconds 
+  Import took 0.046209 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.5.1 Tentacle trail.prefab
+  artifactKey: Guid(2a2762eb559a5e24cb94e81034b36a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.5.1 Tentacle trail.prefab using Guid(2a2762eb559a5e24cb94e81034b36a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63d280baefc66be4b375114814981a4c') in 0.059656 seconds 
+  Import took 0.067722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000310 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.2.prefab
+  artifactKey: Guid(8906de79e38d722448ed84e0c648ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.2.prefab using Guid(8906de79e38d722448ed84e0c648ed37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd89751027db449a089e69ac311be86fb') in 0.029033 seconds 
+  Import took 0.034447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_03.1 Rave Party.prefab
+  artifactKey: Guid(a038b6842bf8b8c48978a6ca7ff191ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_03.1 Rave Party.prefab using Guid(a038b6842bf8b8c48978a6ca7ff191ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '285a65206c7b8efb97670c2898a8a170') in 0.027476 seconds 
+  Import took 0.034369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.3.1 Fairydust Noise.prefab
+  artifactKey: Guid(f980f35b2665e65409a449e52e961c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.3.1 Fairydust Noise.prefab using Guid(f980f35b2665e65409a449e52e961c09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ec729ec323c4e38864fe607bbc3211') in 0.029658 seconds 
+  Import took 0.036295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.6 Noise.prefab
+  artifactKey: Guid(db791f5a5b572c44e872174c12c2f2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.6 Noise.prefab using Guid(db791f5a5b572c44e872174c12c2f2ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37059a1c6c5e27697ce586168d2daaff') in 0.036578 seconds 
+  Import took 0.042978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Drag_01 Warp-strike Noise.prefab
+  artifactKey: Guid(22cfde83280f83746836923e3e5ac64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Drag_01 Warp-strike Noise.prefab using Guid(22cfde83280f83746836923e3e5ac64a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a3001d5fe352eee62413fe4b569c1ef') in 0.037094 seconds 
+  Import took 0.042752 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.prefab
+  artifactKey: Guid(7c22cd57a15e6fb479c6d3b3c4060e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.prefab using Guid(7c22cd57a15e6fb479c6d3b3c4060e88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97449e5661e080764b5536ee77a15ecc') in 0.029507 seconds 
+  Import took 0.035403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.5 Tentacle point.prefab
+  artifactKey: Guid(acfea269b5aec3142aeec88a60895c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.5 Tentacle point.prefab using Guid(acfea269b5aec3142aeec88a60895c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257d3e79b56cfe0d8819fe7db8458db5') in 0.041520 seconds 
+  Import took 0.048748 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000278 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.3 Fairydust.prefab
+  artifactKey: Guid(72949fa39c284664683eb9778cbd227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.3 Fairydust.prefab using Guid(72949fa39c284664683eb9778cbd227d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18ed71ebb7c379798bfc303c2043d2e7') in 0.031104 seconds 
+  Import took 0.037140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_05.2 Fairydust Noise.prefab
+  artifactKey: Guid(633191961f9a8314697e96499a6b3a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_05.2 Fairydust Noise.prefab using Guid(633191961f9a8314697e96499a6b3a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6743deec8ccc5cdcc7dd836cc6a1d3da') in 0.026007 seconds 
+  Import took 0.031968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000272 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.2.prefab
+  artifactKey: Guid(073f2d7207c2a664f921850c7e8783db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.2.prefab using Guid(073f2d7207c2a664f921850c7e8783db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfa7e5a549400d0f47926ce6cdcf7312') in 0.036602 seconds 
+  Import took 0.043223 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.3 ink sink.prefab
+  artifactKey: Guid(721828800f41bb840b0b3916d19228f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.3 ink sink.prefab using Guid(721828800f41bb840b0b3916d19228f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1b4acd10ec328d69970389bc04cb49') in 0.029458 seconds 
+  Import took 0.036523 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.1.prefab
+  artifactKey: Guid(b5ea624fac4bcb44f96ad51d3745727e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.1.prefab using Guid(b5ea624fac4bcb44f96ad51d3745727e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f402910d039d40fe5eb88c39bc612b80') in 0.028821 seconds 
+  Import took 0.035077 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.1.prefab
+  artifactKey: Guid(ebf9cc577b34f514c8ec790bec0af3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.1.prefab using Guid(ebf9cc577b34f514c8ec790bec0af3e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700271d3a20a30dc20b49f465395a971') in 0.033537 seconds 
+  Import took 0.043498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.3 Smoke Noise trail.prefab
+  artifactKey: Guid(9c325b962bbbf044b8c70186b0d753f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.3 Smoke Noise trail.prefab using Guid(9c325b962bbbf044b8c70186b0d753f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354d97c533f1c9d1dfeb00b9b8517034') in 0.029558 seconds 
+  Import took 0.035569 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.prefab
+  artifactKey: Guid(5c175b754ee603c47a5fbe48aff5d65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.prefab using Guid(5c175b754ee603c47a5fbe48aff5d65b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4122853fc8d732519f7c4e22eecba226') in 0.025323 seconds 
+  Import took 0.031267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000296 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_01.2 Tornado tall.prefab
+  artifactKey: Guid(d18380a6098943a4a879b5a0f3826c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_01.2 Tornado tall.prefab using Guid(d18380a6098943a4a879b5a0f3826c9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64700a7063fe7cd326c3a8560cddc6ce') in 0.029684 seconds 
+  Import took 0.035187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000274 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.1.3 Noise.prefab
+  artifactKey: Guid(290c7afb0a247d64ba31f4fb85b73165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.1.3 Noise.prefab using Guid(290c7afb0a247d64ba31f4fb85b73165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aca407c942f1d56a680407584e1b79b2') in 0.038122 seconds 
+  Import took 0.044593 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000360 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.5 Tentacle trail.prefab
+  artifactKey: Guid(47121ae891ef7614c9f45ce4b4f8fcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.5 Tentacle trail.prefab using Guid(47121ae891ef7614c9f45ce4b4f8fcd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ac586659af7e2fdb3f12d1bbc2355f') in 0.048044 seconds 
+  Import took 0.057421 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_01.1 Tornado.prefab
+  artifactKey: Guid(1dbd11d2ca3f29640b6bd21d7b6393d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_01.1 Tornado.prefab using Guid(1dbd11d2ca3f29640b6bd21d7b6393d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2824a9a391bc430d6c998315349a7d5c') in 0.034775 seconds 
+  Import took 0.042851 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.4 Ribbon point.prefab
+  artifactKey: Guid(5aca12a25b34970479a5b05210886a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.4 Ribbon point.prefab using Guid(5aca12a25b34970479a5b05210886a83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48043af89ad594560167040d4b27c929') in 0.030328 seconds 
+  Import took 0.037246 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000362 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.4 Domain.prefab
+  artifactKey: Guid(5f20420a36c817f4f8328369cb4883a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.4 Domain.prefab using Guid(5f20420a36c817f4f8328369cb4883a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d4f9bf356a91478c12ca844293bc36') in 0.048129 seconds 
+  Import took 0.056013 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000349 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_03.prefab
+  artifactKey: Guid(c17963bbb4ed8bb43ab629df2aa6f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_03.prefab using Guid(c17963bbb4ed8bb43ab629df2aa6f6fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db4444b77efa6ec3b321b6ebac7facc') in 0.031187 seconds 
+  Import took 0.038162 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000282 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.2 Smoke Noise.prefab
+  artifactKey: Guid(222eb84c209dc0c4b833bfce66d69d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.2 Smoke Noise.prefab using Guid(222eb84c209dc0c4b833bfce66d69d54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a711cf04b1a05a594d0a71ec4307b7c1') in 0.033951 seconds 
+  Import took 0.042299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.5 Chain.prefab
+  artifactKey: Guid(8f3052adaa74dfd4cb36c5818c58df60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.5 Chain.prefab using Guid(8f3052adaa74dfd4cb36c5818c58df60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '252350ad253c6c63b235e34255d31541') in 0.098452 seconds 
+  Import took 0.107989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_04.3 Darkness quick.prefab
+  artifactKey: Guid(a716a4964e991f04288cf251ff85bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_04.3 Darkness quick.prefab using Guid(a716a4964e991f04288cf251ff85bd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bc1a413796fc98c622382361fae3017') in 0.048349 seconds 
+  Import took 0.055712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_05.1 Fairydust cheap.prefab
+  artifactKey: Guid(d37d5104f2717d34c84d3acbf55785fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_05.1 Fairydust cheap.prefab using Guid(d37d5104f2717d34c84d3acbf55785fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd06157e1efa72464e418b1843b4dc1') in 0.036389 seconds 
+  Import took 0.044651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.1.3 Portal.prefab
+  artifactKey: Guid(303fa73578986ac4a82283eeb1edc654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.1.3 Portal.prefab using Guid(303fa73578986ac4a82283eeb1edc654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea98cce5574eb22e7d93b950c8bdfb80') in 0.043283 seconds 
+  Import took 0.050610 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.1.2 Fairydust.prefab
+  artifactKey: Guid(7210ff34512b3a547bb82851f8d81172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.1.2 Fairydust.prefab using Guid(7210ff34512b3a547bb82851f8d81172) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8d822451c48f8df1058a9606f191ce') in 0.027922 seconds 
+  Import took 0.034897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.4 Ribbon trail.prefab
+  artifactKey: Guid(3cf6963cae433e24e881eea0d6a44b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.4 Ribbon trail.prefab using Guid(3cf6963cae433e24e881eea0d6a44b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4e3410d66491aefc1951fb3e5b3c28') in 0.028389 seconds 
+  Import took 0.035222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_04.1 Darkness.prefab
+  artifactKey: Guid(6e98c279586111a44a36697e55a54ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_04.1 Darkness.prefab using Guid(6e98c279586111a44a36697e55a54ddc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0aa40772a150a8feee266f478e9f005') in 0.029808 seconds 
+  Import took 0.036375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Test character.prefab
+  artifactKey: Guid(97fc6add231749d43be60e8648cb62ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Test character.prefab using Guid(97fc6add231749d43be60e8648cb62ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '180bd924e796a49bff8a16ea42b08742') in 0.044016 seconds 
+  Import took 0.049522 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.prefab
+  artifactKey: Guid(4462f6159ce56f54aa3d847cdf8a3291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.prefab using Guid(4462f6159ce56f54aa3d847cdf8a3291) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25d6e15a7ae5e0ab647ab8c1e3d1930c') in 0.029104 seconds 
+  Import took 0.037324 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000305 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.3 Domain.prefab
+  artifactKey: Guid(07646d420e43aea44892c3a6320a52ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.3 Domain.prefab using Guid(07646d420e43aea44892c3a6320a52ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7eac3b3789258b8ee6d2f8456d6a252') in 0.049099 seconds 
+  Import took 0.057975 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.5.1 Tentacle point.prefab
+  artifactKey: Guid(b29c1c092b2b341438abc1f2b36f1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.5.1 Tentacle point.prefab using Guid(b29c1c092b2b341438abc1f2b36f1213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92fbd21c7a25b7cce359f1e62ffe590c') in 0.052838 seconds 
+  Import took 0.061595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_01.3 Tornado area.prefab
+  artifactKey: Guid(3d4e8c42ed9e3e64aa57dd5fd160611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_01.3 Tornado area.prefab using Guid(3d4e8c42ed9e3e64aa57dd5fd160611f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebfe011d05e7fad870be9f9dd85a7bb7') in 0.031789 seconds 
+  Import took 0.038943 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.1 Dual Ribbon.prefab
+  artifactKey: Guid(9b76ca16778282d43b0dcb458f08802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.1 Dual Ribbon.prefab using Guid(9b76ca16778282d43b0dcb458f08802b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424b605e4308f94a77f3014814d31798') in 0.027583 seconds 
+  Import took 0.034442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.2 Seaweed.prefab
+  artifactKey: Guid(a0c033842badc44499cd942553067136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.2 Seaweed.prefab using Guid(a0c033842badc44499cd942553067136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '274d15cbd3137dd292d2702518a36f76') in 0.033292 seconds 
+  Import took 0.039915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02 Butterfly.prefab
+  artifactKey: Guid(24714939b6d6b0848a23dbabb24615c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02 Butterfly.prefab using Guid(24714939b6d6b0848a23dbabb24615c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f0496c6140a677cc8da609b4ab0b2f') in 0.028302 seconds 
+  Import took 0.035444 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.1.1.prefab
+  artifactKey: Guid(df8009dc85777cd40a227ce4d9a59d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_02.1.1.prefab using Guid(df8009dc85777cd40a227ce4d9a59d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393bc7566b86b603b45dcd737b5b8629') in 0.033722 seconds 
+  Import took 0.041481 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000375 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.prefab
+  artifactKey: Guid(9b7dd4ad1de43e843ab5041fd9ced9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.prefab using Guid(9b7dd4ad1de43e843ab5041fd9ced9f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c62e137f96da6079568798a1bb0f1ea') in 0.027802 seconds 
+  Import took 0.034762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000444 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.2 Six.prefab
+  artifactKey: Guid(0d500c5e8ad781840a06fc8f512f27ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Spiral_02.2 Six.prefab using Guid(0d500c5e8ad781840a06fc8f512f27ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c499d8f4c550b848e620f379e4bd52') in 0.032082 seconds 
+  Import took 0.038366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.1.1 Dual Ribbon.prefab
+  artifactKey: Guid(ed27e61ea1a83e64fb6c3472640c846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_01.1.1 Dual Ribbon.prefab using Guid(ed27e61ea1a83e64fb6c3472640c846f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c927c090d9dc963f716c4ddfe0e953b3') in 0.029619 seconds 
+  Import took 0.035042 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000273 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.4.1 Ribbon Rainbow point.prefab
+  artifactKey: Guid(7ba99b73bc7237f41866af9ee14ac99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Charge_01.4.1 Ribbon Rainbow point.prefab using Guid(7ba99b73bc7237f41866af9ee14ac99e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fa78e95f4555c228a7accd478c1c51') in 0.031278 seconds 
+  Import took 0.037850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.1 Smoke.prefab
+  artifactKey: Guid(046853cc0b2b7a7429cfdec1915e1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_02.1.1 Smoke.prefab using Guid(046853cc0b2b7a7429cfdec1915e1640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf274ef497cdf335fc74ce7418166950') in 0.027433 seconds 
+  Import took 0.034084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000441 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_03 Megido.prefab
+  artifactKey: Guid(b82449563c8abbc47955dd85ec1c8048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_03 Megido.prefab using Guid(b82449563c8abbc47955dd85ec1c8048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fbc0204c67d98485f40f8bcb42958db') in 0.031637 seconds 
+  Import took 0.037904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_04.2 Darkness.prefab
+  artifactKey: Guid(d7bef4a7a970f0b4ca3fcda740f48f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_04.2 Darkness.prefab using Guid(d7bef4a7a970f0b4ca3fcda740f48f48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0ef273b82ebc17345043b13432d8ca') in 0.031842 seconds 
+  Import took 0.038266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Projectile_01 Noise.prefab
+  artifactKey: Guid(59df0f563f95c764e87867ff8ddcdb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Projectile_01 Noise.prefab using Guid(59df0f563f95c764e87867ff8ddcdb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617c2ed2b4ab046245f95069de30fcfc') in 0.037441 seconds 
+  Import took 0.042884 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_05 Fairydust.prefab
+  artifactKey: Guid(39d083a5f8e95874fb6aa07cb8a3beb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Particle Ribbon by Moonflower Carnivore/Prefabs/Liberate_05 Fairydust.prefab using Guid(39d083a5f8e95874fb6aa07cb8a3beb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd459011663107a81860104fa3975b2cd') in 0.028617 seconds 
+  Import took 0.035056 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 105.056941 seconds.
+  path: Assets/Scripts/TornadoScript.cs
+  artifactKey: Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TornadoScript.cs using Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4a1c74c73623e622be20770391fdcb') in 0.019412 seconds 
+  Import took 0.028080 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.037587 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2831ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (2467ms)
+			LoadAssemblies (190ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (652ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (87ms)
+			SetupLoadedEditorAssemblies (1179ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (201ms)
+				ProcessInitializeOnLoadAttributes (883ms)
+				ProcessInitializeOnLoadMethodAttributes (42ms)
+				AfterProcessingInitializeOnLoad (37ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (22ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.81 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.30 ms.
+Unloading 2130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.6 MB.
+System memory in use after: 102.7 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2624.
+Total: 7.607700 ms (FindLiveObjects: 0.472900 ms CreateObjectMapping: 0.122100 ms MarkObjects: 6.924600 ms  DeleteObjects: 0.086000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 92.492191 seconds.
+  path: Assets/Scripts/TornadoScript.cs
+  artifactKey: Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TornadoScript.cs using Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0009d37c16db6afd7d90f7f28d93bae') in 0.022233 seconds 
+  Import took 0.029417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191153 seconds.
+  path: Assets/Scripts/TornadoScript.cs
+  artifactKey: Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TornadoScript.cs using Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0009d37c16db6afd7d90f7f28d93bae') in 0.217799 seconds 
+  Import took 0.250453 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027080 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.566 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2567ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2197ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (641ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (81ms)
+			SetupLoadedEditorAssemblies (955ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (14ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (220ms)
+				ProcessInitializeOnLoadAttributes (681ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.36 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+Unloading 2129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 5.862700 ms (FindLiveObjects: 0.405300 ms CreateObjectMapping: 0.110400 ms MarkObjects: 5.314800 ms  DeleteObjects: 0.030100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 17.948435 seconds.
+  path: Assets/Scripts/TornadoScript.cs
+  artifactKey: Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TornadoScript.cs using Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3044fa7b3db2215aa77d9621ebc3802b') in 0.014387 seconds 
+  Import took 0.021663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088608 seconds.
+  path: Assets/Scripts/TornadoScript.cs
+  artifactKey: Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/TornadoScript.cs using Guid(80fc0bcb5be11e04588dc98338802497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3044fa7b3db2215aa77d9621ebc3802b') in 0.007992 seconds 
+  Import took 0.020145 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.027714 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.31 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.27 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\ProgettoTest2\VR_Game\VR_Game\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.470 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2471ms)
+		BeginReloadAssembly (218ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (2069ms)
+			LoadAssemblies (192ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (705ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (804ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (585ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.80 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.33 ms.
+Unloading 2129 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 102.4 MB.
+System memory in use after: 102.5 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2630.
+Total: 7.415500 ms (FindLiveObjects: 0.571600 ms CreateObjectMapping: 0.311900 ms MarkObjects: 6.491300 ms  DeleteObjects: 0.038500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 129.904987 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs
+  artifactKey: Guid(eb587e7bb3cc3234c997e0ca4a3f6719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs using Guid(eb587e7bb3cc3234c997e0ca4a3f6719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43f511bc3c692e4f98fc12a23b07e25') in 0.017632 seconds 
+  Import took 0.023332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.064461 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/CubeMagicFlare.prefab
+  artifactKey: Guid(70c836d91f54f054398c52426875404e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/CubeMagicFlare.prefab using Guid(70c836d91f54f054398c52426875404e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b78789a92e861eb95a73b8468daee90') in 0.095851 seconds 
+  Import took 0.101566 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/WallStatic.prefab
+  artifactKey: Guid(8352b55589e0a8d48a2f2ea8616df2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/WallStatic.prefab using Guid(8352b55589e0a8d48a2f2ea8616df2ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7225d8f9f402f77cb3dec68df70ff585') in 0.030380 seconds 
+  Import took 0.035775 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000302 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/Square.prefab
+  artifactKey: Guid(3dd1505960c30c140a2cfeb29724253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/Square.prefab using Guid(3dd1505960c30c140a2cfeb29724253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcdc02aa6abacfddd9a6c912004ef7e') in 0.018014 seconds 
+  Import took 0.023682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000319 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/Sketchfab_2021_03_09_18_21_16.blend
+  artifactKey: Guid(c0005803f213fb44cbcd047f84057e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/Sketchfab_2021_03_09_18_21_16.blend using Guid(c0005803f213fb44cbcd047f84057e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f5059a7c41873b07832d42988df266') in 0.187227 seconds 
+  Import took 0.192484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimated 1.prefab
+  artifactKey: Guid(002dee1a47d55744ca3315ed78490f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimated 1.prefab using Guid(002dee1a47d55744ca3315ed78490f97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0b4ac4dd88fdad24c7934d763bce51') in 0.030804 seconds 
+  Import took 0.036619 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/wallTexture.mat
+  artifactKey: Guid(16e74bafab404d94481240b86fae0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/wallTexture.mat using Guid(16e74bafab404d94481240b86fae0ec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2010984f09b645f134ad033e367fe756') in 0.189511 seconds 
+  Import took 0.195100 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/Triangle.prefab
+  artifactKey: Guid(dcd0b251a47810544b2346d9227e757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/Triangle.prefab using Guid(dcd0b251a47810544b2346d9227e757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297684de9ecff1122a90909616890223') in 0.016237 seconds 
+  Import took 0.021064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/MagicWall.prefab
+  artifactKey: Guid(c992ad87693da8542a162d5010d5a7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/MagicWall.prefab using Guid(c992ad87693da8542a162d5010d5a7b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d5fd036b64e6a0600e3573d99b676c') in 0.027468 seconds 
+  Import took 0.033947 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000384 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/Stone.mat
+  artifactKey: Guid(c942d0a2870a38843855e03c49d9d36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/Stone.mat using Guid(c942d0a2870a38843855e03c49d9d36d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6612fd03b388cbe0ca230756797c8186') in 0.029242 seconds 
+  Import took 0.034148 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/rockwall1_albedo.png
+  artifactKey: Guid(4fa24f3f65d691e4d9ec4200d4661da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/rockwall1_albedo.png using Guid(4fa24f3f65d691e4d9ec4200d4661da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd51f5697553355b46fa8dcfad38bb17') in 0.172610 seconds 
+  Import took 0.177545 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.117627 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/Tornado.prefab
+  artifactKey: Guid(32cfc52fb13218f41a3816328ab0264b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/Tornado.prefab using Guid(32cfc52fb13218f41a3816328ab0264b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28541cf2900d1d055c5dc1b2635023ce') in 0.035321 seconds 
+  Import took 0.042696 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

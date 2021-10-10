@@ -24,6 +24,10 @@ public class PowerManager : MonoBehaviour
     public float wallSpawnDistance;
     private bool isWallBuilt = false;
     
+    //Tornado's variables
+    public GameObject tornado;
+    private bool isTornadoBuilt = false;
+    
     void Start()
     {
         power = player.GetComponent<SwitchPower>();
@@ -59,6 +63,12 @@ public class PowerManager : MonoBehaviour
             {
                 print("Terra: isEarth: " + power.isEarth + " isWallBuilt: " + isWallBuilt);
                 MagicWall();
+            }
+            
+            if (power.isWind == true && isTornadoBuilt == false)
+            {
+                print("Vento: isWind: " + power.isWind + " isTornadoBuilt: " + isTornadoBuilt);
+                MagicTornado();
             }
                 
         }
@@ -97,6 +107,18 @@ public class PowerManager : MonoBehaviour
         
         Invoke("ResetWallCount", 7.0f);
     }
+    
+    private void MagicTornado()
+    {
+        Vector3 playerPos = cam.transform.position;
+        Vector3 playerDirection = cam.transform.forward;
+        Quaternion playerRotation = cam.transform.rotation;
+        Vector3 spawnPos = playerPos + playerDirection * wallSpawnDistance;
+        Instantiate(tornado, spawnPos, playerRotation);
+        isTornadoBuilt = true;
+        //Destroy(tornado, 7.0f);
+        Invoke("ResetTornadoCounter", 5.0f);
+    }
     private void ResetFireBallCount()
     {
         isFireBallShooted = false;
@@ -105,5 +127,10 @@ public class PowerManager : MonoBehaviour
     private void ResetWallCount()
     {
         isWallBuilt = false;
+    }
+    
+    private void ResetTornadoCounter()
+    {
+        isTornadoBuilt = false;
     }
 }

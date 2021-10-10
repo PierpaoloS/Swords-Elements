@@ -7,7 +7,7 @@ public class SwitchPower : MonoBehaviour
     //Change Power Booleans
     public bool isFire = false;
     public bool isEarth = false;
-    //public bool isWind = false;
+    public bool isWind = false;
     //public bool isWater = false;
     public int whichPower;
 
