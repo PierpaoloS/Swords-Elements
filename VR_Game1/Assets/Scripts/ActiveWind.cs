@@ -1,30 +1,28 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActivateFire : MonoBehaviour
+public class ActiveWind : MonoBehaviour
 {
     public GameObject player;
     public SwitchPower powers;
     void Start()
     {
-        print("Start Triangle");
+        print("Start Wave");
         player.GetComponent<SwitchPower>();
     }
 
     public void OnEnable()
     {
         print("Si è attivato il triangle");
-        SetFirePower();
+        SetWindPower();
     }
 
-    public void SetFirePower()
+    public void SetWindPower()
     {
-        print("Sono in SetFirePower");
+        print(" Sono in SetWindPower ");
         powers.isEarth = false;
-        powers.isWind = false;
-        powers.isFire = true;
-        
+        powers.isFire = false;
+        powers.isWind = true;
     }
 }

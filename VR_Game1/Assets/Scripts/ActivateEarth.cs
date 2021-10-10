@@ -22,6 +22,7 @@ public class ActivateEarth : MonoBehaviour
     public void SetEarthPower()
     {
         print("Sono in SetEarthPower");
+        powers.isWind = false;
         powers.isEarth = true;
         powers.isFire = false;
     }
