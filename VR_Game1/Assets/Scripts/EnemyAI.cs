@@ -33,7 +33,7 @@ public class EnemyAI : MonoBehaviour
     public float sightRange, attackRange;
     public bool playerInsightRange, playerInAttackRange;
 
-    private void Awake()
+    private void OnEnable()
     {
         player = GameObject.Find("Player").transform;
         

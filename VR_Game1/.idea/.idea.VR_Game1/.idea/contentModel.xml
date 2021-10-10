@@ -67,7 +67,6 @@
           <e p="GenerateEnemies.cs" t="Include" />
           <e p="HandPresence.cs" t="Include" />
           <e p="healthBar.cs" t="Include" />
-          <e p="MagieTest.cs" t="Include" />
           <e p="MovmentRecognizer.cs" t="Include" />
           <e p="PowerManager.cs" t="Include" />
           <e p="ProjectileManage.cs" t="Include" />
