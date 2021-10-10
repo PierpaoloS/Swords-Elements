@@ -9,7 +9,7 @@ public class healthBar : MonoBehaviour
     [SerializeField]
     private Image foregroundImage;
 
-    public float updateSpeedSeconds = 0.5f;
+    public float updateSpeedSeconds = 0.2f;
 
     //public Camera cam;
 
@@ -20,7 +20,7 @@ public class healthBar : MonoBehaviour
 
     private void HandleHealthChanged(float pct)
     {
-        foregroundImage.fillAmount = pct;
+        //foregroundImage.fillAmount = pct;
         StartCoroutine(ChangeToPct(pct));
     }
 
@@ -31,7 +31,7 @@ public class healthBar : MonoBehaviour
 
         while (elapsed < updateSpeedSeconds)
         {
-            elapsed *= Time.deltaTime;
+            elapsed += Time.deltaTime;
             foregroundImage.fillAmount = Mathf.Lerp(preChangePct, pct, elapsed / updateSpeedSeconds);
             yield return null;
         }

@@ -93,8 +93,8 @@ public class EnemyAI : MonoBehaviour
         agent.SetDestination(transform.position);
         transform.LookAt(player);
         
-        if (!alreadyAttacked)
-        {
+        //if (!alreadyAttacked)
+        //{
             //print("Fuoco");
             //Attack code here
             /*
@@ -106,7 +106,7 @@ public class EnemyAI : MonoBehaviour
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
             */
-        }
+       // }
     }
 
     private void ResetAttack()
@@ -116,28 +116,24 @@ public class EnemyAI : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        currentHealth -= damage;
+        currentHealth += damage;
+        float currentHealthPct = (float) currentHealth / (float) health;
+        OnHealthPctChanged(currentHealthPct);
         if (currentHealth <= 0) Invoke(nameof(DestroyEnemy), 0.5f);
     }
-
-    public void OnTriggerStay(Collider other)
-    {
-        if (other.gameObject.tag == "FireBall")
-        {
-            TakeDamage(150);
-        }
-            
-        
-    }
-
+    
     public void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Sword" && isEnemyHitted == false)
         {
             print("Enemy Colpita - Entrata in collisione");
-            TakeDamage(25);
+            TakeDamage(-25);
             isEnemyHitted = true;
         } 
+        if (other.gameObject.tag == "FireBall")
+        {
+            TakeDamage(-50);
+        }
     } 
 
     public void OnTriggerExit(Collider other)

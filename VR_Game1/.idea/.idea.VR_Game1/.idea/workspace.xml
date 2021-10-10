@@ -2,20 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scena2 Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scena2 Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateEarth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateEarth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateFire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwitchPower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwitchPower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/healthBar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/healthBar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +52,8 @@
       <option value="$PROJECT_DIR$/Assets/ActivateEarth.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" />
       <option value="$PROJECT_DIR$/Assets/PDollar/Scripts/PDollarGestureRecognizer/PointCloudRecognizer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/healthBar.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyAI.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1xwXSDrpddJ5xcXxpILyWZLaTSU" />
@@ -66,7 +74,6 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -76,7 +83,6 @@
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
       <option name="pid" />
-      <option name="projectPathOnTarget" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -104,6 +110,8 @@
       <workItem from="1633785910611" duration="26000" />
       <workItem from="1633858177278" duration="52000" />
       <workItem from="1633858661278" duration="2510000" />
+      <workItem from="1633868052457" duration="52000" />
+      <workItem from="1633868290670" duration="893000" />
     </task>
     <servers />
   </component>
