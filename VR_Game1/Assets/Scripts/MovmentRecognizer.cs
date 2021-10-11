@@ -7,6 +7,7 @@ using UnityEngine.XR.Interaction.Toolkit;
 using PDollarGestureRecognizer;
 using System.IO;
 using UnityEngine.Events;
+using System.Xml;
 
 public class MovmentRecognizer : MonoBehaviour
 {
@@ -22,13 +23,22 @@ public class MovmentRecognizer : MonoBehaviour
     private List<Vector3> positionsList = new List<Vector3>();
     public Transform movementSource;
     
+    
     //riconoscimento Gesture Test
     public float recognitionThreshold = 0.9f;
     [System.Serializable]
     public class UnityStringEvent : UnityEvent<string>{} //per cercare la stringa ovvero il nome della gesture
     public UnityStringEvent OnRecognize;
     
+    /*
+     TextAsset textAsset = (TextAsset)Resources.Load("FileNameWhitoutFileExtention", typeof(TextAsset));
+    XmlDocument xmldoc = new XmlDocument ();
+    xmldoc.LoadXml ( textAsset.text );
     
+    C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1/Assets/Resources
+    
+    Application.persistentDataPath
+    */
     
     
     void Start()
@@ -36,7 +46,9 @@ public class MovmentRecognizer : MonoBehaviour
         //cerca tutti i file con estensione xml
         //file sarà salvato in Windows(C:)/Users/MSI GE/ AppData/LocalLow/DefaultCompany/MovementRecognizer
         // Nel mio caso :  C:\Users\amministratore\AppData\LocalLow\DefaultCompany\VR_Game
+        //string[] gestureFiles = Directory.GetFiles(Application.persistentDataPath, "*.xml");
         
+
         string[] gestureFiles = Directory.GetFiles(Application.persistentDataPath, "*.xml");
         foreach (var item in gestureFiles)
         {
