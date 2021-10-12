@@ -8,12 +8,16 @@ public class ActivateEarth : MonoBehaviour
     public GameObject player;
     public SwitchPower powers;
     public GameObject earthCircle;
-    //public Animation anim;
+    
+    
+    //GestioneCerchiMagici
+    //private ActivateFire fireCircleClone = new ActivateFire();
+   // private ActiveWind windCircleClone = new ActiveWind();
+    
     void Start()
     {
         print("Start Square");
         player.GetComponent<SwitchPower>();
-        StartCoroutine(Wait());
     }
 
     private void OnEnable()
@@ -33,12 +37,7 @@ public class ActivateEarth : MonoBehaviour
     public void AnimationPlay()
     {
         earthCircle.SetActive(true);
-        Wait();
-        earthCircle.SetActive(false);
-    }
-
-    IEnumerator Wait()
-    {
-        yield return new WaitForSeconds(5);
+        //fireCircleClone.fireCircle.SetActive(false);
+        //windCircleClone.windCircle.SetActive(false);
     }
 }

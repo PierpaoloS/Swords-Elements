@@ -5,8 +5,12 @@ using UnityEngine;
 public class ActiveWind : MonoBehaviour
 {
     public GameObject player;
-    public GameObject WindCircle;
+    public GameObject windCircle;
     public SwitchPower powers;
+     
+    //GestioneCerchiMagici
+    //private ActivateEarth earthCircleClone = new ActivateEarth();
+    //private ActivateFire fireCircleClone = new ActivateFire();
     void Start()
     {
         print("Start Wave");
@@ -28,10 +32,10 @@ public class ActiveWind : MonoBehaviour
         powers.isWind = true;
     }
 
-    IEnumerator AnimationPlay()
+    void AnimationPlay()
     {
-        WindCircle.SetActive(true);
-        yield return new WaitForSeconds(5);
-        WindCircle.SetActive(false);
+        windCircle.SetActive(true);
+        //earthCircleClone.earthCircle.SetActive(false);
+        //fireCircleClone.fireCircle.SetActive(false);
     }
 }
