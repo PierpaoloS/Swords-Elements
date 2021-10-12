@@ -5,6 +5,7 @@ using UnityEngine;
 public class ActiveWind : MonoBehaviour
 {
     public GameObject player;
+    public GameObject WindCircle;
     public SwitchPower powers;
     void Start()
     {
@@ -16,6 +17,7 @@ public class ActiveWind : MonoBehaviour
     {
         print("Si è attivato il triangle");
         SetWindPower();
+        AnimationPlay();
     }
 
     public void SetWindPower()
@@ -24,5 +26,12 @@ public class ActiveWind : MonoBehaviour
         powers.isEarth = false;
         powers.isFire = false;
         powers.isWind = true;
+    }
+
+    IEnumerator AnimationPlay()
+    {
+        WindCircle.SetActive(true);
+        yield return new WaitForSeconds(5);
+        WindCircle.SetActive(false);
     }
 }

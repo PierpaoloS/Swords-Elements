@@ -7,6 +7,8 @@ public class ActivateFire : MonoBehaviour
 {
     public GameObject player;
     public SwitchPower powers;
+    public GameObject fireCircle;
+    
     void Start()
     {
         print("Start Triangle");
@@ -17,6 +19,7 @@ public class ActivateFire : MonoBehaviour
     {
         print("Si è attivato il triangle");
         SetFirePower();
+        AnimationPlay();
     }
 
     public void SetFirePower()
@@ -25,6 +28,12 @@ public class ActivateFire : MonoBehaviour
         powers.isEarth = false;
         powers.isWind = false;
         powers.isFire = true;
-        
     }
+    IEnumerator AnimationPlay()
+    {
+        fireCircle.SetActive(true);
+        yield return new WaitForSeconds(5);
+        fireCircle.SetActive(false);
+    }
+    
 }
