@@ -1414,6 +1414,10 @@ PrefabInstance:
       value: RightHandController
       objectReference: {fileID: 0}
     - target: {fileID: 5422075426488801676, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
+      propertyPath: m_ModelPrefab
+      value: 
+      objectReference: {fileID: 8231994789048131927, guid: 8070815d0905e30448ed6d8cbb6ea523, type: 3}
+    - target: {fileID: 5422075426488801676, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
       propertyPath: m_UIPressAction.m_Action.m_Type
       value: 0
       objectReference: {fileID: 0}

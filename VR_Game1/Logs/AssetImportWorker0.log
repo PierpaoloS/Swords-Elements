@@ -15,12 +15,12 @@ C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52449
+63218
 Successfully changed project path to: C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
 C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 118.55 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 3.35 ms.
+Refreshing native plugins compatible for Editor in 298.69 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 7.90 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1/Assets
@@ -35,58 +35,58 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56588
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.013827 seconds.
+Registered in 0.014512 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 584.07 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.63 ms.
+Refreshing native plugins compatible for Editor in 101.39 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.229 seconds
+- Completed reload, in  5.477 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7230ms)
-		BeginReloadAssembly (512ms)
+	ReloadAssembly (5477ms)
+		BeginReloadAssembly (116ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (51ms)
-		EndReloadAssembly (2921ms)
-			LoadAssemblies (458ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (111ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (528ms)
+			SetupTypeCache (361ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (316ms)
-			SetupLoadedEditorAssemblies (1100ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (341ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (66ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (585ms)
-				BeforeProcessingInitializeOnLoad (43ms)
-				ProcessInitializeOnLoadAttributes (321ms)
-				ProcessInitializeOnLoadMethodAttributes (85ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.030949 seconds.
+Registered in 0.035024 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 100.42 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.42 ms.
+Refreshing native plugins compatible for Editor in 100.67 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.32 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
@@ -107,45 +107,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  5.085 seconds
+- Completed reload, in  2.878 seconds
 Domain Reload Profiling:
-	ReloadAssembly (5087ms)
-		BeginReloadAssembly (539ms)
+	ReloadAssembly (2880ms)
+		BeginReloadAssembly (318ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (13ms)
+			DisableScriptedObjects (9ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (46ms)
-		EndReloadAssembly (4360ms)
-			LoadAssemblies (236ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (2418ms)
+			LoadAssemblies (234ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (808ms)
+			SetupTypeCache (725ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (130ms)
-			SetupLoadedEditorAssemblies (2476ms)
+			RebuildScriptCaches (134ms)
+			SetupLoadedEditorAssemblies (1068ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (101ms)
-				BeforeProcessingInitializeOnLoad (206ms)
-				ProcessInitializeOnLoadAttributes (1908ms)
-				ProcessInitializeOnLoadMethodAttributes (225ms)
-				AfterProcessingInitializeOnLoad (23ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (739ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (47ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.93 seconds
-Refreshing native plugins compatible for Editor in 1.62 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.48 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.26 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.43 ms.
 Unloading 2163 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 92.2 MB.
-System memory in use after: 92.3 MB.
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
 
 Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2607.
-Total: 13.226400 ms (FindLiveObjects: 0.546500 ms CreateObjectMapping: 0.133900 ms MarkObjects: 12.402600 ms  DeleteObjects: 0.140600 ms)
+Total: 5.056800 ms (FindLiveObjects: 0.454800 ms CreateObjectMapping: 0.126600 ms MarkObjects: 4.365800 ms  DeleteObjects: 0.106900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -159,9 +159,412 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/ActivateEarth.cs
-  artifactKey: Guid(a6c78e91bb3e18c42b6b42a1158f25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/ActivateEarth.cs using Guid(a6c78e91bb3e18c42b6b42a1158f25f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c0b3b5d2f3d8feff145f60dca33b8c') in 0.078605 seconds 
-  Import took 0.085944 seconds .
+  path: Assets/Player hand.fbx
+  artifactKey: Guid(1635028b90a6366478a22684eceb6fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player hand.fbx using Guid(1635028b90a6366478a22684eceb6fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1464c4f3141c70a2becdcb7af34502f') in 0.412650 seconds 
+  Import took 0.423019 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.451024 seconds.
+  path: Assets/Prefabs/hand.obj
+  artifactKey: Guid(f4f89397cb3a3d746b9bd6945f8bd569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/hand.obj using Guid(f4f89397cb3a3d746b9bd6945f8bd569) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f764039dac39fd5818c3ce970117fad9') in 0.145405 seconds 
+  Import took 0.154764 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.036406 seconds.
+  path: Assets/Prefabs/Player hand.fbx
+  artifactKey: Guid(1635028b90a6366478a22684eceb6fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Player hand.fbx using Guid(1635028b90a6366478a22684eceb6fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dccd30be81a9aba7dc398dd95d84aadc') in 0.044783 seconds 
+  Import took 0.050463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.912473 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ab710d1bcbc809502600d2f1fe98b2') in 0.186881 seconds 
+  Import took 0.194796 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.799100 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ce27ebfab8525e35b9b0e6aca315f0') in 0.117206 seconds 
+  Import took 0.123485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.587548 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd66762bbfdf4e139985c225511b13df') in 0.117010 seconds 
+  Import took 0.123532 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.473394 seconds.
+  path: Assets/Prefabs/MagicHand/HandMaterial.mat
+  artifactKey: Guid(d1276c5e1fec38741b7c07582a11d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/HandMaterial.mat using Guid(d1276c5e1fec38741b7c07582a11d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa40ccc2a7cf5608cca7012cb75c060') in 0.061260 seconds 
+  Import took 0.068009 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.009994 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f08316cfc14c9ebd9b92016949cbddff') in 0.052006 seconds 
+  Import took 0.058375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 405.259855 seconds.
+  path: Assets/Prefabs/MagicHand/SwordHand.prefab
+  artifactKey: Guid(8070815d0905e30448ed6d8cbb6ea523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/SwordHand.prefab using Guid(8070815d0905e30448ed6d8cbb6ea523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa7c545f02b7f0a0699e91605c662fd3') in 0.118453 seconds 
+  Import took 0.128617 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.590519 seconds.
+  path: Assets/Prefabs/MagicHand/HandMaterial.mat
+  artifactKey: Guid(d1276c5e1fec38741b7c07582a11d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/HandMaterial.mat using Guid(d1276c5e1fec38741b7c07582a11d165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5cbca068351d0e399e1dddd3ade5da') in 0.021930 seconds 
+  Import took 0.029650 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017872 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.23 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.588 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2588ms)
+		BeginReloadAssembly (295ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2104ms)
+			LoadAssemblies (243ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (621ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (74ms)
+			SetupLoadedEditorAssemblies (989ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (176ms)
+				ProcessInitializeOnLoadAttributes (758ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.21 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.7 MB.
+System memory in use after: 115.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2654.
+Total: 5.196400 ms (FindLiveObjects: 0.408400 ms CreateObjectMapping: 0.110900 ms MarkObjects: 4.649200 ms  DeleteObjects: 0.026200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 101.235705 seconds.
+  path: Assets/Prefabs/MagicHand/SwordHand.prefab
+  artifactKey: Guid(8070815d0905e30448ed6d8cbb6ea523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/SwordHand.prefab using Guid(8070815d0905e30448ed6d8cbb6ea523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e4339871235f4eb0d040208bd0e02c') in 0.202073 seconds 
+  Import took 0.210800 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.448834 seconds.
+  path: Assets/Prefabs/MagicHand/SwordHand.prefab
+  artifactKey: Guid(8070815d0905e30448ed6d8cbb6ea523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/SwordHand.prefab using Guid(8070815d0905e30448ed6d8cbb6ea523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67c3818a674b916627b1939d1da3f7bf') in 0.094288 seconds 
+  Import took 0.103491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.486871 seconds.
+  path: Assets/Prefabs/MagicHand/SwordHand.prefab
+  artifactKey: Guid(8070815d0905e30448ed6d8cbb6ea523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/SwordHand.prefab using Guid(8070815d0905e30448ed6d8cbb6ea523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c9ec1b61aaddcb6ae405a78c2253e1') in 0.122438 seconds 
+  Import took 0.131764 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.061162 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.27 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  2.928 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2929ms)
+		BeginReloadAssembly (269ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2489ms)
+			LoadAssemblies (285ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (821ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (978ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (219ms)
+				ProcessInitializeOnLoadAttributes (707ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.18 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+Unloading 2128 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 115.8 MB.
+System memory in use after: 115.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2658.
+Total: 5.443300 ms (FindLiveObjects: 0.602300 ms CreateObjectMapping: 0.256000 ms MarkObjects: 4.557400 ms  DeleteObjects: 0.025800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 142.456766 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e111a8eb72fe850dfe9aae9ec017c7') in 0.177598 seconds 
+  Import took 0.186620 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 99.767844 seconds.
+  path: Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab
+  artifactKey: Guid(d1120b57e21294d4285633ae82c85d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab using Guid(d1120b57e21294d4285633ae82c85d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "Take 001" cannot be used in the State "Take 001". Legacy AnimationClips are not allowed in Animator Controllers.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 440]
+
+ -> (artifact id: 'b84f7b30fa471f69a25a5e534d8a28e9') in 0.098095 seconds 
+  Import took 0.103994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Prefabs/Assets_Base/Enemy/FireEnemy Variant.prefab
+  artifactKey: Guid(dc3640855e271774296872aff3e8d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assets_Base/Enemy/FireEnemy Variant.prefab using Guid(dc3640855e271774296872aff3e8d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "Take 001" cannot be used in the State "Take 001". Legacy AnimationClips are not allowed in Animator Controllers.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 440]
+
+ -> (artifact id: '63f74aaa71528d5cc894cadd16d75253') in 0.056669 seconds 
+  Import took 0.063129 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/Prefabs/Assets_Base/Enemy/stoneEnemy Variant.prefab
+  artifactKey: Guid(474cb09b9030dc44fad865a32f92bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assets_Base/Enemy/stoneEnemy Variant.prefab using Guid(474cb09b9030dc44fad865a32f92bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "Take 001" cannot be used in the State "Take 001". Legacy AnimationClips are not allowed in Animator Controllers.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 440]
+
+ -> (artifact id: 'e6d1d8fbd4c016f6812013c1141238b5') in 0.099238 seconds 
+  Import took 0.105075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 46.412506 seconds.
+  path: Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab
+  artifactKey: Guid(d1120b57e21294d4285633ae82c85d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab using Guid(d1120b57e21294d4285633ae82c85d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "Take 001" cannot be used in the State "Take 001". Legacy AnimationClips are not allowed in Animator Controllers.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 440]
+
+ -> (artifact id: 'a06e611073f7a2b9808361abf5a9782b') in 0.040420 seconds 
+  Import took 0.046970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Prefabs/Assets_Base/Enemy/FireEnemy Variant.prefab
+  artifactKey: Guid(dc3640855e271774296872aff3e8d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assets_Base/Enemy/FireEnemy Variant.prefab using Guid(dc3640855e271774296872aff3e8d10f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "Take 001" cannot be used in the State "Take 001". Legacy AnimationClips are not allowed in Animator Controllers.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 440]
+
+ -> (artifact id: '8415d787023a481109fd956564a90b99') in 0.048939 seconds 
+  Import took 0.055322 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Prefabs/Assets_Base/Enemy/stoneEnemy Variant.prefab
+  artifactKey: Guid(474cb09b9030dc44fad865a32f92bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assets_Base/Enemy/stoneEnemy Variant.prefab using Guid(474cb09b9030dc44fad865a32f92bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "Take 001" cannot be used in the State "Take 001". Legacy AnimationClips are not allowed in Animator Controllers.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 440]
+
+ -> (artifact id: 'fa39ad6ec587ee2350f794fd4a952354') in 0.071861 seconds 
+  Import took 0.085586 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.844194 seconds.
+  path: Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab
+  artifactKey: Guid(d1120b57e21294d4285633ae82c85d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab using Guid(d1120b57e21294d4285633ae82c85d0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The legacy Animation Clip "Take 001" cannot be used in the State "Take 001". Legacy AnimationClips are not allowed in Animator Controllers.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 440]
+
+ -> (artifact id: 'e88c66d5433b537888feff3a61c96ec9') in 0.044242 seconds 
+  Import took 0.050625 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
