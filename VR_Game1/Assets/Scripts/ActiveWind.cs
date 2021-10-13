@@ -7,10 +7,8 @@ public class ActiveWind : MonoBehaviour
     public GameObject player;
     public GameObject windCircle;
     public SwitchPower powers;
-     
-    //GestioneCerchiMagici
-    //private ActivateEarth earthCircleClone = new ActivateEarth();
-    //private ActivateFire fireCircleClone = new ActivateFire();
+    
+    
     void Start()
     {
         print("Start Wave");
@@ -21,7 +19,8 @@ public class ActiveWind : MonoBehaviour
     {
         print("Si è attivato il triangle");
         SetWindPower();
-        AnimationPlay();
+        SetCircleActive();
+        Invoke("SetCircleNotActive",4);
     }
 
     public void SetWindPower()
@@ -32,10 +31,12 @@ public class ActiveWind : MonoBehaviour
         powers.isWind = true;
     }
 
-    void AnimationPlay()
+    public void SetCircleActive()
     {
         windCircle.SetActive(true);
-        //earthCircleClone.earthCircle.SetActive(false);
-        //fireCircleClone.fireCircle.SetActive(false);
+    }
+    public void SetCircleNotActive()
+    {
+        windCircle.SetActive(false);
     }
 }

@@ -10,12 +10,9 @@ public class ActivateEarth : MonoBehaviour
     public GameObject earthCircle;
     
     
-    //GestioneCerchiMagici
-    //private ActivateFire fireCircleClone = new ActivateFire();
-   // private ActiveWind windCircleClone = new ActiveWind();
-    
     void Start()
     {
+       
         print("Start Square");
         player.GetComponent<SwitchPower>();
     }
@@ -24,7 +21,8 @@ public class ActivateEarth : MonoBehaviour
     {
         print("Si è attivato lo Square");
         SetEarthPower();
-        AnimationPlay();
+        SetCircleActive();
+        Invoke("SetCircleNotActive",4);
     }
 
     public void SetEarthPower()
@@ -34,10 +32,16 @@ public class ActivateEarth : MonoBehaviour
         powers.isEarth = true;
         powers.isFire = false;
     }
-    public void AnimationPlay()
+    public void SetCircleActive()
     {
         earthCircle.SetActive(true);
-        //fireCircleClone.fireCircle.SetActive(false);
-        //windCircleClone.windCircle.SetActive(false);
     }
+    public void SetCircleNotActive()
+    {
+        earthCircle.SetActive(false);
+        Debug.Log(" Setto a false Oggetto Magic Power Circle");
+    }
+    
+
+    
 }
