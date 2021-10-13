@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateEarth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateEarth.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateFire.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActiveWind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActiveWind.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
@@ -112,6 +106,7 @@
       <workItem from="1634047315522" duration="852000" />
       <workItem from="1634049147982" duration="1656000" />
       <workItem from="1634115963633" duration="1868000" />
+      <workItem from="1634118176456" duration="10000" />
     </task>
     <servers />
   </component>
