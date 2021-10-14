@@ -9,7 +9,7 @@ public class PowerManager : MonoBehaviour
     public GameObject cam;
     public GameObject leftHand;
     public GameObject player;
-
+    public GameObject vrRig;
     public SwitchPower power; 
    
     
@@ -91,13 +91,14 @@ public class PowerManager : MonoBehaviour
 
     private void MagicWall()
     {
-        float dirX = cam.transform.forward.x;
+        float dirX = vrRig.transform.forward.x;
         float dirY = player.transform.forward.y;
-        float dirZ = cam.transform.forward.z * wallSpawnDistance;
+        float dirZ = vrRig.transform.forward.z * wallSpawnDistance;
 
         Vector3 playerPos = cam.transform.position;
         Vector3 playerDirection = new Vector3(dirX, dirY, dirZ);
-        Quaternion playerRotation = cam.transform.rotation;
+        //Quaternion playerRotation = cam.transform.rotation;
+        Quaternion playerRotation = Quaternion.Euler(vrRig.transform.rotation.x,cam.transform.rotation.y, vrRig.transform.rotation.z);
         Vector3 spawnPos = playerPos + playerDirection;
 
         var cloneWall = Instantiate(wall, spawnPos, playerRotation);

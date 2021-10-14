@@ -15,6 +15,7 @@ public class EnemyAI : MonoBehaviour
     public float health;
     public float currentHealth;
     public bool isEnemyHitted = false;
+    public ParticleSystem blood;
     
     //healthbar
     public event Action<float> OnHealthPctChanged = delegate{  }; 
@@ -134,8 +135,18 @@ public class EnemyAI : MonoBehaviour
         {
             TakeDamage(-50);
         }
-    } 
+    }
 
+    //Prova di spawn del sangue alla collisione
+    /*
+    public void OnCollisionEnter(Collision collision)
+    {
+        ContactPoint contact = collision.contacts[0];
+        Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
+        Vector3 pos = contact.point;
+        Instantiate(blood, pos, rot);
+    }
+    */
     public void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Sword")

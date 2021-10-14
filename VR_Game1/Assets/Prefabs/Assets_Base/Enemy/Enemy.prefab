@@ -99,6 +99,7 @@ MonoBehaviour:
   health: 120
   currentHealth: 0
   isEnemyHitted: 0
+  blood: {fileID: 3490262205979757704, guid: a413905ae83031d42be1feef0f683f5b, type: 3}
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointSet: 0
   walkPointRange: 2
