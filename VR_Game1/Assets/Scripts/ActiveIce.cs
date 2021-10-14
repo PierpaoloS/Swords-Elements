@@ -2,42 +2,42 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ActiveWind : MonoBehaviour
+public class ActiveIce : MonoBehaviour
 {
     public GameObject player;
-    public GameObject windCircle;
     public SwitchPower powers;
+    public GameObject iceCircle;
     
-    
+  
     void Start()
     {
-        print("Start Wave");
+        print("Start Inverse Triangle");
         player.GetComponent<SwitchPower>();
     }
 
     public void OnEnable()
     {
-        print("Si è attivato il triangle");
-        SetWindPower();
+        print("Si è attivato l' inverse triangle");
+        SetIcePower();
         SetCircleActive();
         Invoke("SetCircleNotActive",4);
     }
 
-    public void SetWindPower()
+    public void SetIcePower()
     {
-        print(" Sono in SetWindPower ");
+        print("Sono in SetIcePower");
         powers.isEarth = false;
+        powers.isWind = false;
         powers.isFire = false;
-        powers.isIce = false;
-        powers.isWind = true;
+        powers.isIce = true;
     }
 
     public void SetCircleActive()
     {
-        windCircle.SetActive(true);
+        iceCircle.SetActive(true);
     }
     public void SetCircleNotActive()
     {
-        windCircle.SetActive(false);
+        iceCircle.SetActive(false);
     }
 }

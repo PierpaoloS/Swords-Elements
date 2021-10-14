@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Assets_Base/Enemy/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Left Magic Hand .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Left Magic Hand .prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scena2 Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scena2 Test.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateEarth.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateEarth.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActivateFire.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActivateFire.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/ActiveWind.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/ActiveWind.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwitchPower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwitchPower.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
@@ -33,6 +38,8 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.5/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IceBall.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/HandCirclesManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -113,6 +120,8 @@
       <workItem from="1634115963633" duration="1868000" />
       <workItem from="1634118176456" duration="10000" />
       <workItem from="1634120126980" duration="433000" />
+      <workItem from="1634203360985" duration="5700000" />
+      <workItem from="1634221464854" duration="3361000" />
     </task>
     <servers />
   </component>

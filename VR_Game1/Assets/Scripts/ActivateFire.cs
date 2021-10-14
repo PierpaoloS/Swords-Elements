@@ -9,6 +9,7 @@ public class ActivateFire : MonoBehaviour
     public SwitchPower powers;
     public GameObject fireCircle;
     
+    
   
     void Start()
     {
@@ -29,9 +30,11 @@ public class ActivateFire : MonoBehaviour
         print("Sono in SetFirePower");
         powers.isEarth = false;
         powers.isWind = false;
+        powers.isIce = false;
         powers.isFire = true;
     }
 
+    //Feedback potere uscita
     public void SetCircleActive()
     {
         fireCircle.SetActive(true);

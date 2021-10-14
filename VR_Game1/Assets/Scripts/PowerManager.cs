@@ -18,6 +18,12 @@ public class PowerManager : MonoBehaviour
     private bool isFireBallShooted = false;
     public float damage = 10f;
     public float delayFireBall;
+    
+    //Iceball's variables
+    public GameObject IceBall;
+    private bool isIceBallShooted = false;
+    public float damageIce = 5f;
+    public float delayIceBall;
 
     //Wall's variables
     public GameObject wall;
@@ -70,6 +76,11 @@ public class PowerManager : MonoBehaviour
                 print("Vento: isWind: " + power.isWind + " isTornadoBuilt: " + isTornadoBuilt);
                 MagicTornado();
             }
+            if (power.isIce == true && isIceBallShooted == false)
+            {
+                print("Ghiaccio: isIce: " + power.isIce + " isIceBallShooted: " + isIceBallShooted);
+                IceShoot();
+            }
                 
         }
     }
@@ -87,6 +98,20 @@ public class PowerManager : MonoBehaviour
         isFireBallShooted = true;
         rb.AddForce(circle.transform.forward * 10f, ForceMode.VelocityChange);
         Invoke("ResetFireBallCount", delayFireBall);
+    }
+    
+    //metodo da sistemare shotta multi direzione
+    private void IceShoot()
+    {
+        GameObject circle = GameObject.FindWithTag("MagicCircle");
+
+        float posX = circle.transform.position.x;
+        float posY = circle.transform.position.y;
+        float posZ = circle.transform.position.z;
+        Rigidbody rb = Instantiate(IceBall, new Vector3(posX, posY, posZ), Quaternion.identity).GetComponent<Rigidbody>();
+        isIceBallShooted = true;
+        rb.AddForce(circle.transform.forward * 10f, ForceMode.VelocityChange);
+        Invoke("ResetIceBallCount", delayIceBall);
     }
 
     private void MagicWall()
@@ -122,6 +147,11 @@ public class PowerManager : MonoBehaviour
     private void ResetFireBallCount()
     {
         isFireBallShooted = false;
+    }
+    
+    private void ResetIceBallCount()
+    {
+        isIceBallShooted = false;
     }
 
     private void ResetWallCount()

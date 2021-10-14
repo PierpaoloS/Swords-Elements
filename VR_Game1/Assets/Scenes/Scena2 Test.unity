@@ -273,6 +273,9 @@ MonoBehaviour:
   FireBall: {fileID: 2468664956209684978, guid: 8ea479a42b7a9f44ea0f289d123ef92b, type: 3}
   damage: 10
   delayFireBall: 3
+  IceBall: {fileID: 0}
+  damageIce: 5
+  delayIceBall: 0
   wall: {fileID: 4455853852645887178, guid: 002dee1a47d55744ca3315ed78490f97, type: 3}
   wallSpawnDistance: 7
   tornado: {fileID: 3079631137315440901, guid: 32cfc52fb13218f41a3816328ab0264b, type: 3}
@@ -291,6 +294,7 @@ MonoBehaviour:
   isFire: 0
   isEarth: 0
   isWind: 0
+  isIce: 0
   whichPower: 0
   objects:
   - {fileID: 1326246163}

@@ -8,11 +8,11 @@ public class ActivateEarth : MonoBehaviour
     public GameObject player;
     public SwitchPower powers;
     public GameObject earthCircle;
-    
-    
+
+
     void Start()
     {
-       
+        
         print("Start Square");
         player.GetComponent<SwitchPower>();
     }
@@ -29,8 +29,10 @@ public class ActivateEarth : MonoBehaviour
     {
         print("Sono in SetEarthPower");
         powers.isWind = false;
-        powers.isEarth = true;
+        powers.isIce = false;
         powers.isFire = false;
+        powers.isEarth = true;
+        
     }
     public void SetCircleActive()
     {

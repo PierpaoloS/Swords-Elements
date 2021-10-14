@@ -8,7 +8,8 @@ public class SwitchPower : MonoBehaviour
     public bool isFire = false;
     public bool isEarth = false;
     public bool isWind = false;
-    //public bool isWater = false;
+    public bool isIce = false;
+    
     public int whichPower;
 
     public List<GameObject> objects;
