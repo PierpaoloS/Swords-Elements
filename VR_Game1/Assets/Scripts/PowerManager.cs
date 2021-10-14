@@ -11,6 +11,13 @@ public class PowerManager : MonoBehaviour
     public GameObject player;
 
     public SwitchPower power; 
+    
+    //Player's variables
+    public int maxHealth = 100;
+    public int currentHealth;
+    public HealthBarUI healthBar;
+    public TakeDamageEffect takedamageeffect;
+    
    
     
     //Fireball's variables
@@ -31,6 +38,8 @@ public class PowerManager : MonoBehaviour
     void Start()
     {
         power = player.GetComponent<SwitchPower>();
+        currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
         
         List<InputDevice> devices = new List<InputDevice>();
         InputDeviceCharacteristics leftControllerCharacteristics = InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller;
@@ -50,6 +59,7 @@ public class PowerManager : MonoBehaviour
 
     void Update()
     {
+       
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
         if (primaryButtonValue == true)
         {
@@ -70,11 +80,21 @@ public class PowerManager : MonoBehaviour
                 print("Vento: isWind: " + power.isWind + " isTornadoBuilt: " + isTornadoBuilt);
                 MagicTornado();
             }
-                
+        }
+
+        targetDevice.TryGetFeatureValue(CommonUsages.secondaryButton, out bool secondaryButtonValue);
+        if (secondaryButtonValue == true)
+        {
+            TakeDamage(20);
         }
     }
 
-    
+    void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        healthBar.SetHealth(currentHealth);
+        takedamageeffect.ChangeAlphaValue();
+    }
 
     private void Shoot()
     {
