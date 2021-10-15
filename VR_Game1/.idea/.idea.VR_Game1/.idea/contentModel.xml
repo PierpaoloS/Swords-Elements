@@ -91,6 +91,7 @@
           <e p="SwitchPower.cs" t="Include" />
           <e p="TornadoScript.cs" t="Include" />
         </e>
+        <e p="SwitchCircle.cs" t="Include" />
         <e p="TakeDamageEffect.cs" t="Include" />
       </e>
       <e p="NavMeshComponents.csproj" t="IncludeRecursive" />
