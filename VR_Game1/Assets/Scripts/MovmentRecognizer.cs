@@ -48,8 +48,10 @@ public class MovmentRecognizer : MonoBehaviour
         // Nel mio caso :  C:\Users\amministratore\AppData\LocalLow\DefaultCompany\VR_Game
         //string[] gestureFiles = Directory.GetFiles(Application.persistentDataPath, "*.xml");
         
+        //Application.streamingAssetsPath ---- Application.persistentDataPath
+        
 
-        string[] gestureFiles = Directory.GetFiles(Application.persistentDataPath, "*.xml");
+        string[] gestureFiles = Directory.GetFiles(Application.streamingAssetsPath, "*.xml");
         foreach (var item in gestureFiles)
         {
             trainingSet.Add(GestureIO.ReadGestureFromFile(item));
@@ -107,8 +109,8 @@ public class MovmentRecognizer : MonoBehaviour
         {
             newGesture.Name = newGestureName;
             trainingSet.Add(newGesture);
-            //scrittura e salvataggio delle gesture nel file name .xml
-            string fileName = Application.persistentDataPath + "/" + newGestureName + ".xml";
+            //scrittura e salvataggio delle gesture nel file name .xml /// In caso di errore rimetti Application.persisentDatapath
+            string fileName = Application.streamingAssetsPath + "/" + newGestureName + ".xml";
             GestureIO.WriteGesture(pointArray, newGestureName, fileName);
         }
         //riconoscimento
