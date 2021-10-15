@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 397254532034658616}
   - component: {fileID: 8352827375519774463}
   - component: {fileID: 409418591040036489}
+  - component: {fileID: 4063361371188992492}
   m_Layer: 0
   m_Name: Magic Circle
   m_TagString: MagicCircle
@@ -25,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837311276699033869}
-  m_LocalRotation: {x: 0.7048386, y: 0.056591205, z: 0.056591243, w: 0.70483863}
+  m_LocalRotation: {x: 0.7048385, y: 0.056592345, z: 0.056592345, w: 0.7048385}
   m_LocalPosition: {x: -0.0032000002, y: -0.034300014, z: 0.0303}
-  m_LocalScale: {x: 0.025294995, y: 0.025294995, z: 0.025294995}
+  m_LocalScale: {x: 2.0550206, y: 2.0550206, z: 2.055021}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -91,7 +92,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837311276699033869}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 3c14e8aafedc6ff4e802e669d0c057a0, type: 2}
   m_CullingMode: 0
@@ -102,3 +103,21 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4063361371188992492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837311276699033869}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f214cbcc97b0af40ac37de06b94ffbd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powers: {fileID: 426414255, guid: 637d89d016efcaa42b637a57d7babdcf, type: 3}
+  handFireCircle: {fileID: 21300000, guid: 3532aadf7ccd5bc41a210771d8af6645, type: 3}
+  circle: {fileID: 21300000, guid: 31abdf81f797b9144b27029832ffabec, type: 3}
+  handEarthCircle: {fileID: 21300000, guid: 9a03a99bc70d7c943820fc4afa3ebb80, type: 3}
+  handWindCircle: {fileID: 21300000, guid: cf8d99c22ce977b419b941b827ddc7af, type: 3}
+  handIceCircle: {fileID: 21300000, guid: 9149232d24e6a264ea7c849d0d281549, type: 3}

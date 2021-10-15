@@ -16,7 +16,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1780555264193346582
 Transform:
   m_ObjectHideFlags: 0
@@ -44,5 +44,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  windCircle: {fileID: 0}
+  windCircle: {fileID: 8666099917666040822, guid: 5f2359df03de02149971d978161a4d59, type: 3}
   powers: {fileID: 0}

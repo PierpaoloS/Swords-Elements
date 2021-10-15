@@ -8,6 +8,8 @@ TagManager:
   - FireBall
   - MagicCircle
   - Enemy
+  - MagicHand
+  - FireHandCircle
   layers:
   - Default
   - TransparentFX
