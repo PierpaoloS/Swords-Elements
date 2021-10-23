@@ -9,7 +9,7 @@ public class SwitchCircle : MonoBehaviour
     public Sprite heartSprite;
     public Sprite fireSprite;
     public Sprite windSprite;
-    public Sprite waterSprite;
+    public Sprite iceSprite;
     public GameObject leftHand;
     
     public SwitchPower power;
@@ -30,6 +30,10 @@ public class SwitchCircle : MonoBehaviour
         {
            SetWindCircle();
         }
+        if (power.isIce)
+        {
+            SetWindCircle();
+        }
     }
 
     void SetHeartCircle()
@@ -46,6 +50,11 @@ public class SwitchCircle : MonoBehaviour
     void SetWindCircle()
     {
         leftHand.GetComponentInChildren<SpriteRenderer>().sprite = windSprite;
+    }
+    
+    void SetIceCircle()
+    {
+        leftHand.GetComponentInChildren<SpriteRenderer>().sprite = iceSprite;
     }
 }
 

@@ -19,24 +19,31 @@ public class PowerManager : MonoBehaviour
     public HealthBarUI healthBar;
     public TakeDamageEffect takedamageeffect;
     
-   
-    
     //Fireball's variables
+    [Header("Fire Power")]
     public GameObject FireBall;
     private bool isFireBallShooted = false;
     public float damage = 10f;
     public float delayFireBall;
 
     //Wall's variables
+    [Header("Earth Power")]
     public GameObject wall;
     public float wallSpawnDistance;
     private bool isWallBuilt = false;
     
     //Tornado's variables
+    [Header("Tornado Power")]
     public GameObject tornado;
     private bool isTornadoBuilt = false;
     public float tornadoSpawnDistance;
     
+    //Ice's variables
+    [Header("Ice Power")]
+    public GameObject IceBall;
+    private bool isIceBallShooted = false;
+    public float damageIce = 10f;
+    public float delayIceBall;
     void Start()
     {
         power = player.GetComponent<SwitchPower>();
@@ -82,8 +89,15 @@ public class PowerManager : MonoBehaviour
                 print("Vento: isWind: " + power.isWind + " isTornadoBuilt: " + isTornadoBuilt);
                 MagicTornado();
             }
+
+            if (power.isIce == true && isIceBallShooted == false)
+            {
+                print("Ghiaccio: isIce: " + power.isIce + " isIceShooted: " + isIceBallShooted);
+                ShootIce();
+            }
         }
 
+        //Testing dell'effetto della vita.
         targetDevice.TryGetFeatureValue(CommonUsages.secondaryButton, out bool secondaryButtonValue);
         if (secondaryButtonValue == true)
         {
@@ -110,26 +124,19 @@ public class PowerManager : MonoBehaviour
         rb.AddForce(circle.transform.forward * 10f, ForceMode.VelocityChange);
         Invoke("ResetFireBallCount", delayFireBall);
     }
-
-    /*private void MagicWall()
+    
+    private void ShootIce()
     {
-       float dirX = cam.transform.forward.x;
-       float dirY = player.transform.forward.y;
-       float dirZ = cam.transform.forward.z * wallSpawnDistance;
-
-
-        Vector3 playerPos = cam.transform.position;
-        Vector3 playerDirection = new Vector3(dirX, dirY, dirZ);
-        
-        Quaternion playerRotation = cam.transform.rotation;
-        Vector3 spawnPos = playerPos + playerDirection;
-
-        var cloneWall = Instantiate(wall, spawnPos, playerRotation);
-        Debug.Log("Muro Spawnato");
-        isWallBuilt = true;
-        Destroy(cloneWall, 7.0f);
-        Invoke("ResetWallCount", 7.0f);
-    }*/
+        GameObject circle = GameObject.FindWithTag("MagicCircle");
+        float posX = circle.transform.position.x;
+        float posY = circle.transform.position.y;
+        float posZ = circle.transform.position.z;
+        Rigidbody rb = Instantiate(IceBall, new Vector3(posX, posY, posZ), Quaternion.identity).GetComponent<Rigidbody>();
+        isIceBallShooted = true;
+        rb.AddForce(circle.transform.forward * 10f, ForceMode.VelocityChange);
+        Invoke("ResetIceBallCount", delayIceBall);
+    }
+    
     private void MagicWall()
     {
         Vector3 playerPos = camDir.transform.position;
@@ -162,6 +169,10 @@ public class PowerManager : MonoBehaviour
     private void ResetFireBallCount()
     {
         isFireBallShooted = false;
+    }
+    private void ResetIceBallCount()
+    {
+        isIceBallShooted = false;
     }
 
     private void ResetWallCount()
