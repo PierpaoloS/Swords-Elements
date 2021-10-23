@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 397254532034658616}
   - component: {fileID: 8352827375519774463}
-  - component: {fileID: 409418591040036489}
+  - component: {fileID: 6125019774624291536}
   m_Layer: 0
-  m_Name: Magic Circle
+  m_Name: MagicCircleTest
   m_TagString: MagicCircle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -83,7 +83,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!95 &409418591040036489
+--- !u!95 &6125019774624291536
 Animator:
   serializedVersion: 3
   m_ObjectHideFlags: 0
@@ -93,7 +93,7 @@ Animator:
   m_GameObject: {fileID: 1837311276699033869}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3c14e8aafedc6ff4e802e669d0c057a0, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1840609016e89aa4b921972844a8e593, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0

@@ -39,7 +39,7 @@ public class SwitchCircle : MonoBehaviour
     void SetHeartCircle()
     {
         leftHand.GetComponentInChildren<SpriteRenderer>().sprite = heartSprite;
-        
+        //leftHand.GetComponentInChildren<Image>().sprite
     }
 
     void SetFireCircle()

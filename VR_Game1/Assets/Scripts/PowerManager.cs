@@ -10,7 +10,6 @@ public class PowerManager : MonoBehaviour
     public GameObject camDir;
     public GameObject leftHand;
     public GameObject player;
-
     public SwitchPower power; 
     
     //Player's variables
