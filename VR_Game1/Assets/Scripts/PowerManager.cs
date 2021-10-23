@@ -7,6 +7,7 @@ public class PowerManager : MonoBehaviour
 {
     public InputDevice targetDevice;
     public GameObject cam;
+    public GameObject camDir;
     public GameObject leftHand;
     public GameObject player;
 
@@ -34,6 +35,7 @@ public class PowerManager : MonoBehaviour
     //Tornado's variables
     public GameObject tornado;
     private bool isTornadoBuilt = false;
+    public float tornadoSpawnDistance;
     
     void Start()
     {
@@ -109,14 +111,16 @@ public class PowerManager : MonoBehaviour
         Invoke("ResetFireBallCount", delayFireBall);
     }
 
-    private void MagicWall()
+    /*private void MagicWall()
     {
-        float dirX = cam.transform.forward.x;
-        float dirY = player.transform.forward.y;
-        float dirZ = cam.transform.forward.z * wallSpawnDistance;
+       float dirX = cam.transform.forward.x;
+       float dirY = player.transform.forward.y;
+       float dirZ = cam.transform.forward.z * wallSpawnDistance;
+
 
         Vector3 playerPos = cam.transform.position;
         Vector3 playerDirection = new Vector3(dirX, dirY, dirZ);
+        
         Quaternion playerRotation = cam.transform.rotation;
         Vector3 spawnPos = playerPos + playerDirection;
 
@@ -124,20 +128,36 @@ public class PowerManager : MonoBehaviour
         Debug.Log("Muro Spawnato");
         isWallBuilt = true;
         Destroy(cloneWall, 7.0f);
+        Invoke("ResetWallCount", 7.0f);
+    }*/
+    private void MagicWall()
+    {
+        Vector3 playerPos = camDir.transform.position;
         
+        Vector3 playerDirection = camDir.transform.forward;
+        Quaternion playerRotation = camDir.transform.rotation;
+        Vector3 spawnPos = playerPos + playerDirection * wallSpawnDistance;
+
+        var cloneWall = Instantiate(wall, spawnPos, playerRotation);
+        Debug.Log("Muro Spawnato");
+        isWallBuilt = true;
+        Destroy(cloneWall, 7.0f);
         Invoke("ResetWallCount", 7.0f);
     }
     
     private void MagicTornado()
     {
-        Vector3 playerPos = cam.transform.position;
-        Vector3 playerDirection = cam.transform.forward;
-        Quaternion playerRotation = cam.transform.rotation;
-        Vector3 spawnPos = playerPos + playerDirection * wallSpawnDistance;
-        Instantiate(tornado, spawnPos, playerRotation);
+        Vector3 playerPos = camDir.transform.position;
+        
+        Vector3 playerDirection = camDir.transform.forward;
+        Quaternion playerRotation = camDir.transform.rotation;
+        Vector3 spawnPos = playerPos + playerDirection * tornadoSpawnDistance;
+
+        var cloneTornado = Instantiate(tornado, spawnPos, playerRotation);
+        
         isTornadoBuilt = true;
-        //Destroy(tornado, 7.0f);
-        Invoke("ResetTornadoCounter", 5.0f);
+        Destroy(cloneTornado, 7.0f);
+        Invoke("ResetTornadoCounter", 7.0f);
     }
     private void ResetFireBallCount()
     {
