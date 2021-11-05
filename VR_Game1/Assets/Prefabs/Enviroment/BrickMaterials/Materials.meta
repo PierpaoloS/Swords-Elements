@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:VR_Game1/Assets/Prefabs/Enviroment/BrickMaterials/Materials.meta
 guid: 373460677ecc5804ebc28fe191cb38e3
+=======
+guid: a8d358d301ab45a4e8a041099468ab7a
+>>>>>>> main:VR_Game1/Assets/Prefabs/SuperPowersPrefabs/MagicMovments.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

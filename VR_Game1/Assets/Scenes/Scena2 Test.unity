@@ -217,7 +217,7 @@ MonoBehaviour:
   newPositionThresholdDistance: 0.05
   debugCubePrefab: {fileID: 1888614400631169287, guid: 70c836d91f54f054398c52426875404e, type: 3}
   creationMode: 0
-  newGestureName: Wave
+  newGestureName: InvertedTriangle
   movementSource: {fileID: 536632043}
   recognitionThreshold: 0.85
   OnRecognize:
@@ -287,6 +287,9 @@ MonoBehaviour:
   wallSpawnDistance: 7
   tornado: {fileID: 3079631137315440901, guid: 32cfc52fb13218f41a3816328ab0264b, type: 3}
   tornadoSpawnDistance: 7
+  IceBall: {fileID: 2468664956209684978, guid: 3a2bccb496dbaf84b917deade6609bc7, type: 3}
+  damageIce: 10
+  delayIceBall: 3
 --- !u!114 &426414254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -302,7 +305,7 @@ MonoBehaviour:
   heartSprite: {fileID: 21300000, guid: 9a03a99bc70d7c943820fc4afa3ebb80, type: 3}
   fireSprite: {fileID: 21300000, guid: 3532aadf7ccd5bc41a210771d8af6645, type: 3}
   windSprite: {fileID: 21300000, guid: cf8d99c22ce977b419b941b827ddc7af, type: 3}
-  waterSprite: {fileID: 21300000, guid: 9149232d24e6a264ea7c849d0d281549, type: 3}
+  iceSprite: {fileID: 21300000, guid: 9149232d24e6a264ea7c849d0d281549, type: 3}
   leftHand: {fileID: 1526025428}
   power: {fileID: 426414255}
 --- !u!114 &426414255
@@ -320,11 +323,13 @@ MonoBehaviour:
   isFire: 0
   isEarth: 0
   isWind: 0
+  isIce: 0
   whichPower: 0
   objects:
   - {fileID: 1326246163}
   - {fileID: 48474076}
   - {fileID: 1295565621}
+  - {fileID: 2110189365}
 --- !u!1001 &449512668
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1706,6 +1711,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   vrRig: {fileID: 1105826448}
   cam: {fileID: 218861034}
+--- !u!1 &2110189365 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 216422273909385247, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+  m_PrefabInstance: {fileID: 216422273142163242}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &192450756360091993
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1767,6 +1777,79 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dcd0b251a47810544b2346d9227e757e, type: 3}
+--- !u!1001 &216422273142163242
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 426414252}
+    m_Modifications:
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385244, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385245, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 426414251}
+    - target: {fileID: 216422273909385245, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: powers
+      value: 
+      objectReference: {fileID: 426414255}
+    - target: {fileID: 216422273909385245, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: IceCircle
+      value: 
+      objectReference: {fileID: 1279934596}
+    - target: {fileID: 216422273909385247, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_Name
+      value: InvertedTriangle
+      objectReference: {fileID: 0}
+    - target: {fileID: 216422273909385247, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 47dc0f78b0d30aa4785db2c9c4a7156a, type: 3}
 --- !u!1001 &549914347250833015
 PrefabInstance:
   m_ObjectHideFlags: 0
