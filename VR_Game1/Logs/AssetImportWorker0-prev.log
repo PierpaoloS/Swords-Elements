@@ -15,12 +15,21 @@ C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58575
+<<<<<<< HEAD
+64938
 Successfully changed project path to: C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
 C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 135.55 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 4.96 ms.
+Refreshing native plugins compatible for Editor in 128.46 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 3.73 ms.
+=======
+52490
+Successfully changed project path to: C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
+C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 137.68 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 7.87 ms.
+>>>>>>> main
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1/Assets
@@ -35,55 +44,498 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56056
+<<<<<<< HEAD
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56544
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
+>>>>>>> main
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.014914 seconds.
+<<<<<<< HEAD
+Registered in 0.006611 seconds.
+=======
+Registered in 0.011325 seconds.
+>>>>>>> main
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 381.82 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.35 ms.
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 92.97 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  9.902 seconds
+- Completed reload, in  4.148 seconds
 Domain Reload Profiling:
-	ReloadAssembly (9902ms)
-		BeginReloadAssembly (252ms)
+	ReloadAssembly (4149ms)
+		BeginReloadAssembly (119ms)
+=======
+Refreshing native plugins compatible for Editor in 141.44 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.55 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  5.572 seconds
+Domain Reload Profiling:
+	ReloadAssembly (5572ms)
+		BeginReloadAssembly (157ms)
+>>>>>>> main
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (2ms)
-		EndReloadAssembly (3369ms)
-			LoadAssemblies (219ms)
+			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
+		EndReloadAssembly (916ms)
+			LoadAssemblies (115ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (1411ms)
+			SetupTypeCache (363ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (154ms)
-			SetupLoadedEditorAssemblies (1381ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (312ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (20ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+=======
+		EndReloadAssembly (1265ms)
+			LoadAssemblies (150ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (526ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (99ms)
+			SetupLoadedEditorAssemblies (423ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (382ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (343ms)
-				ProcessInitializeOnLoadMethodAttributes (528ms)
+				RefreshPlugins (142ms)
+				BeforeProcessingInitializeOnLoad (23ms)
+				ProcessInitializeOnLoadAttributes (185ms)
+				ProcessInitializeOnLoadMethodAttributes (58ms)
+>>>>>>> main
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.045048 seconds.
+<<<<<<< HEAD
+Registered in 0.020095 seconds.
+=======
+Registered in 0.023399 seconds.
+>>>>>>> main
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 471.85 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.44 ms.
+<<<<<<< HEAD
+Refreshing native plugins compatible for Editor in 88.77 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.28 ms.
+=======
+Refreshing native plugins compatible for Editor in 92.31 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 3.09 ms.
+>>>>>>> main
+[XR] OculusXRPlugin: registering subsystems
+[XR] Unable to register display lifecyle provider: [1]
+[XR] Oculus Input lifecycle provider registered.
+[XR] Unable to register input lifecyle provider: [1]
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+<<<<<<< HEAD
+- Completed reload, in  2.425 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2426ms)
+		BeginReloadAssembly (271ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (2022ms)
+			LoadAssemblies (168ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (599ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (931ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (196ms)
+				ProcessInitializeOnLoadAttributes (596ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.11 seconds
+Refreshing native plugins compatible for Editor in 1.14 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.24 ms.
+Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 107.3 MB.
+System memory in use after: 107.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2635.
+Total: 5.301800 ms (FindLiveObjects: 0.422900 ms CreateObjectMapping: 0.109800 ms MarkObjects: 4.657400 ms  DeleteObjects: 0.109800 ms)
+=======
+- Completed reload, in  2.857 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2859ms)
+		BeginReloadAssembly (366ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (20ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (2336ms)
+			LoadAssemblies (181ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (671ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (1079ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (209ms)
+				ProcessInitializeOnLoadAttributes (713ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 3.76 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 1.10 ms.
+Unloading 2168 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 92.3 MB.
+System memory in use after: 92.4 MB.
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2612.
+Total: 9.401500 ms (FindLiveObjects: 0.467800 ms CreateObjectMapping: 0.119000 ms MarkObjects: 8.681700 ms  DeleteObjects: 0.130100 ms)
+>>>>>>> main
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+<<<<<<< HEAD
+  path: Assets/Scenes/Scena3GraphicTest 1.unity
+  artifactKey: Guid(780c2d72f64e4344db00401316db1cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scena3GraphicTest 1.unity using Guid(780c2d72f64e4344db00401316db1cf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c46992588942600c26ce6b1ab4beb22') in 0.036572 seconds 
+  Import took 0.041853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 404.326738 seconds.
+  path: Assets/Scripts/PowerManager.cs
+  artifactKey: Guid(338982db65ba7624fb9be25fb1cc9999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PowerManager.cs using Guid(338982db65ba7624fb9be25fb1cc9999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e88f7115d6bc5d7356bb51b7a90596d') in 0.042838 seconds 
+  Import took 0.047927 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010668 seconds.
+  path: Assets/Scripts/PowerManager.cs
+  artifactKey: Guid(338982db65ba7624fb9be25fb1cc9999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PowerManager.cs using Guid(338982db65ba7624fb9be25fb1cc9999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e88f7115d6bc5d7356bb51b7a90596d') in 0.005685 seconds 
+  Import took 0.010531 seconds .
+=======
+  path: Assets/Prefabs/SuperPowersPrefabs/MagicMovments/Triangle.prefab
+  artifactKey: Guid(dcd0b251a47810544b2346d9227e757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/MagicMovments/Triangle.prefab using Guid(dcd0b251a47810544b2346d9227e757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b92cba19b9530b61f36b6225fdfe14b') in 0.104955 seconds 
+  Import took 0.113621 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 101.165721 seconds.
+  path: Assets/Prefabs/MagicHand/Sword/mesh.fbx
+  artifactKey: Guid(3de1076e98cc0a14a9dfde3402f9ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Sword/mesh.fbx using Guid(3de1076e98cc0a14a9dfde3402f9ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbd1d92301f33e03cbcd02961568ed7') in 0.448670 seconds 
+  Import took 0.459116 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002664 seconds.
+  path: Assets/Prefabs/MagicHand/Sword/mesh.fbx
+  artifactKey: Guid(3de1076e98cc0a14a9dfde3402f9ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Sword/mesh.fbx using Guid(3de1076e98cc0a14a9dfde3402f9ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbd1d92301f33e03cbcd02961568ed7') in 0.203637 seconds 
+  Import took 0.210611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.109576 seconds.
+  path: Assets/hand.obj
+  artifactKey: Guid(e5f042695dd3c9c46b38b02520bf71a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/hand.obj using Guid(e5f042695dd3c9c46b38b02520bf71a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3793005be1e3ae1e7b6da5e9bf89f0b2') in 0.351296 seconds 
+  Import took 0.373572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 487.297324 seconds.
+  path: Assets/Prefabs/Materiali/brown.mat
+  artifactKey: Guid(8ae7c123dadedec489494771c47a4f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiali/brown.mat using Guid(8ae7c123dadedec489494771c47a4f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb3dd000c2ab726226649788a8c1d56') in 0.089911 seconds 
+  Import took 0.098780 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 84.818581 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '597dbf94977d345a6ec5eea7d83c174c') in 0.212354 seconds 
+  Import took 0.225806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.944864 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c379302ea04d1c7719bee4c0af49395b') in 0.041292 seconds 
+  Import took 0.054719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.791070 seconds.
+  path: Assets/Prefabs/MagicHand/Sword/swordWithHand.prefab
+  artifactKey: Guid(bfc279f9f5c6ead4d9a3cfbc8c55d31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Sword/swordWithHand.prefab using Guid(bfc279f9f5c6ead4d9a3cfbc8c55d31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd686153cbde74e1c56e88dd673cb51') in 0.181366 seconds 
+  Import took 0.196365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14956.995463 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4242de76d33f0243f0255931f68f28f6') in 0.072535 seconds 
+  Import took 0.086550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.080712 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50cf988855a7b5be1242e169563ad34') in 0.039734 seconds 
+  Import took 0.045463 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.202470 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b08d17dd2494366ef21b65252324434') in 0.070975 seconds 
+  Import took 0.076836 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.569981 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912ea14f0d945ce23f275fda8f8bcc4c') in 0.035046 seconds 
+  Import took 0.042151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.809395 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ad3ec8ee6047c96b95a77f73408d47') in 0.035689 seconds 
+  Import took 0.042121 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.606468 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d370074e470f56a157549b8cb25216') in 0.032199 seconds 
+  Import took 0.037812 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.386663 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c756fb195d76a6cf020e4ba2dd8d2b91') in 0.028928 seconds 
+  Import took 0.036694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.818987 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceae995ed8b3eeda9a87b298c7ca901d') in 0.024826 seconds 
+  Import took 0.030665 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.605505 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4e85e891025c6e9c69419cd7bda1e30') in 0.028546 seconds 
+  Import took 0.034117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.387054 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec69faff346488f6f2cd342d14cdcc13') in 0.031129 seconds 
+  Import took 0.036968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.097635 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be221354abad03a11888e7a04e82ab5e') in 0.034687 seconds 
+  Import took 0.040390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.012832 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b7d40e2591b665323bf24e34fc05adf') in 0.032941 seconds 
+  Import took 0.039046 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.000397 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f426d8df8b3a906d2df40296c894a720') in 0.029719 seconds 
+  Import took 0.035028 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.370154 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dea249d5014de0335ac055e653ea19d') in 0.026032 seconds 
+  Import took 0.032594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.170421 seconds.
+  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
+  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f83ec9e462b49491031eb74d6207a374') in 0.027813 seconds 
+  Import took 0.033425 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.234406 seconds.
+  path: Assets/Prefabs/Materiali/brown.mat
+  artifactKey: Guid(8ae7c123dadedec489494771c47a4f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Materiali/brown.mat using Guid(8ae7c123dadedec489494771c47a4f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c9659ad7d836a8a01098e23401c6bc5') in 0.027680 seconds 
+  Import took 0.033267 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 169.993114 seconds.
+  path: Assets/Prefabs/Animations/Magic Rotate.anim
+  artifactKey: Guid(34be52bad4b1d18419de7509d3819fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animations/Magic Rotate.anim using Guid(34be52bad4b1d18419de7509d3819fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5579ca5b6a541ab228ad6bbbafc9ca5') in 0.015844 seconds 
+  Import took 0.020956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.678525 seconds.
+  path: Assets/Prefabs/Animations/BlackCircle.anim
+  artifactKey: Guid(eb7d096d2d090db4e8dbb4573ce5cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animations/BlackCircle.anim using Guid(eb7d096d2d090db4e8dbb4573ce5cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14877b97217672593481b446058b2d76') in 0.014498 seconds 
+  Import took 0.020194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001798 seconds.
+  path: Assets/Prefabs/Animations/BlackCircle.anim
+  artifactKey: Guid(eb7d096d2d090db4e8dbb4573ce5cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animations/BlackCircle.anim using Guid(eb7d096d2d090db4e8dbb4573ce5cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14877b97217672593481b446058b2d76') in 0.006561 seconds 
+  Import took 0.011304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.041693 seconds.
+  path: Assets/Prefabs/Animations/ImageTest.controller
+  artifactKey: Guid(f8efe488941742247ba70a5dbbdd5d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Animations/ImageTest.controller using Guid(f8efe488941742247ba70a5dbbdd5d8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0946171df599fd78fb0133a1e0fb8847') in 0.016208 seconds 
+  Import took 0.021722 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 138.782732 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimated 2.prefab
+  artifactKey: Guid(def8624bd1d89644da65b1bdbd6d6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimated 2.prefab using Guid(def8624bd1d89644da65b1bdbd6d6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54997614ca04a5aaabe85a9eec289392') in 0.038254 seconds 
+  Import took 0.043850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.575696 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/DetailedWallAnimated.prefab
+  artifactKey: Guid(def8624bd1d89644da65b1bdbd6d6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/DetailedWallAnimated.prefab using Guid(def8624bd1d89644da65b1bdbd6d6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c569428e18b9dcee04f5432d4caa5f') in 0.041389 seconds 
+  Import took 0.048072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.699064 seconds.
+  path: Assets/Prefabs/Enviroment/Materials
+  artifactKey: Guid(f567b1638a410a04182bb73e1a2f902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Materials using Guid(f567b1638a410a04182bb73e1a2f902c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bf3ab2d6b9a1397cd904563ded64393') in 0.015839 seconds 
+  Import took 0.020679 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 402.973925 seconds.
+  path: Assets/Prefabs/Enviroment/Materials/Rock.Obj
+  artifactKey: Guid(2a4aab1fe70e5144193a49563ad579b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Materials/Rock.Obj using Guid(2a4aab1fe70e5144193a49563ad579b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '787f9ea961ea4b7fad0095e05e08150f') in 0.071110 seconds 
+  Import took 0.077638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1160.213918 seconds.
+  path: Assets/Prefabs/SuperPowersPrefabs/DetailedWallAnimated.prefab
+  artifactKey: Guid(def8624bd1d89644da65b1bdbd6d6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SuperPowersPrefabs/DetailedWallAnimated.prefab using Guid(def8624bd1d89644da65b1bdbd6d6e0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bb7f29366aed92c8145bfb204e64bb') in 0.029915 seconds 
+  Import took 0.035597 seconds .
+>>>>>>> main
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
