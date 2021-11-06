@@ -32,7 +32,7 @@ public class SwitchCircle : MonoBehaviour
         }
         if (power.isIce)
         {
-            SetWindCircle();
+            SetIceCircle();
         }
     }
 

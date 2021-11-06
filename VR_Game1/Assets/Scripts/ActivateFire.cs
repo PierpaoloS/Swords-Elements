@@ -28,6 +28,7 @@ public class ActivateFire : MonoBehaviour
     {
         print("Sono in SetFirePower");
         powers.isEarth = false;
+        powers.isIce = false;
         powers.isWind = false;
         powers.isFire = true;
     }

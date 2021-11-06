@@ -28,6 +28,7 @@ public class ActiveWind : MonoBehaviour
         print(" Sono in SetWindPower ");
         powers.isEarth = false;
         powers.isFire = false;
+        powers.isIce = false;
         powers.isWind = true;
     }
 
