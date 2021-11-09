@@ -24,6 +24,7 @@ public class PowerManager : MonoBehaviour
     private bool isFireBallShooted = false;
     public float damage = 10f;
     public float delayFireBall;
+    
 
     //Wall's variables
     [Header("Earth Power")]
@@ -43,6 +44,8 @@ public class PowerManager : MonoBehaviour
     private bool isIceBallShooted = false;
     public float damageIce = 10f;
     public float delayIceBall;
+    public float iceSpawnDistance = 2f;
+    private int numOfIce;
     void Start()
     {
         power = player.GetComponent<SwitchPower>();
@@ -92,7 +95,7 @@ public class PowerManager : MonoBehaviour
             if (power.isIce == true && isIceBallShooted == false)
             {
                 print("Ghiaccio: isIce: " + power.isIce + " isIceShooted: " + isIceBallShooted);
-                ShootIce();
+                ShootIce(5);
             }
         }
 
@@ -114,26 +117,66 @@ public class PowerManager : MonoBehaviour
     private void Shoot()
     {
         GameObject circle = GameObject.FindWithTag("MagicCircle");
+     
 
         float posX = circle.transform.position.x;
         float posY = circle.transform.position.y;
         float posZ = circle.transform.position.z;
-        Rigidbody rb = Instantiate(FireBall, new Vector3(posX, posY, posZ), Quaternion.identity).GetComponent<Rigidbody>();
+        //Rigidbody rb = Instantiate(FireBall, new Vector3(posX, posY, posZ), Quaternion.identity).GetComponent<Rigidbody>();
+        var fireball = Instantiate(FireBall, new Vector3(posX, posY, posZ), Quaternion.identity);
+        
+        
+        Rigidbody rb = fireball.GetComponent<Rigidbody>();
         isFireBallShooted = true;
         rb.AddForce(circle.transform.forward * 10f, ForceMode.VelocityChange);
         Invoke("ResetFireBallCount", delayFireBall);
     }
     
-    private void ShootIce()
+    private void ShootIce( int numOfIce)
     {
-        GameObject circle = GameObject.FindWithTag("MagicCircle");
-        float posX = circle.transform.position.x;
-        float posY = circle.transform.position.y;
-        float posZ = circle.transform.position.z;
-        Rigidbody rb = Instantiate(IceBall, new Vector3(posX, posY, posZ), Quaternion.identity).GetComponent<Rigidbody>();
+        float angleStep = 10f;
+        float radius = 5f;
+        float angle = -30f;
+        Vector3 playerPos = camDir.transform.position;
+        Vector3 playerDirection = camDir.transform.forward;
+        Vector3 spawnPos = playerPos + (playerDirection * iceSpawnDistance);
+        Quaternion playerRotation = camDir.transform.rotation;
+        float changePos = -0.5f;
         isIceBallShooted = true;
-        rb.AddForce(circle.transform.forward * 10f, ForceMode.VelocityChange);
+        for (int i = 1; i <= numOfIce; i++)
+        {
+            float iceDirXPos = spawnPos.x + Mathf.Sin((angle*Mathf.PI)/180) * radius;
+            float iceDirZPos = spawnPos.z + Mathf.Cos((angle*Mathf.PI)/180) * radius;
+            Vector3 iceVector = new Vector3(iceDirXPos, spawnPos.y, iceDirZPos);
+            Vector3 iceMoveDirection = (iceVector - spawnPos).normalized * 10f;
+            Rigidbody rb = Instantiate(IceBall, spawnPos + (camDir.transform.right * changePos) , playerRotation).GetComponent<Rigidbody>();
+            rb.AddForce(iceMoveDirection, ForceMode.VelocityChange);
+            angle += angleStep;
+            changePos += 0.249f;
+            Debug.Log("ChangePos: "+changePos);
+            Debug.Log("rbTransform: "+ rb.transform.position);
+        }
         Invoke("ResetIceBallCount", delayIceBall);
+        
+        //Vector3 spawnPos = playerPos + playerDirection * iceSpawnDistance;
+        /*Vector3 spawnPos1 = playerPos + (camDir.transform.right * -2f) + (playerDirection * iceSpawnDistance);
+        Vector3 spawnPos2 = playerPos + (camDir.transform.right * -1f) + (playerDirection * iceSpawnDistance);
+        Vector3 spawnPos3 = playerPos + (playerDirection * iceSpawnDistance);
+        Vector3 spawnPos4 = playerPos + (camDir.transform.right * 1f) + (playerDirection * iceSpawnDistance);
+        Vector3 spawnPos5 = playerPos + (camDir.transform.right * 2f) + (playerDirection * iceSpawnDistance);
+        Quaternion iceRotation = Quaternion.Euler(0f, -30f, 0f);
+        Rigidbody rb1 = Instantiate(IceBall, spawnPos1, iceRotation).GetComponent<Rigidbody>();
+        Rigidbody rb2 = Instantiate(IceBall, spawnPos2, playerRotation).GetComponent<Rigidbody>();
+        Rigidbody rb3 = Instantiate(IceBall, spawnPos3 , playerRotation).GetComponent<Rigidbody>();
+        Rigidbody rb4 = Instantiate(IceBall, spawnPos4, playerRotation).GetComponent<Rigidbody>();
+        Rigidbody rb5 = Instantiate(IceBall, spawnPos5 , playerRotation).GetComponent<Rigidbody>();
+        isIceBallShooted = true;
+        rb1.AddForce(playerDirection, ForceMode.VelocityChange);
+        rb2.AddForce(playerDirection, ForceMode.VelocityChange);
+        rb3.AddForce(playerDirection, ForceMode.VelocityChange);
+        rb4.AddForce(playerDirection,  ForceMode.VelocityChange);
+        rb5.AddForce(playerDirection, ForceMode.VelocityChange);
+        Invoke("ResetIceBallCount", delayIceBall);*/
     }
     
     private void MagicWall()

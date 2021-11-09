@@ -50,7 +50,7 @@ public class MovmentRecognizer : MonoBehaviour
         
 
         string[] gestureFiles = Directory.GetFiles(Application.persistentDataPath, "*.xml");
-        
+        //string[] gestureFiles = Directory.GetFiles("jar:file://" + Application.dataPath + "!/Assets", "*.xml");
         foreach (var item in gestureFiles)
         {
             trainingSet.Add(GestureIO.ReadGestureFromFile(item));

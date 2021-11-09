@@ -2,8 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animations/Wall_rise_ground.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animations/Wall_rise_ground.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Left Magic Hand .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Left Magic Hand .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Magic Circle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Magic Circle.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/IceBall.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/IceBall.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimatedDetailed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimatedDetailed.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
@@ -32,6 +43,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.5/Runtime/Interaction/Controllers/ActionBasedController.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchCircle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.5/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Portal.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateIce.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -126,6 +138,16 @@
       <workItem from="1634997256753" duration="1875000" />
       <workItem from="1635000132348" duration="2121000" />
       <workItem from="1636479971565" duration="336000" />
+      <workItem from="1636127534149" duration="2877000" />
+      <workItem from="1636132463176" duration="241000" />
+      <workItem from="1636195917884" duration="4271000" />
+      <workItem from="1636363318961" duration="1929000" />
+      <workItem from="1636366068847" duration="932000" />
+      <workItem from="1636368683013" duration="4246000" />
+      <workItem from="1636451067591" duration="5199000" />
+      <workItem from="1636458263821" duration="656000" />
+      <workItem from="1636472813940" duration="1329000" />
+      <workItem from="1636475518323" duration="3952000" />
     </task>
     <servers />
   </component>
