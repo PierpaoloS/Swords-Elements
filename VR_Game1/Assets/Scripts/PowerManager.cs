@@ -45,6 +45,7 @@ public class PowerManager : MonoBehaviour
     public float damageIce = 10f;
     public float delayIceBall;
     public float iceSpawnDistance = 2f;
+    private int numOfIce;
     void Start()
     {
         power = player.GetComponent<SwitchPower>();
@@ -94,7 +95,7 @@ public class PowerManager : MonoBehaviour
             if (power.isIce == true && isIceBallShooted == false)
             {
                 print("Ghiaccio: isIce: " + power.isIce + " isIceShooted: " + isIceBallShooted);
-                ShootIce();
+                ShootIce(5);
             }
         }
 
@@ -131,14 +132,34 @@ public class PowerManager : MonoBehaviour
         Invoke("ResetFireBallCount", delayFireBall);
     }
     
-    private void ShootIce()
+    private void ShootIce( int numOfIce)
     {
-        
+        float angleStep = 10f;
+        float radius = 5f;
+        float angle = -30f;
         Vector3 playerPos = camDir.transform.position;
         Vector3 playerDirection = camDir.transform.forward;
+        Vector3 spawnPos = playerPos + (playerDirection * iceSpawnDistance);
         Quaternion playerRotation = camDir.transform.rotation;
+        float changePos = -0.5f;
+        isIceBallShooted = true;
+        for (int i = 1; i <= numOfIce; i++)
+        {
+            float iceDirXPos = spawnPos.x + Mathf.Sin((angle*Mathf.PI)/180) * radius;
+            float iceDirZPos = spawnPos.z + Mathf.Cos((angle*Mathf.PI)/180) * radius;
+            Vector3 iceVector = new Vector3(iceDirXPos, spawnPos.y, iceDirZPos);
+            Vector3 iceMoveDirection = (iceVector - spawnPos).normalized * 10f;
+            Rigidbody rb = Instantiate(IceBall, spawnPos + (camDir.transform.right * changePos) , playerRotation).GetComponent<Rigidbody>();
+            rb.AddForce(iceMoveDirection, ForceMode.VelocityChange);
+            angle += angleStep;
+            changePos += 0.249f;
+            Debug.Log("ChangePos: "+changePos);
+            Debug.Log("rbTransform: "+ rb.transform.position);
+        }
+        Invoke("ResetIceBallCount", delayIceBall);
+        
         //Vector3 spawnPos = playerPos + playerDirection * iceSpawnDistance;
-        Vector3 spawnPos1 = playerPos + (camDir.transform.right * -2f) + (playerDirection * iceSpawnDistance);
+        /*Vector3 spawnPos1 = playerPos + (camDir.transform.right * -2f) + (playerDirection * iceSpawnDistance);
         Vector3 spawnPos2 = playerPos + (camDir.transform.right * -1f) + (playerDirection * iceSpawnDistance);
         Vector3 spawnPos3 = playerPos + (playerDirection * iceSpawnDistance);
         Vector3 spawnPos4 = playerPos + (camDir.transform.right * 1f) + (playerDirection * iceSpawnDistance);
@@ -155,7 +176,7 @@ public class PowerManager : MonoBehaviour
         rb3.AddForce(playerDirection, ForceMode.VelocityChange);
         rb4.AddForce(playerDirection,  ForceMode.VelocityChange);
         rb5.AddForce(playerDirection, ForceMode.VelocityChange);
-        Invoke("ResetIceBallCount", delayIceBall);
+        Invoke("ResetIceBallCount", delayIceBall);*/
     }
     
     private void MagicWall()

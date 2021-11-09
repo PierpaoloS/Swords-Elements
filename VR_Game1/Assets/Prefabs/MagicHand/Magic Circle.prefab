@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 397254532034658616}
   - component: {fileID: 8352827375519774463}
   - component: {fileID: 409418591040036489}
+  - component: {fileID: 6658463627371251909}
   m_Layer: 0
   m_Name: Magic Circle
   m_TagString: MagicCircle
@@ -25,9 +26,9 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837311276699033869}
-  m_LocalRotation: {x: 0.7048386, y: 0.056591205, z: 0.056591243, w: 0.70483863}
+  m_LocalRotation: {x: 0.7048385, y: 0.056592345, z: 0.056592345, w: 0.7048385}
   m_LocalPosition: {x: -0.0032, y: -0.034300014, z: 0.0303}
-  m_LocalScale: {x: 0.036338788, y: 0.036338788, z: 0.036338788}
+  m_LocalScale: {x: 3.6900115, y: 3.6900115, z: 3.6900127}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -102,3 +103,16 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &6658463627371251909
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837311276699033869}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 6.398012, y: 5.8062396, z: 0.2000028}
+  m_Center: {x: 0.1973569, y: -0.22004928, z: -0.000000032192}
