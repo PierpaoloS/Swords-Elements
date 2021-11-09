@@ -2,80 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/EarthPower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/EarthPower.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/FirePower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/FirePower.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/IcePower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/IcePower.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Magic Circle.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/Magic Circle.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/MagicFlare.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/MagicFlare.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/MagicFlare.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/MagicFlare.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/WindPower.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/WindPower.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/blood_red_bar.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/blood_red_bar.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/cliffColor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Images/cliffColor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animations/EarthPower.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animations/EarthPower.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Choul_Chase.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Choul_Chase.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/DefaultMaterial_albedo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/DefaultMaterial_albedo.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Floor.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Floor.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Ghoul_material_Base_Color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Ghoul_material_Base_Color.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/DefaultMaterial_albedo.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/DefaultMaterial_albedo.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/Grass.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/Grass.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/StoneFloorBase.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/StoneFloorBase.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/StoneFloorDetails.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/StoneFloorDetails.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/StoneFloorGrass_Diffuse.tga.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/StoneFloorGrass_Diffuse.tga.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/Stone_Arc.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/Materials/Stone_Arc.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/StoneFloor.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/StoneFloor.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/StoneFloorDetails_Specular.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/StoneFloorDetails_Specular.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/StoneFloorGrass_Diffuse.tga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/StoneFloorGrass_Diffuse.tga.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/StoneFloor_Specular.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/StoneFloor_Specular.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/cliff.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/cliff.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/cliffColored.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/cliffColored.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/dungeon_arch.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/dungeon_arch.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/dungeon_arch_col.tga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/dungeon_arch_col.tga.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/model.dae" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Assets Enviroment/model.dae.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Magic Circle.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Magic Circle.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/Blue.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/Blue.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/Stone.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/Stone.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SwitchCircle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/SwitchCircle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker2-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
@@ -197,6 +125,7 @@
       <workItem from="1636105380665" duration="154000" />
       <workItem from="1634997256753" duration="1875000" />
       <workItem from="1635000132348" duration="2121000" />
+      <workItem from="1636479971565" duration="336000" />
     </task>
     <servers />
   </component>
