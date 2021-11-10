@@ -28,6 +28,7 @@ public class EnemyAI : MonoBehaviour
     public float timeBetweenAttacks;
     private bool alreadyAttacked;
     public GameObject projectile;
+    public GameObject shotPoint;
     
     //States
     public float sightRange, attackRange;
@@ -36,9 +37,7 @@ public class EnemyAI : MonoBehaviour
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
-        
         agent = GetComponent<NavMeshAgent>();
-
         currentHealth = health;
     }
 
@@ -93,11 +92,11 @@ public class EnemyAI : MonoBehaviour
         agent.SetDestination(transform.position);
         transform.LookAt(player);
         
-        //if (!alreadyAttacked)
-        //{
-            //print("Fuoco");
+        if (!alreadyAttacked && Physics.Raycast(shotPoint.transform.position,shotPoint.transform.forward,50f,6))
+        {
+            print("Fuoco");
             //Attack code here
-            /*
+            
             Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
             rb.AddForce(transform.up * 8f, ForceMode.Impulse);
@@ -105,8 +104,8 @@ public class EnemyAI : MonoBehaviour
         
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
-            */
-       // }
+            
+        }
     }
 
     private void ResetAttack()
