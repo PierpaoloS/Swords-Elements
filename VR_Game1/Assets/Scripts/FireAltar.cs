@@ -9,27 +9,7 @@ public class FireAltar : MonoBehaviour
     public float charge;
     public float maxCharge;
     public float increasingCharge;
-    void Start()
-    {
-        //GameObject circle = GameObject.FindWithTag("MagicCircle");
-    }
-    /*void Update()
-    {
-        
-        Debug.Log("Charge: " + charge);
-        if(isActive && charge < maxCharge)
-         {
-             charge += increasingCharge * Time.deltaTime;
-             Debug.Log("Siamo nel primo if");
-         }
-         else if(charge >= maxCharge)
-         {
-             Debug.Log("Attivazione del portale");
-         }
-        
-    }
-    */
-
+    public Portal portal;
     public void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "MagicCircle" && power.isFire)
@@ -42,23 +22,10 @@ public class FireAltar : MonoBehaviour
             }
             else if(charge >= maxCharge)
             {
-                Debug.Log("Attivazione del portale");
+                Debug.Log("Attivazione altare fuoco");
+                portal.isFire = true;
             }
         }
         
     }
-    /*public void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "MagicCircle" && power.isFire)
-        {
-            isActive = true;
-        }
-    }*/
-    /*public void OnTriggerExit(Collider other)
-    {
-        if (other.gameObject.tag == "MagicCircle" && power.isFire)
-        {
-            isActive = false;
-        }
-    }*/
 }
