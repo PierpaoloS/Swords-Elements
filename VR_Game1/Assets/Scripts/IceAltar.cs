@@ -1,9 +1,10 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditorInternal;
 using UnityEngine;
 
-public class FireAltar : MonoBehaviour
+public class IceAltar : MonoBehaviour
 {
     public SwitchPower power;
     public float charge;
@@ -12,7 +13,7 @@ public class FireAltar : MonoBehaviour
     public Portal portal;
     public void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "MagicCircle" && power.isFire)
+        if (other.gameObject.tag == "MagicCircle" && power.isIce)
         {
             if(charge < maxCharge)
             {
@@ -22,8 +23,8 @@ public class FireAltar : MonoBehaviour
             }
             else if(charge >= maxCharge)
             {
-                Debug.Log("Attivazione altare fuoco");
-                portal.isFire = true;
+                Debug.Log("Attivazione altare ghiaccio");
+                portal.isIce = true;
             }
         }
         

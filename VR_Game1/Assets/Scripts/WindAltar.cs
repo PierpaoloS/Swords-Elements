@@ -3,16 +3,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireAltar : MonoBehaviour
+public class WindAltar : MonoBehaviour
 {
     public SwitchPower power;
     public float charge;
     public float maxCharge;
     public float increasingCharge;
     public Portal portal;
+
     public void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "MagicCircle" && power.isFire)
+        if (other.gameObject.tag == "MagicCircle" && power.isWind)
         {
             if(charge < maxCharge)
             {
@@ -22,8 +23,8 @@ public class FireAltar : MonoBehaviour
             }
             else if(charge >= maxCharge)
             {
-                Debug.Log("Attivazione altare fuoco");
-                portal.isFire = true;
+                Debug.Log("Attivazione altare vento");
+                portal.isWind = true;
             }
         }
         

@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireAltar : MonoBehaviour
+public class EarthAltar : MonoBehaviour
 {
     public SwitchPower power;
     public float charge;
@@ -12,7 +12,7 @@ public class FireAltar : MonoBehaviour
     public Portal portal;
     public void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "MagicCircle" && power.isFire)
+        if (other.gameObject.tag == "MagicCircle" && power.isEarth)
         {
             if(charge < maxCharge)
             {
@@ -22,8 +22,8 @@ public class FireAltar : MonoBehaviour
             }
             else if(charge >= maxCharge)
             {
-                Debug.Log("Attivazione altare fuoco");
-                portal.isFire = true;
+                Debug.Log("Attivazione Altare terra");
+                portal.isEarth = true;
             }
         }
         
