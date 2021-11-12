@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1882749022946428489}
   - component: {fileID: 4968573375238518326}
   - component: {fileID: 4155047999506278983}
-  - component: {fileID: -7761191560607209488}
+  - component: {fileID: -5314932695037496404}
   m_Layer: 0
   m_Name: Polyart_Rock
   m_TagString: Untagged
@@ -113,7 +113,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 1.1932504
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-7761191560607209488
+--- !u!114 &-5314932695037496404
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -122,12 +122,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 5298590762127773683}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ddcdd833d33474449eb69925afa5e77, type: 3}
+  m_Script: {fileID: 11500000, guid: 3c0c174fdc662f9419ffdbbc952f5a9a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubeSize: 0.2
-  cubesInRow: 5
-  piece: {fileID: 5298590762127773683, guid: 916a2438cd160d449a75af8a73922842, type: 3}
-  explosionForce: 50
-  explosionRadius: 4
-  explosionUpward: 0.4
+  explosion: {fileID: 8364299592882865254, guid: 3af28d008f8a82843af700900cb91396, type: 3}
