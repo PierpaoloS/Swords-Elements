@@ -173,7 +173,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2484078654210578626}
   m_Layer: 0
-  m_Name: Castle2Ruins
+  m_Name: Castle2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
