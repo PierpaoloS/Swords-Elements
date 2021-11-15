@@ -80,7 +80,7 @@ public class EnemyAIGolem : MonoBehaviour
         }
         walkPoint = new Vector3(transform.position.x + randomX, consY/*transform.position.y*/, transform.position.z + randomZ);
 
-        if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
+        if (Physics.Raycast(walkPoint, -transform.up, 5f, whatIsGround))
             walkPointSet = true;
     }
     private void ChasePlayer()
@@ -99,13 +99,11 @@ public class EnemyAIGolem : MonoBehaviour
         {
             animator.SetTrigger("Attack");
             print("Fuoco");
-            //Attack code here
             
-            Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+           /* Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
-            //End of attack code
-        
+            rb.AddForce(transform.up * 8f, ForceMode.Impulse);*/
+            
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
             
@@ -147,8 +145,21 @@ public class EnemyAIGolem : MonoBehaviour
             print("Enemy Colpita - Uscita dalla collisione");
             isEnemyHitted = false;
         } 
-    } 
+    }
 
+    public void SpawnRock()
+    {
+        //Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
+        Debug.Log(" SpawnRock ");
+    }
+
+    public void ThrowRock()
+    {
+        /*
+         rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
+        rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+        */
+    }
     private void DestroyEnemy()
     {
         Destroy(gameObject);
