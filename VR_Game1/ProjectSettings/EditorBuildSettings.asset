@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/MenuTemp.unity
+    guid: 574877690197fc84d947e315ff46f1c7
+  - enabled: 1
     path: Assets/Scenes/Scena3GraphicTest 1.unity
     guid: 780c2d72f64e4344db00401316db1cf2
   - enabled: 0
