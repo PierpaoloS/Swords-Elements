@@ -146,20 +146,7 @@ public class EnemyAIGolem : MonoBehaviour
             isEnemyHitted = false;
         } 
     }
-
-    public void SpawnRock()
-    {
-        //Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-        Debug.Log(" SpawnRock ");
-    }
-
-    public void ThrowRock()
-    {
-        /*
-         rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-        rb.AddForce(transform.up * 8f, ForceMode.Impulse);
-        */
-    }
+    
     private void DestroyEnemy()
     {
         Destroy(gameObject);

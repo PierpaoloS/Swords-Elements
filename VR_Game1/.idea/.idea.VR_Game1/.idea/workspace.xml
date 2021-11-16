@@ -3,214 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animations/Light_2_Animation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animations/Light_2_Animation.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animations/Wall_rise_ground.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animations/Wall_rise_ground.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animations/light_1_Animation.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animations/light_1_Animation.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy/EnemyGolem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy/EnemyGolem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy/EnemyGolem.prefab.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy/EnemyGolem.prefab.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy/Golem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy/Golem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy/Insect.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/Enemy/Insect.prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/RockGolem/Animations/Attack01.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/RockGolem/Animations/Attack01.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/RockGolem/Animations/FreeGolem.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/RockGolem/Animations/FreeGolem.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/CastleRuins2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/CastleRuins2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/ForestPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/ForestPrefab.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/Portal.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/Portal.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/ArcsDarkTexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/ArcsDarkTexture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/Bush_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/Bush_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/Grass_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/Grass_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01_Variant01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01_Variant01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01_Variant02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01_Variant02.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01_Variant03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01_Variant03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01_Variant04.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick01_Variant04.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant02.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant04.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant04.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant05.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant05.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant06.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant06.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant07.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick03_Variant07.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick04.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick04.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick04_Variant01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick04_Variant01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick04_Variant02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick04_Variant02.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick04_Variant03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick04_Variant03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick05.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick05.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick05_V1.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Brick05_V1.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant01.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant01.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant02.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant02.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant03.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant03.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant04.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant04.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant05.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/M_Stone02_Variant05.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/Weeds_01.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/Weeds_01.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/Weeds_02.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Materials/Weeds_02.fbx.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_ao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_ao.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor_Variant01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor_Variant01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor_Variant02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor_Variant02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor_Variant03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor_Variant03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor_Variant04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_basecolor_Variant04.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_height.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_height.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_metallic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_metallic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_roughness.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick01/T_brick_roughness.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_ao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_ao.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant04.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant05.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant06.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_baseColor_Variant07.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_height.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_height.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_Brick03_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_brick03_metallic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick03/T_brick03_metallic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_Metallic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_Metallic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_baseColor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_baseColor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_baseColor_V1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_baseColor_V1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_baseColor_V2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_baseColor_V2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_baseColor_V3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_baseColor_V3.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_output_height.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_output_height.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_output_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick04/T_Brick04_output_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_ao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_ao.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_baseColor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_baseColor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_baseColor_V1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_baseColor_V1.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_height.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_height.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_metallic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_metallic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Brick05/T_Brick05_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_ao.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_ao.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant01.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant02.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant03.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant04.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_basecolor_Variant05.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_height.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_height.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_metallic.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_metallic.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_normal.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/BrickMaterials/Textures/Stone/T_Stone01_normal.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/DefaultMaterial_albedo.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/DefaultMaterial_albedo.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/Ghoul_material_Base_Color.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/Ghoul_material_Base_Color.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/SecondSword.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/SecondSword.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/SecondSwordTexture.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/SecondSwordTexture.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/StoneFloorDetails_Specular.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/StoneFloorDetails_Specular.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/StoneFloor_Specular.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/StoneFloor_Specular.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/SwordDarkTExture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/SwordDarkTExture.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/cliffColor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/cliffColor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/dungeon_arch_col.tga.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/dungeon_arch_col.tga.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/flat_diffuse.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/flat_diffuse.jpg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/torchColor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/torchColor.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/torchSpecular.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/torchSpecular.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/wall_low_wall_low_BaseColor.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Materiali/wall_low_wall_low_BaseColor.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemies/RockGolem/Prefabs/Polyart_Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemies/RockGolem/Prefabs/Polyart_Rock.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimatedDetailed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimatedDetailed.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MenuTemp.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MenuTemp.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1/NavMesh-NavSurface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1/NavMesh-NavSurface.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/orbit.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/orbit.obj.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/orbitMaterial.mat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/orbitMaterial.mat.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/orbitTexture.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/orbitTexture.png.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/EnemyAIGolem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyAIGolem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/SceneManager.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
@@ -218,8 +23,9 @@
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,6 +50,7 @@
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.5/Runtime/XR/XRRig.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateIce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EarthAltar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ThrowRock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/IceAltar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -360,6 +167,7 @@
       <workItem from="1636971392160" duration="815000" />
       <workItem from="1636973081784" duration="322000" />
       <workItem from="1636996212700" duration="2739000" />
+      <workItem from="1637059470571" duration="2335000" />
     </task>
     <servers />
   </component>

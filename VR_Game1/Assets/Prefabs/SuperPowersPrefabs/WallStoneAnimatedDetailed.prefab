@@ -9,7 +9,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 9202508519299878449}
-  - component: {fileID: 8762530063129173764}
   m_Layer: 0
   m_Name: WallStoneAnimatedDetailed
   m_TagString: Untagged
@@ -32,22 +31,24 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!64 &8762530063129173764
-MeshCollider:
+--- !u!54 &8846960116983129592
+Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4455853852645887178}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
---- !u!64 &3014233889772522445
-MeshCollider:
+  m_GameObject: {fileID: 8361097897733852775}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &2704900937629085319
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -56,10 +57,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 0}
+  serializedVersion: 2
+  m_Size: {x: 3.6368685, y: 2.0208392, z: 0.6972149}
+  m_Center: {x: 0.3005777, y: 0.38979062, z: -0.86280954}
 --- !u!95 &6297978406165589657
 Animator:
   serializedVersion: 3
@@ -79,6 +79,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &3280155570704390141
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8361097897733852775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3686f9e5254ebd4bac65149bfc9b57a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &57219197123527215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -89,6 +101,10 @@ PrefabInstance:
     - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Name
       value: Rock_01 (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -164,6 +180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -237,6 +257,10 @@ PrefabInstance:
     - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Name
       value: Rock_01 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -312,6 +336,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -385,6 +413,10 @@ PrefabInstance:
     - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Name
       value: Rock_01 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -460,6 +492,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -533,6 +569,10 @@ PrefabInstance:
     - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Name
       value: Rock_01 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -608,6 +648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -682,6 +726,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -752,9 +800,21 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9202508519299878449}
     m_Modifications:
+    - target: {fileID: 523187425765000388, guid: 8352b55589e0a8d48a2f2ea8616df2ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 1723091912838981127, guid: 8352b55589e0a8d48a2f2ea8616df2ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 2934082899127569995, guid: 8352b55589e0a8d48a2f2ea8616df2ee, type: 3}
       propertyPath: m_Name
       value: WallStatic
+      objectReference: {fileID: 0}
+    - target: {fileID: 2934082899127569995, guid: 8352b55589e0a8d48a2f2ea8616df2ee, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 2993349940078441097, guid: 8352b55589e0a8d48a2f2ea8616df2ee, type: 3}
       propertyPath: m_LocalPosition.y
@@ -839,6 +899,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -912,6 +976,10 @@ PrefabInstance:
     - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Name
       value: Rock_01 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -987,6 +1055,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Rock_01 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -1060,6 +1132,10 @@ PrefabInstance:
     - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Name
       value: Rock_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 4687159276253456458, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 7704932626168520343, guid: 6070d3360fe8ecb419df8fe5d57345ab, type: 3}
       propertyPath: m_Materials.Array.data[0]
