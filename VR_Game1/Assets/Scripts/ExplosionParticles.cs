@@ -6,6 +6,7 @@ using UnityEngine;
 public class ExplosionParticles : MonoBehaviour
 {
    public ParticleSystem explosion;
+
    private void OnCollisionEnter(Collision other)
    {
       ContactPoint contact = other.contacts[0];

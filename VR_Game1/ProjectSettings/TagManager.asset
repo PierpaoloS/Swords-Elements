@@ -8,6 +8,8 @@ TagManager:
   - FireBall
   - MagicCircle
   - Enemy
+  - Golem
+  - RockPoint
   layers:
   - Default
   - TransparentFX

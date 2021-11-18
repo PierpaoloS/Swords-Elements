@@ -11,6 +11,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scena3GraphicTest 1.unity
     guid: 780c2d72f64e4344db00401316db1cf2
+  - enabled: 1
+    path: Assets/Scenes/PractiseScene.unity
+    guid: 9005f0ad8e0de4a42bb0ed777b597141
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 9fc0d4010bbf28b4594072e72b8655ab
