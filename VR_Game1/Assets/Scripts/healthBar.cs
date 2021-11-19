@@ -15,7 +15,7 @@ public class healthBar : MonoBehaviour
 
     private void Awake()
     {
-        GetComponentInParent<EnemyAI>().OnHealthPctChanged += HandleHealthChanged;
+        GetComponentInParent<EnemyAIGolem>().OnHealthPctChanged += HandleHealthChanged;
     }
 
     private void HandleHealthChanged(float pct)
