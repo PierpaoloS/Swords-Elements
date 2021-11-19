@@ -6180,7 +6180,7 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 802842045}
   takedamageeffect: {fileID: 1067649339}
-  FireBall: {fileID: 2468664956209684978, guid: 8ea479a42b7a9f44ea0f289d123ef92b, type: 3}
+  FireBall: {fileID: 3894869046718803796, guid: 07935b9a9ee23924b87f7ed93ff6fc63, type: 3}
   damage: 10
   delayFireBall: 3
   wall: {fileID: 4455853852645887178, guid: 7b5520987bfa88547b3243977d09416d, type: 3}
