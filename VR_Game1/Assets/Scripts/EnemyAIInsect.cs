@@ -15,6 +15,7 @@ public class EnemyAIInsect : MonoBehaviour
     public float health;
     public float currentHealth;
     public bool isEnemyHitted = false;
+    private Animator animator;
     
     //healthbar
     public event Action<float> OnHealthPctChanged = delegate{  }; 
@@ -29,6 +30,7 @@ public class EnemyAIInsect : MonoBehaviour
     private bool alreadyAttacked;
     public GameObject projectile;
     public GameObject shotPoint;
+    public Collider attackCollider;
     
     //States
     public float sightRange, attackRange;
@@ -39,6 +41,9 @@ public class EnemyAIInsect : MonoBehaviour
         player = GameObject.Find("Player").transform;
         agent = GetComponent<NavMeshAgent>();
         currentHealth = health;
+        animator = GetComponentInChildren<Animator>();
+        attackCollider = shotPoint.GetComponent<Collider>();
+        attackCollider.enabled = false;
     }
 
     private void Update()
@@ -83,6 +88,8 @@ public class EnemyAIInsect : MonoBehaviour
     }
     private void ChasePlayer()
     {
+        animator.SetTrigger("Run Forward");
+        attackCollider.enabled = false;
         agent.SetDestination(player.position);
     }
     
@@ -92,14 +99,12 @@ public class EnemyAIInsect : MonoBehaviour
         agent.SetDestination(transform.position);
         transform.LookAt(player);
         
-        if (!alreadyAttacked && Physics.Raycast(shotPoint.transform.position,shotPoint.transform.forward,50f,6))
+        if (!alreadyAttacked)
         {
-            print("Fuoco");
+            print("Insetto attacca");
             //Attack code here
-            
-            Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);
+            attackCollider.enabled = true;
+            animator.SetTrigger("Stab Attack");
             //End of attack code
         
             alreadyAttacked = true;
@@ -133,8 +138,7 @@ public class EnemyAIInsect : MonoBehaviour
         {
             TakeDamage(-50);
         }
-    } 
-
+    }
     public void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Sword")
@@ -146,7 +150,9 @@ public class EnemyAIInsect : MonoBehaviour
 
     private void DestroyEnemy()
     {
-        Destroy(gameObject);
+        animator.SetTrigger("Die");
+        Destroy(gameObject, 1.5f);
+        Destroy(this);
         print("Enemy Distrutta");
 
     }

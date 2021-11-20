@@ -10,6 +10,8 @@ TagManager:
   - Enemy
   - Golem
   - RockPoint
+  - Insect
+  - InsectAttackPoint
   layers:
   - Default
   - TransparentFX
@@ -21,7 +23,7 @@ TagManager:
   - MagicWall
   - Enemy
   - Rock
-  - 
+  - InsectAttackPoint
   - 
   - 
   - 

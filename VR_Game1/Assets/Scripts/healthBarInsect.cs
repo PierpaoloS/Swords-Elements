@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class healthBar : MonoBehaviour
+public class healthBarInsect : MonoBehaviour
 {
     [SerializeField]
     private Image foregroundImage;
@@ -15,7 +15,7 @@ public class healthBar : MonoBehaviour
 
     private void Awake()
     {
-        GetComponentInParent<EnemyAIGolem>().OnHealthPctChanged += HandleHealthChanged;
+        GetComponentInParent<EnemyAIInsect>().OnHealthPctChanged += HandleHealthChanged;
     }
 
     private void HandleHealthChanged(float pct)

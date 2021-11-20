@@ -7,10 +7,11 @@ public class ThrowRock : MonoBehaviour
 {
     public GameObject spawnPoint;
     public GameObject rock;
+    public GameObject golem;
     private Rigidbody rb;
     public bool isHoldingRock = false;
     public ExplosionParticles explosionParticles;
-    
+
     public void Update()
     {
         if (isHoldingRock)
@@ -34,4 +35,12 @@ public class ThrowRock : MonoBehaviour
         rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
         rb.AddForce(transform.up * 8f, ForceMode.Impulse);
     }
+
+    public void DestroyGolem()
+    {
+        Destroy(golem);
+        //enemyAIGolem.DestroyEnemy();
+    }
+    
+    
 }
