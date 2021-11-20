@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 6658222214309120567}
   - component: {fileID: 8459983361698209285}
   - component: {fileID: 990408706657502154}
-  - component: {fileID: 7844072802328271247}
   m_Layer: 0
   m_Name: FillCylinder
   m_TagString: Untagged
@@ -27,8 +26,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624555473710700317}
   m_LocalRotation: {x: -0.63153183, y: -0.21107012, z: -0.033219915, w: 0.7453278}
-  m_LocalPosition: {x: 0.21, y: 12.23, z: -8.98}
-  m_LocalScale: {x: 5.7421775, y: 0.18636744, z: 5.4391303}
+  m_LocalPosition: {x: 0.034813, y: 11.92, z: -7.9619}
+  m_LocalScale: {x: 5.110538, y: 0.16586702, z: 4.840826}
   m_Children: []
   m_Father: {fileID: 8045862440368507863}
   m_RootOrder: 2
@@ -82,20 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &7844072802328271247
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1624555473710700317}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1 &3233682034972244008
 GameObject:
   m_ObjectHideFlags: 0
@@ -120,7 +105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3233682034972244008}
   m_LocalRotation: {x: -0, y: -0, z: 0.23949999, w: 0.9708964}
-  m_LocalPosition: {x: 0.00251843, y: -0.00024420395, z: 0}
+  m_LocalPosition: {x: 0.00251843, y: -0.045, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 6737259757749537607}
@@ -140,7 +125,6 @@ GameObject:
   - component: {fileID: 2410104369093786601}
   - component: {fileID: 1222935623994057482}
   - component: {fileID: 5323050348425314359}
-  - component: {fileID: 481731639948036595}
   m_Layer: 0
   m_Name: FillCylinder
   m_TagString: Untagged
@@ -156,8 +140,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7642505716268071220}
   m_LocalRotation: {x: -0.61156964, y: -0.1315384, z: -0.17401241, w: 0.76052606}
-  m_LocalPosition: {x: 0.066, y: 0.051, z: -0.119}
-  m_LocalScale: {x: 0.07484184, y: 0.008236941, z: 0.05854243}
+  m_LocalPosition: {x: 0.062129, y: 0.049098, z: -0.10677}
+  m_LocalScale: {x: 0.06660924, y: 0.0073308772, z: 0.052102763}
   m_Children: []
   m_Father: {fileID: 6965049429386279224}
   m_RootOrder: 2
@@ -211,20 +195,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!136 &481731639948036595
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7642505716268071220}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 0.5000001
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0.000000059604645, y: 0, z: -0.00000008940697}
 --- !u!1001 &1076161615151866937
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -431,6 +401,30 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 80581f52ee77b5542818479629901381, type: 2}
+    - target: {fileID: 839288007944178988, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 839288007944178988, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 839288007944178988, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.89
+      objectReference: {fileID: 0}
+    - target: {fileID: 839288007944178988, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.15209
+      objectReference: {fileID: 0}
+    - target: {fileID: 839288007944178988, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.0357
+      objectReference: {fileID: 0}
+    - target: {fileID: 839288007944178988, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.030335
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
       propertyPath: m_Name
       value: perchatka
