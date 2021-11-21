@@ -1,19 +1,28 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class FireBallManager : MonoBehaviour
+public class FireBallManager : MonoBehaviour 
 {
-    // Start is called before the first frame update
+    public ParticleSystem explosion;
+    public GameObject fireBall;
     void Start()
     {
-        
-        Destroy(gameObject,3f);
+        Destroy(fireBall,8f);
     }
-
-    // Update is called once per frame
     void Update()
     {
         
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag != "Player" && other.gameObject.tag != "MagicCircle" && other.gameObject.tag != "MainCamera" && other.gameObject.tag != "Sword")
+        {
+            explosion.Play();
+            Destroy(gameObject,1f);
+            Destroy(fireBall);
+        }
     }
 }
