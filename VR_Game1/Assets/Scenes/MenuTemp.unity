@@ -462,6 +462,7 @@ Transform:
   - {fileID: 1350687962}
   - {fileID: 1964112423}
   - {fileID: 485889569}
+  - {fileID: 568336464}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -924,6 +925,112 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2050531476758239362, guid: 552718f0c247ceb4cb4d84a622978b22, type: 3}
   m_PrefabInstance: {fileID: 543179432}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &568336463
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 217886996}
+    m_Modifications:
+    - target: {fileID: 119402, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_Name
+      value: AuraRingLight
+      objectReference: {fileID: 0}
+    - target: {fileID: 168920, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419952, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 419952, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.43172
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.43172
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.43172
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 49.254417
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 50.070286
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -71.138565
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 19811942, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: InitialModule.startRotationX.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19811942, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: InitialModule.startRotationY.minMaxState
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 19941996, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19991898, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 19998264, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+--- !u!4 &568336464 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 467852, guid: b0a7c039263a459439f74cfba0685d31, type: 3}
+  m_PrefabInstance: {fileID: 568336463}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &581800142
 GameObject:
   m_ObjectHideFlags: 0
@@ -1331,7 +1438,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.42352942}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -2085,7 +2192,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.42352942}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
@@ -3738,7 +3845,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0, g: 0.9339623, b: 0.9001635, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -4402,7 +4509,7 @@ MonoBehaviour:
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.9528302, g: 0.21124065, b: 0.21124065, a: 1}
+    m_PressedColor: {r: 1, g: 1, b: 1, a: 0.42352942}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
