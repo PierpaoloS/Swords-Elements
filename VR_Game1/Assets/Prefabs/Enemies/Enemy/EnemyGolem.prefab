@@ -283,6 +283,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 7029567826122469178}
   rock: {fileID: 5298590762127773683, guid: cad9f745870d9f448bf225d2a253d382, type: 3}
+  enemyAIGolem: {fileID: 5044641131394011669}
+  golem: {fileID: 1026207588369048596}
+  isHoldingRock: 0
+  explosionParticles: {fileID: 0}
 --- !u!1 &7850818265724161571
 GameObject:
   m_ObjectHideFlags: 0

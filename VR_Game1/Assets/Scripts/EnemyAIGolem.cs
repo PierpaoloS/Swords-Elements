@@ -128,12 +128,14 @@ public class EnemyAIGolem : MonoBehaviour
     {
         if (other.gameObject.tag == "Sword" && isEnemyHitted == false)
         {
+            animator.SetTrigger("GetHit");
             print("Enemy Colpita - Entrata in collisione");
             TakeDamage(-25);
             isEnemyHitted = true;
         } 
         if (other.gameObject.tag == "FireBall")
         {
+            animator.SetTrigger("GetHit");
             TakeDamage(-50);
         }
     } 
@@ -147,9 +149,10 @@ public class EnemyAIGolem : MonoBehaviour
         } 
     }
     
-    private void DestroyEnemy()
+    public void DestroyEnemy()
     {
-        Destroy(gameObject);
+        animator.SetTrigger("Die");
+        Destroy(this);
         print("Enemy Distrutta");
 
     }
