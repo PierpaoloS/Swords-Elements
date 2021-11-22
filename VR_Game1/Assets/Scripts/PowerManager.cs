@@ -12,6 +12,7 @@ public class PowerManager : MonoBehaviour
     public GameObject player;
     public SwitchPower power; 
     
+    
     //Player's variables
     public int maxHealth = 100;
     public int currentHealth;
@@ -48,6 +49,7 @@ public class PowerManager : MonoBehaviour
     private int numOfIce;
     void Start()
     {
+        
         power = player.GetComponent<SwitchPower>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
@@ -74,6 +76,7 @@ public class PowerManager : MonoBehaviour
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
         if (primaryButtonValue == true)
         {
+            
             if (power.isFire == true && isFireBallShooted == false)
             {
                 print("Fuoco: isFire:" + power.isFire + " isFireBallShooted: " + isFireBallShooted);
@@ -98,6 +101,7 @@ public class PowerManager : MonoBehaviour
                 ShootIce(5);
             }
         }
+        
 
         //Testing dell'effetto della vita.
         targetDevice.TryGetFeatureValue(CommonUsages.secondaryButton, out bool secondaryButtonValue);

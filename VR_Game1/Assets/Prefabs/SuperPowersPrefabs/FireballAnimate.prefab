@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 3375861470286335647}
   - component: {fileID: 5501404253261763724}
   - component: {fileID: 6471481148562246865}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: FireballAnimate
   m_TagString: FireBall
   m_Icon: {fileID: 0}
@@ -85,9 +85,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5914277007694163909}
     m_Modifications:
+    - target: {fileID: 100000, guid: b32f835e658efa1419ad0ae6b033b81f, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100002, guid: b32f835e658efa1419ad0ae6b033b81f, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100004, guid: b32f835e658efa1419ad0ae6b033b81f, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: b32f835e658efa1419ad0ae6b033b81f, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: b32f835e658efa1419ad0ae6b033b81f, type: 3}
       propertyPath: m_Name
       value: FireMissileNormal
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: b32f835e658efa1419ad0ae6b033b81f, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: b32f835e658efa1419ad0ae6b033b81f, type: 3}
       propertyPath: m_RootOrder
@@ -172,9 +192,37 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 5914277007694163909}
     m_Modifications:
+    - target: {fileID: 100002, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100006, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100008, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
       propertyPath: m_Name
       value: FireExplosionNormal
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100016, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 87698b9d467306440a17655d9c528f3a, type: 3}
       propertyPath: m_RootOrder

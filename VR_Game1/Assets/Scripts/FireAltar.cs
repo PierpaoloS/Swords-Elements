@@ -10,12 +10,20 @@ public class FireAltar : MonoBehaviour
     public float maxCharge;
     public float increasingCharge;
     public Portal portal;
+    public GameObject fireFlare;
+    
+    private void Start()
+    {
+        fireFlare.SetActive(false);
+    }
+    
     public void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "MagicCircle" && power.isFire)
         {
             if(charge < maxCharge)
             {
+                fireFlare.SetActive(true);
                 charge += increasingCharge * Time.deltaTime;
                 Debug.Log("Siamo nel primo if, charge: "+charge);
                 
@@ -24,8 +32,14 @@ public class FireAltar : MonoBehaviour
             {
                 Debug.Log("Attivazione altare fuoco");
                 portal.isFire = true;
+                fireFlare.SetActive(false);
             }
         }
         
+    }
+    
+    public void OnTriggerExit(Collider other)
+    {
+       fireFlare.SetActive(false);
     }
 }

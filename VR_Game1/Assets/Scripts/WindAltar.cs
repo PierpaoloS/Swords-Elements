@@ -10,6 +10,12 @@ public class WindAltar : MonoBehaviour
     public float maxCharge;
     public float increasingCharge;
     public Portal portal;
+    public GameObject windFlare;
+    
+    private void Start()
+    {
+        windFlare.SetActive(false);
+    }
 
     public void OnTriggerStay(Collider other)
     {
@@ -17,6 +23,7 @@ public class WindAltar : MonoBehaviour
         {
             if(charge < maxCharge)
             {
+                windFlare.SetActive(true);
                 charge += increasingCharge * Time.deltaTime;
                 Debug.Log("Siamo nel primo if, charge: "+charge);
                 
@@ -25,8 +32,14 @@ public class WindAltar : MonoBehaviour
             {
                 Debug.Log("Attivazione altare vento");
                 portal.isWind = true;
+                windFlare.SetActive(false);
             }
         }
         
+    }
+    
+    public void OnTriggerExit(Collider other)
+    {
+        windFlare.SetActive(false);
     }
 }
