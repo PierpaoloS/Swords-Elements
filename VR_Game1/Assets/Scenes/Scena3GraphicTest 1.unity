@@ -5716,7 +5716,7 @@ MonoBehaviour:
   newPositionThresholdDistance: 0.05
   debugCubePrefab: {fileID: 1888614400631169287, guid: 70c836d91f54f054398c52426875404e, type: 3}
   creationMode: 0
-  newGestureName: Wave
+  newGestureName: InvertedTriangle
   movementSource: {fileID: 536632043}
   recognitionThreshold: 0.85
   OnRecognize:
@@ -6303,6 +6303,7 @@ MonoBehaviour:
   leftHand: {fileID: 1526025428}
   player: {fileID: 426414251}
   power: {fileID: 426414255}
+  beam: {fileID: 0}
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 802842045}

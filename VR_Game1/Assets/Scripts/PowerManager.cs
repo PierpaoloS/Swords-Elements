@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using MagicArsenal;
 using UnityEngine;
 using UnityEngine.XR;
 
@@ -10,7 +11,8 @@ public class PowerManager : MonoBehaviour
     public GameObject camDir;
     public GameObject leftHand;
     public GameObject player;
-    public SwitchPower power; 
+    public SwitchPower power;
+    public MagicBeamStatic beam;
     
     //Player's variables
     public int maxHealth = 100;
@@ -95,7 +97,7 @@ public class PowerManager : MonoBehaviour
             if (power.isIce == true && isIceBallShooted == false)
             {
                 print("Ghiaccio: isIce: " + power.isIce + " isIceShooted: " + isIceBallShooted);
-                ShootIce(5);
+                ShootIce();
             }
         }
 
@@ -132,9 +134,14 @@ public class PowerManager : MonoBehaviour
         Invoke("ResetFireBallCount", delayFireBall);
     }
     
-    private void ShootIce( int numOfIce)
+    private void ShootIce()
     {
-        float angleStep = 10f;
+        GameObject circle = GameObject.FindWithTag("MagicCircle");
+        MagicBeamStatic beam = circle.GetComponent<MagicBeamStatic>();
+        beam.SpawnBeam();
+        isIceBallShooted = true;
+        Invoke("ResetIceBallCount", delayIceBall);
+        /*float angleStep = 10f;
         float radius = 5f;
         float angle = -30f;
         Vector3 playerPos = camDir.transform.position;
