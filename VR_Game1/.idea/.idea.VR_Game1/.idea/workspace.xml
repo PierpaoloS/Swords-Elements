@@ -3,40 +3,32 @@
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InsectAttack.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/InsectAttack.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animations/Magic Circle.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animations/Magic Circle.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Animations/Magic Rotate.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Animations/Magic Rotate.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/Cementary.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/Cementary.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Left Magic Hand .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Left Magic Hand .prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/MagicHandParticles/MagicHandParticles.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/MagicHandParticles/MagicHandParticles.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/CubeMagicFlare.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/CubeMagicFlare.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/FireballAnimate.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/FireballAnimate.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/EarthAltar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/EarthAltar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FireAltar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FireAltar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FireBallManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FireBallManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/IceAltar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/IceAltar.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Portal.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PowerManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WindAltar.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WindAltar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvertedTriangle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/InvertedTriangle.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Square.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Square.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Square.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Square.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Triangle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Triangle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Triangle.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Triangle.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Wave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Wave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Wave.xml.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Wave.xml.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Square.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Square.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Triangle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Triangle.xml.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wave.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Wave.xml.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -192,6 +184,7 @@
       <workItem from="1637418839295" duration="6103000" />
       <workItem from="1637525382208" duration="956000" />
       <workItem from="1637575199330" duration="13231000" />
+      <workItem from="1637660878052" duration="2777000" />
     </task>
     <servers />
   </component>

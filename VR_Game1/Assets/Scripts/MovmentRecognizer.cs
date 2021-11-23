@@ -8,6 +8,9 @@ using PDollarGestureRecognizer;
 using System.IO;
 using UnityEngine.Events;
 using System.Xml;
+using System.Xml.Serialization;
+using System.Data;
+
 
 public class MovmentRecognizer : MonoBehaviour
 {
@@ -23,7 +26,13 @@ public class MovmentRecognizer : MonoBehaviour
     private List<Vector3> positionsList = new List<Vector3>();
     public Transform movementSource;
     
-    
+    //agg variabili per la build
+    /*public TextAsset XMLObject;
+    private StringReader xml;
+    public Data data = new Data();
+    data
+    */
+
     //riconoscimento Gesture Test
     public float recognitionThreshold = 0.9f;
     [System.Serializable]
@@ -50,13 +59,23 @@ public class MovmentRecognizer : MonoBehaviour
         
 
         string[] gestureFiles = Directory.GetFiles(Application.persistentDataPath, "*.xml");
-        //string[] gestureFiles = Directory.GetFiles("jar:file://" + Application.dataPath + "!/Assets", "*.xml");
+        //string[] gestureFiles = Directory.GetFiles(Application.streamingAssetsPath,"*.xml");
+        //xml = new StringReader(XMLObject.text);
+        //data = data.Load(xml);
+        
         foreach (var item in gestureFiles)
         {
+            Debug.Log(item);
             trainingSet.Add(GestureIO.ReadGestureFromFile(item));
         }
     }
-    
+
+    /*void DataLoad(StringReader xml)
+    {
+        var serializer = new XmlSerializer(typeof(Data));
+        return serializer.Deserialize(xml) as Data;
+    }
+    */
     void Update()
     {
         InputHelpers.IsPressed(InputDevices.GetDeviceAtXRNode(inputSource), inputButton, out bool isPressed, inputThreshold);
