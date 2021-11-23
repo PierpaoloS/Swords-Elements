@@ -16,9 +16,9 @@ public class HandMagicParticles : MonoBehaviour
     public float inputThreshold = 0.1f;
     
     public GameObject handParticles;
-    public ParticleSystem ps;
-
-    SwitchPower colorPower;
+    
+    //public ParticleSystem ps;
+    //SwitchPower colorPower;
     void Start()
     {
         handParticles.SetActive(false);
@@ -33,19 +33,19 @@ public class HandMagicParticles : MonoBehaviour
         {
             targetDevice = devices[0];
         }
-        ps = GetComponent<ParticleSystem>();
+        //ps = GetComponent<ParticleSystem>();
     }
 
     
     void Update()
     {
-        var main = ps.main;
+        //var main = ps.main;
         
         InputHelpers.IsPressed(InputDevices.GetDeviceAtXRNode(inputSource), inputButton, out bool isPressed, inputThreshold);
         if (isPressed)
         {
             handParticles.SetActive(true);
-            if (colorPower != null)
+            /*if (colorPower != null)
             {
                 if (colorPower.isIce == true)
                 {
@@ -70,7 +70,7 @@ public class HandMagicParticles : MonoBehaviour
                 {
                     main.startColor = new Color(0,0,0);
                 }
-            }
+            }*/
         }
         
         if (!isPressed)

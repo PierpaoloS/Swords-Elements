@@ -132,6 +132,7 @@ MonoBehaviour:
   inputButton: 2
   inputThreshold: 0.1
   handParticles: {fileID: 2563260472387079169}
+  ps: {fileID: 2563260472387079199}
 --- !u!1 &7642505716268071220
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,5 +620,10 @@ GameObject:
 --- !u!4 &2563260472387079198 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5743321238536867256, guid: 4d95e45c8eb1557448acf2a9f0fdbc96, type: 3}
+  m_PrefabInstance: {fileID: 7793171210549641638}
+  m_PrefabAsset: {fileID: 0}
+--- !u!198 &2563260472387079199 stripped
+ParticleSystem:
+  m_CorrespondingSourceObject: {fileID: 5743321238536867257, guid: 4d95e45c8eb1557448acf2a9f0fdbc96, type: 3}
   m_PrefabInstance: {fileID: 7793171210549641638}
   m_PrefabAsset: {fileID: 0}

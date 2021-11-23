@@ -3,15 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/MovmentRecognizer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Left Magic Hand .prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/MagicHand/Left Magic Hand .prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Scena3GraphicTest 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/HandMagicParticles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/HandMagicParticles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,13 +41,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/healthBarGolem.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateIce.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IceAltar.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/SwitchCircle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WindAltar.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.8/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ActivateIce.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/EarthAltar.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/IceAltar.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -169,6 +179,7 @@
       <workItem from="1637575199330" duration="13231000" />
       <workItem from="1637660878052" duration="2777000" />
       <workItem from="1637664153580" duration="3309000" />
+      <workItem from="1637667809982" duration="1283000" />
     </task>
     <servers />
   </component>
