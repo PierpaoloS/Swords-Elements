@@ -7,10 +7,14 @@ public class MenuManager : MonoBehaviour
 {
     public void PlayGame()
     {
-       SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+       SceneManager.LoadScene(3);
     }
     public void Practise()
-        {
-           SceneManager.LoadScene(2);
-        }
+    {
+        SceneManager.LoadScene(2);
+    }
+    public void Tutorial()
+    {
+        SceneManager.LoadScene(1);
+    }
 }
