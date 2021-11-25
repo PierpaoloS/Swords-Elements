@@ -10,12 +10,20 @@ public class EarthAltar : MonoBehaviour
     public float maxCharge;
     public float increasingCharge;
     public Portal portal;
+    public GameObject earthFlare;
+
+    private void Start()
+    {
+        earthFlare.SetActive(false);
+    }
+
     public void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "MagicCircle" && power.isEarth)
         {
             if(charge < maxCharge)
             {
+                earthFlare.SetActive(true);
                 charge += increasingCharge * Time.deltaTime;
                 Debug.Log("Siamo nel primo if, charge: "+charge);
                 
@@ -24,8 +32,14 @@ public class EarthAltar : MonoBehaviour
             {
                 Debug.Log("Attivazione Altare terra");
                 portal.isEarth = true;
+                earthFlare.SetActive(false);
             }
         }
         
+    }
+
+    public void OnTriggerExit(Collider other)
+    {
+        earthFlare.SetActive(false);
     }
 }

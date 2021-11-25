@@ -8,11 +8,12 @@ public class Portal : MonoBehaviour
     public bool isWind;
     public bool isIce;
     public bool isEarth;
+    public GameObject finalPortal;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        finalPortal.SetActive(false);
     }
 
     // Update is called once per frame
@@ -21,6 +22,7 @@ public class Portal : MonoBehaviour
         if (isFire && isEarth && isIce && isWind)
         {
             Debug.Log("Portale Attivato!");
+            finalPortal.SetActive(true);
         }
     }
 }

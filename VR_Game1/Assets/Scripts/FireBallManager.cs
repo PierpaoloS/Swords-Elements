@@ -20,9 +20,9 @@ public class FireBallManager : MonoBehaviour
     {
         if (other.gameObject.tag != "Player" && other.gameObject.tag != "MagicCircle" && other.gameObject.tag != "MainCamera" && other.gameObject.tag != "Sword")
         {
+            Destroy(fireBall);
             explosion.Play();
             Destroy(gameObject,1f);
-            Destroy(fireBall);
         }
     }
 }
