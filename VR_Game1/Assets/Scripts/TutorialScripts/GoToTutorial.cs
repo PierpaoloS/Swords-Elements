@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 public class GoToTutorial : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
-    { 
-        SceneManager.LoadScene(1);
+    {
+        if (other.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene(1);
+        }
     }
 }

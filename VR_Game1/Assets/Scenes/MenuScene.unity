@@ -5494,6 +5494,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Portal 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8587657322221195159, guid: 61a6285eb8db00247be12d23b454e4c8, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8587657322224273565, guid: 61a6285eb8db00247be12d23b454e4c8, type: 3}
       propertyPath: m_Range
       value: 7.338127

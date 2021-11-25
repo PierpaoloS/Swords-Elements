@@ -3349,7 +3349,7 @@ MonoBehaviour:
   currentHealth: 0
   healthBar: {fileID: 802842045}
   takedamageeffect: {fileID: 1067649339}
-  FireBall: {fileID: 2468664956209684978, guid: 8ea479a42b7a9f44ea0f289d123ef92b, type: 3}
+  FireBall: {fileID: 3894869046718803796, guid: 07935b9a9ee23924b87f7ed93ff6fc63, type: 3}
   damage: 10
   delayFireBall: 3
   wall: {fileID: 4455853852645887178, guid: 7b5520987bfa88547b3243977d09416d, type: 3}
@@ -3372,9 +3372,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5b2cb42874bf71e44a498648c20ec523, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartSprite: {fileID: 21300000, guid: 9a03a99bc70d7c943820fc4afa3ebb80, type: 3}
+  heartSprite: {fileID: 21300000, guid: ff93b87a94cdd6946958c3807df1d8dc, type: 3}
   fireSprite: {fileID: 21300000, guid: 3532aadf7ccd5bc41a210771d8af6645, type: 3}
-  windSprite: {fileID: 21300000, guid: cf8d99c22ce977b419b941b827ddc7af, type: 3}
+  windSprite: {fileID: 21300000, guid: 9953841e623661b4b8056c6c7d591b25, type: 3}
   iceSprite: {fileID: 21300000, guid: 9149232d24e6a264ea7c849d0d281549, type: 3}
   leftHand: {fileID: 1526025428}
   power: {fileID: 426414255}
@@ -5425,7 +5425,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: cf8d99c22ce977b419b941b827ddc7af, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9953841e623661b4b8056c6c7d591b25, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -5977,7 +5977,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9a03a99bc70d7c943820fc4afa3ebb80, type: 3}
+  m_Sprite: {fileID: 21300000, guid: ff93b87a94cdd6946958c3807df1d8dc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0

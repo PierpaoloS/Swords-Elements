@@ -7,6 +7,9 @@ public class GoToGame : MonoBehaviour
 {
     private void OnTriggerEnter(Collider other)
     { 
-        SceneManager.LoadScene(3);
+        if (other.gameObject.tag == "Player")
+        {
+            SceneManager.LoadScene(3);
+        }
     }
 }
