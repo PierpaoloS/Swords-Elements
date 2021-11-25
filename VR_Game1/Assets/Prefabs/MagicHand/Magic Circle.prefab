@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8352827375519774463}
   - component: {fileID: 409418591040036489}
   - component: {fileID: 6658463627371251909}
+  - component: {fileID: 3424038686164091147}
   m_Layer: 0
   m_Name: Magic Circle
   m_TagString: MagicCircle
@@ -26,13 +27,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1837311276699033869}
-  m_LocalRotation: {x: 0.7048385, y: 0.056592345, z: 0.056592345, w: 0.7048385}
+  m_LocalRotation: {x: 0.6837938, y: -0.18007258, z: -0.18007258, w: 0.6837938}
   m_LocalPosition: {x: -0.0032, y: -0.034300014, z: 0.0303}
   m_LocalScale: {x: 3.6900115, y: 3.6900115, z: 3.6900127}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 99.181, y: -90, z: -90}
+  m_LocalEulerAnglesHint: {x: 60.493, y: -90, z: -90}
 --- !u!212 &8352827375519774463
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -116,3 +117,24 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.398012, y: 5.8062396, z: 0.2000028}
   m_Center: {x: 0.1973569, y: -0.22004928, z: -0.000000032192}
+--- !u!114 &3424038686164091147
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837311276699033869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab65db61b0cbd7f4bb2afcba7e37d8ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  beamLineRendererPrefab: {fileID: 168570, guid: dde30d1733e55b941ada7e3a234bb74c, type: 3}
+  beamStartPrefab: {fileID: 134198, guid: 0b1a09f32ca9ca84b8ffecba7c9410b3, type: 3}
+  beamEndPrefab: {fileID: 113256, guid: 01b32c1e97b390f4b82f26b2d4a847ee, type: 3}
+  alwaysOn: 0
+  beamCollides: 1
+  beamLength: 100
+  beamEndOffset: 1
+  textureScrollSpeed: 30
+  textureLengthScale: 1

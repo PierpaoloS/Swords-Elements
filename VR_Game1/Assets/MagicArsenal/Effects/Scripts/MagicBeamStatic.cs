@@ -24,7 +24,7 @@ public class MagicBeamStatic : MonoBehaviour
     public float beamLength = 100; //Ingame beam length
     public float beamEndOffset = 0f; //How far from the raycast hit point the end effect is positioned
     public float textureScrollSpeed = 0f; //How fast the texture scrolls along the beam, can be negative or positive.
-    public float textureLengthScale = 3f;   //Set this to the horizontal length of your texture relative to the vertical. 
+    public float textureLengthScale = 1f;   //Set this to the horizontal length of your texture relative to the vertical. 
                                             //Example: if texture is 200 pixels in height and 600 in length, set this to 3
 
     void Start()
@@ -77,6 +77,9 @@ public class MagicBeamStatic : MonoBehaviour
 
     public void SpawnBeam() //This function spawns the prefab with linerenderer
     {
+        //beamStartPrefab.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+        //beamEndPrefab.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+        //beamLineRendererPrefab.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
         if (beamLineRendererPrefab)
         {
             if (beamStartPrefab)

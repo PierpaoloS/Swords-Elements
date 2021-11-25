@@ -6317,7 +6317,7 @@ MonoBehaviour:
   tornadoSpawnDistance: 7
   IceBall: {fileID: 2468664956209684978, guid: 3a2bccb496dbaf84b917deade6609bc7, type: 3}
   damageIce: 10
-  delayIceBall: 0
+  delayIceBall: 3
   iceSpawnDistance: 2
 --- !u!114 &426414254
 MonoBehaviour:

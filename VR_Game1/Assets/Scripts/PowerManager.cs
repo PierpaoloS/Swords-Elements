@@ -12,8 +12,7 @@ public class PowerManager : MonoBehaviour
     public GameObject leftHand;
     public GameObject player;
     public SwitchPower power;
-    public MagicBeamStatic beam;
-    
+
     //Player's variables
     public int maxHealth = 100;
     public int currentHealth;
@@ -137,8 +136,6 @@ public class PowerManager : MonoBehaviour
     private void ShootIce()
     {
         GameObject circle = GameObject.FindWithTag("MagicCircle");
-        MagicBeamStatic beam = circle.GetComponent<MagicBeamStatic>();
-        beam.SpawnBeam();
         isIceBallShooted = true;
         Invoke("ResetIceBallCount", delayIceBall);
         /*float angleStep = 10f;
@@ -221,6 +218,7 @@ public class PowerManager : MonoBehaviour
     }
     private void ResetIceBallCount()
     {
+        
         isIceBallShooted = false;
     }
 
