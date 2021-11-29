@@ -12,6 +12,7 @@ public class IceAltar : MonoBehaviour
     public float increasingCharge;
     public Portal portal;
     public GameObject iceFlare;
+    public GenerateEnemies generateEnemies;
     
     private void Start()
     {
@@ -26,12 +27,13 @@ public class IceAltar : MonoBehaviour
                 iceFlare.SetActive(true);
                 charge += increasingCharge * Time.deltaTime;
                 Debug.Log("Siamo nel primo if, charge: "+charge);
-                
+
             }
             else if(charge >= maxCharge)
             {
                 Debug.Log("Attivazione altare ghiaccio");
                 portal.isIce = true;
+                generateEnemies.altarCounter += 1;
                 iceFlare.SetActive(false);
             }
         }

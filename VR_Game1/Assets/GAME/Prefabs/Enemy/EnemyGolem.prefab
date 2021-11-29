@@ -113,6 +113,7 @@ MonoBehaviour:
   health: 500
   currentHealth: 0
   isEnemyHitted: 0
+  generateEnemies: {fileID: 2152052649409639801, guid: 43f4cc129060457468011228a0bc74de, type: 3}
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointSet: 0
   walkPointRange: 0.1
@@ -283,7 +284,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   spawnPoint: {fileID: 7029567826122469178}
   rock: {fileID: 5298590762127773683, guid: cad9f745870d9f448bf225d2a253d382, type: 3}
-  enemyAIGolem: {fileID: 5044641131394011669}
   golem: {fileID: 1026207588369048596}
   isHoldingRock: 0
   explosionParticles: {fileID: 0}

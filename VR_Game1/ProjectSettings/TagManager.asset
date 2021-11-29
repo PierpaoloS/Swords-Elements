@@ -12,6 +12,7 @@ TagManager:
   - RockPoint
   - Insect
   - InsectAttackPoint
+  - Ground
   layers:
   - Default
   - TransparentFX

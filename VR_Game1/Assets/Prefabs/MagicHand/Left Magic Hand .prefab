@@ -105,7 +105,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3233682034972244008}
-  m_LocalRotation: {x: -0, y: -0, z: 0.23949999, w: 0.9708964}
+  m_LocalRotation: {x: -0.16984132, y: -0.12444529, z: 0.52783585, w: 0.82283455}
   m_LocalPosition: {x: 0.00251843, y: -0.045, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -115,7 +115,7 @@ Transform:
   - {fileID: 2563260472387079198}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 27.714}
+  m_LocalEulerAnglesHint: {x: -8.519, y: -22.854, z: 67.084}
 --- !u!114 &2581017896752588568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,35 +226,35 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.50634
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.3009
+      value: 2.25
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 3.3704143
+      value: 3.37
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.65584296
+      value: 0.62189305
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.6558429
+      value: 0.6218929
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.2643296
+      value: 0.33652505
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.26432964
+      value: 0.33652505
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 99.181
+      value: 146.838
       objectReference: {fileID: 0}
     - target: {fileID: 397254532034658616, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -393,19 +393,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.9544442
+      value: 0.9564818
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.000000014901159
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.0000000074505797
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.29838952
+      value: -0.29179212
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -417,7 +417,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -34.722
+      value: -33.931
       objectReference: {fileID: 0}
     - target: {fileID: -8617856501877048174, guid: 75c4f5133150fff468dc3f60cfbb9868, type: 3}
       propertyPath: m_Materials.Array.data[0]

@@ -11,6 +11,7 @@ public class FireAltar : MonoBehaviour
     public float increasingCharge;
     public Portal portal;
     public GameObject fireFlare;
+    public GenerateEnemies generateEnemies;
     
     private void Start()
     {
@@ -32,6 +33,7 @@ public class FireAltar : MonoBehaviour
             {
                 Debug.Log("Attivazione altare fuoco");
                 portal.isFire = true;
+                generateEnemies.altarCounter += 1;
                 fireFlare.SetActive(false);
             }
         }

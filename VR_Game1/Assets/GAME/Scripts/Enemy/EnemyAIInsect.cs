@@ -16,6 +16,7 @@ public class EnemyAIInsect : MonoBehaviour
     public float currentHealth;
     public bool isEnemyHitted = false;
     private Animator animator;
+    public GenerateEnemies generateEnemies;
     
     //healthbar
     public event Action<float> OnHealthPctChanged = delegate{  }; 
@@ -39,6 +40,7 @@ public class EnemyAIInsect : MonoBehaviour
     private void Awake()
     {
         player = GameObject.Find("Player").transform;
+        ground = GameObject.Find("Ground");
         agent = GetComponent<NavMeshAgent>();
         currentHealth = health;
         animator = GetComponentInChildren<Animator>();
@@ -151,6 +153,7 @@ public class EnemyAIInsect : MonoBehaviour
     private void DestroyEnemy()
     {
         animator.SetTrigger("Die");
+        generateEnemies.insectCount -= 1;
         Destroy(gameObject, 1.5f);
         Destroy(this);
         print("Enemy Distrutta");
