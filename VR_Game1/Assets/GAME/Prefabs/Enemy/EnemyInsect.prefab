@@ -82,6 +82,7 @@ MonoBehaviour:
   health: 100
   currentHealth: 0
   isEnemyHitted: 0
+  generateEnemies: {fileID: 2152052649409639801, guid: 43f4cc129060457468011228a0bc74de, type: 3}
   walkPoint: {x: 0, y: 0, z: 0}
   walkPointSet: 0
   walkPointRange: 0
@@ -107,7 +108,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 4
+  m_Constraints: 0
   m_CollisionDetection: 0
 --- !u!136 &8068645710853762553
 CapsuleCollider:

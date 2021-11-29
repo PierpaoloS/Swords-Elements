@@ -11,6 +11,7 @@ public class EarthAltar : MonoBehaviour
     public float increasingCharge;
     public Portal portal;
     public GameObject earthFlare;
+    public GenerateEnemies generateEnemies;
 
     private void Start()
     {
@@ -32,6 +33,7 @@ public class EarthAltar : MonoBehaviour
             {
                 Debug.Log("Attivazione Altare terra");
                 portal.isEarth = true;
+                generateEnemies.altarCounter += 1;
                 earthFlare.SetActive(false);
             }
         }

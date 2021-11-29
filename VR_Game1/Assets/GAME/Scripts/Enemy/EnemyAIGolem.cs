@@ -16,6 +16,7 @@ public class EnemyAIGolem : MonoBehaviour
     public float currentHealth;
     public bool isEnemyHitted = false;
     private Animator animator;
+    public GenerateEnemies generateEnemies;
     
     //healthbar
     public event Action<float> OnHealthPctChanged = delegate{  }; 
@@ -39,6 +40,7 @@ public class EnemyAIGolem : MonoBehaviour
     {
         animator = GetComponentInChildren<Animator>();
         player = GameObject.Find("Player").transform;
+        ground = GameObject.Find("Ground");
         agent = GetComponent<NavMeshAgent>();
         currentHealth = health;
     }
@@ -152,6 +154,7 @@ public class EnemyAIGolem : MonoBehaviour
     public void DestroyEnemy()
     {
         animator.SetTrigger("Die");
+        generateEnemies.golemCount -= 1;
         Destroy(this);
         print("Enemy Distrutta");
 
