@@ -1,102 +1,99 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.16f1 (049d6eca3c44) revision 302446'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16196 MB
+OS: 'Windows 10 Pro; OS build 19043.1348; Version 2009; 64bit' Language: 'it' Physical Memory: 12254 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-D:\Unity\Unity Hub\2020.3.16f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.16f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-D:/Unity_Projects/Swords-Elements/VR_Game1
+C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55501
-Successfully changed project path to: D:/Unity_Projects/Swords-Elements/VR_Game1
-D:/Unity_Projects/Swords-Elements/VR_Game1
+51427
+Successfully changed project path to: C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
+C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 71.34 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 1.94 ms.
+Refreshing native plugins compatible for Editor in 176.28 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 4.43 ms.
 Initialize engine version: 2020.3.16f1 (049d6eca3c44)
-[Subsystems] Discovering subsystems at path D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/Unity_Projects/Swords-Elements/VR_Game1/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/amministratore/Desktop/Swords&Elements/Swords-Elements/VR_Game1/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2060 (ID=0x1f11)
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
     Vendor:   
-    VRAM:     5980 MB
-    Driver:   30.0.14.9676
+    VRAM:     2007 MB
+    Driver:   30.0.14.7196
 Initialize mono
-Mono path[0] = 'D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56276
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Register platform support module: D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
-Register platform support module: D:/Unity/Unity Hub/2020.3.16f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.002595 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.16f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.009516 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 60.66 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.12 ms.
+Refreshing native plugins compatible for Editor in 157.06 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.36 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.297 seconds
+- Completed reload, in  5.204 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2297ms)
-		BeginReloadAssembly (69ms)
+	ReloadAssembly (5205ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (493ms)
-			LoadAssemblies (68ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1046ms)
+			LoadAssemblies (131ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (147ms)
+			SetupTypeCache (374ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (31ms)
-			SetupLoadedEditorAssemblies (183ms)
+			RebuildScriptCaches (72ms)
+			SetupLoadedEditorAssemblies (428ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (61ms)
-				BeforeProcessingInitializeOnLoad (12ms)
-				ProcessInitializeOnLoadAttributes (77ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (158ms)
+				BeforeProcessingInitializeOnLoad (30ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006331 seconds.
+Registered in 0.023779 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 68.88 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.14 ms.
+Refreshing native plugins compatible for Editor in 146.91 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.31 ms.
 [XR] OculusXRPlugin: registering subsystems
 [XR] Unable to register display lifecyle provider: [1]
 [XR] Oculus Input lifecycle provider registered.
 [XR] Unable to register input lifecyle provider: [1]
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
-  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in D:\Unity_Projects\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
-  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in D:\Unity_Projects\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
   at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
   at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
    --- End of inner exception stack trace ---
@@ -110,45 +107,45 @@ UnityEngine.Debug:LogError (object)
 UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
 
 Mono: successfully reloaded assembly
-- Completed reload, in  1.349 seconds
+- Completed reload, in  3.216 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1350ms)
-		BeginReloadAssembly (145ms)
+	ReloadAssembly (3218ms)
+		BeginReloadAssembly (326ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (12ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (1146ms)
-			LoadAssemblies (98ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (2719ms)
+			LoadAssemblies (216ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
+			SetupTypeCache (784ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (52ms)
-			SetupLoadedEditorAssemblies (568ms)
+			RebuildScriptCaches (115ms)
+			SetupLoadedEditorAssemblies (1308ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (389ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				RefreshPlugins (147ms)
+				BeforeProcessingInitializeOnLoad (189ms)
+				ProcessInitializeOnLoadAttributes (908ms)
+				ProcessInitializeOnLoadMethodAttributes (30ms)
+				AfterProcessingInitializeOnLoad (18ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.79 ms, found 11 plugins.
-Preloading 2 native plugins for Editor in 0.11 ms.
-Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 172.3 MB.
-System memory in use after: 172.3 MB.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.29 ms.
+Unloading 2205 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 184.1 MB.
+System memory in use after: 184.2 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2663.
-Total: 3.503900 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.095300 ms MarkObjects: 3.080500 ms  DeleteObjects: 0.073600 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 2675.
+Total: 8.736200 ms (FindLiveObjects: 2.153500 ms CreateObjectMapping: 1.012600 ms MarkObjects: 5.467200 ms  DeleteObjects: 0.101100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -157,519 +154,226 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/GAME/Prefabs/Enemy/Insects/Animators/Polygonal Metalon.controller
-  artifactKey: Guid(e761ace889a78a946967af8d6890f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/GAME/Prefabs/Enemy/Insects/Animators/Polygonal Metalon.controller using Guid(e761ace889a78a946967af8d6890f71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaa8075593333b54e5360012562f5d4') in 0.112035 seconds 
-  Import took 0.117501 seconds .
+  path: Assets/MENU
+  artifactKey: Guid(ace941ad336aece48b578fef67768bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MENU using Guid(ace941ad336aece48b578fef67768bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c034a36ecd5205cde8270db15c62bd9d') in 0.020958 seconds 
+  Import took 0.031434 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 955.733614 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f70a591d5417dfce3bf165e8abea46df') in 0.325465 seconds 
-  Import took 0.329797 seconds .
+  Time since last request: 6.355845 seconds.
+  path: Assets/MENU/Prefabs
+  artifactKey: Guid(450034b7e9aceaa4b8d7196b8585f12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MENU/Prefabs using Guid(450034b7e9aceaa4b8d7196b8585f12a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '560d3db2d084b95cae3c88bf6503f6f1') in 0.007928 seconds 
+  Import took 0.027950 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.547370 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78844d7f85c586e421ca384e57c2a1f8') in 0.047309 seconds 
-  Import took 0.072650 seconds .
+  Time since last request: 1.351402 seconds.
+  path: Assets/MENU/Prefabs/Buttons
+  artifactKey: Guid(0ac87179f7abc2d4a85ba84ccddabbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MENU/Prefabs/Buttons using Guid(0ac87179f7abc2d4a85ba84ccddabbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aea2ecd45244b2770b6ff18c71a29d') in 0.018944 seconds 
+  Import took 0.026455 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.653192 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e075e5000147dd403db3eec7d0cdb270') in 0.039995 seconds 
-  Import took 0.043923 seconds .
+  Time since last request: 0.002743 seconds.
+  path: Assets/MENU/Prefabs/Buttons
+  artifactKey: Guid(0ac87179f7abc2d4a85ba84ccddabbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MENU/Prefabs/Buttons using Guid(0ac87179f7abc2d4a85ba84ccddabbda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7aea2ecd45244b2770b6ff18c71a29d') in 0.003675 seconds 
+  Import took 0.009829 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.352956 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b447a00b71b0e9d498f4160cc0972746') in 0.035874 seconds 
-  Import took 0.065433 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.749512 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f6bf39bf5d8e27420d6e208e842ebb') in 0.034996 seconds 
-  Import took 0.040068 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.936021 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62bcf995016b2cdb6c36387f8e30f71e') in 0.035432 seconds 
-  Import took 0.039419 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.851244 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed5db085587fba967864fa79631f8e46') in 0.039411 seconds 
-  Import took 0.043382 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.380469 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2d65650084dc62a6808e7806a040ac') in 0.042372 seconds 
-  Import took 0.046855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.852724 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8a3ec289176fac1ab4659dd009c2a5') in 0.036642 seconds 
-  Import took 0.041379 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.364914 seconds.
-  path: Assets/Prefabs/MagicHand/Left Magic Hand .prefab
-  artifactKey: Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Left Magic Hand .prefab using Guid(2deafac2f0a7aaf489dd44c110ba1e14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee3aaaabb35e3958871b4f5b880cac9d') in 0.042471 seconds 
-  Import took 0.047988 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 259.263035 seconds.
-  path: Assets/Prefabs/MagicHand/Sword
-  artifactKey: Guid(556f6dd7ebc87174cbd906296f60cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Sword using Guid(556f6dd7ebc87174cbd906296f60cdb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c692dd8724cead3dda4617e434d88e59') in 6.242497 seconds 
-  Import took 6.247225 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.050937 seconds.
-  path: Assets/Prefabs/MagicHand/Sword/flat_diffuse.jpg
-  artifactKey: Guid(2fe247946b765f14687a949fb0c36cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Sword/flat_diffuse.jpg using Guid(2fe247946b765f14687a949fb0c36cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f6a75a72c6fe8bba959b5bcde17266') in 0.173978 seconds 
-  Import took 0.177510 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Prefabs/MagicHand/Sword/Sword Colored.prefab
-  artifactKey: Guid(8e5100d6286ce034ab36ef4a0198b6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Sword/Sword Colored.prefab using Guid(8e5100d6286ce034ab36ef4a0198b6a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fedb2be50cd5392266edb645c7f141b') in 0.071013 seconds 
-  Import took 0.074963 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/Prefabs/MagicHand/Sword/swordWithHand.prefab
-  artifactKey: Guid(bfc279f9f5c6ead4d9a3cfbc8c55d31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Sword/swordWithHand.prefab using Guid(bfc279f9f5c6ead4d9a3cfbc8c55d31f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f57ca41d7bbb5c7c07a19d3aa14b0f4') in 0.554153 seconds 
-  Import took 0.559030 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Prefabs/MagicHand/Sword/mesh.fbx
-  artifactKey: Guid(3de1076e98cc0a14a9dfde3402f9ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/MagicHand/Sword/mesh.fbx using Guid(3de1076e98cc0a14a9dfde3402f9ceeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66623ed2528f58d6534bdfc0f84682c8') in 0.188800 seconds 
-  Import took 0.192409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 35.694859 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models
-  artifactKey: Guid(d0df15e66f37ab9489d12810d55ba11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models using Guid(d0df15e66f37ab9489d12810d55ba11e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d8c46908d91152bd00a2a88261a2d6e') in 0.016687 seconds 
-  Import took 0.020415 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.072375 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/aura_inward.FBX
-  artifactKey: Guid(537b947558f551449a20c6aaff89328b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/aura_inward.FBX using Guid(537b947558f551449a20c6aaff89328b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87b9fa5180a07df09fcd0e9a422a7d53') in 0.184435 seconds 
-  Import took 0.188074 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000247 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/mp_plane.FBX
-  artifactKey: Guid(cffd22707eee67548aae595eca29342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/mp_plane.FBX using Guid(cffd22707eee67548aae595eca29342b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd01e0d630ebcc9ae8b018687b59ad2') in 0.101972 seconds 
-  Import took 0.105550 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/mp_shield.FBX
-  artifactKey: Guid(1aa60d6d8e1bb1445b0486ffb8b130fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/mp_shield.FBX using Guid(1aa60d6d8e1bb1445b0486ffb8b130fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324b6733e295977e66e1bf186737a8f5') in 0.042016 seconds 
-  Import took 0.045501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/aura_vertical.FBX
-  artifactKey: Guid(63e268ec7a4af7f4aac8ab9e593ef76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/aura_vertical.FBX using Guid(63e268ec7a4af7f4aac8ab9e593ef76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12ae1fcfc567dafc26b2c77104774bc') in 0.098457 seconds 
-  Import took 0.102101 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/mp_tallrock.FBX
-  artifactKey: Guid(ab695d0ee7e3b254cbf45440aa806481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/mp_tallrock.FBX using Guid(ab695d0ee7e3b254cbf45440aa806481) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c939ea59dc2d4f1c424a021756e1c6c') in 0.083797 seconds 
-  Import took 0.086978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/rock_shield.FBX
-  artifactKey: Guid(971b43b4a28bd724cb3388d10cab7a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/rock_shield.FBX using Guid(971b43b4a28bd724cb3388d10cab7a5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b491bb544cc8006a78263143d05bf114') in 0.049674 seconds 
-  Import took 0.052881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.475824 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/Materials
-  artifactKey: Guid(cadb72a798db0364190eec25e7226622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/Materials using Guid(cadb72a798db0364190eec25e7226622) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce07daed1a42aac492e5006f69ae7e9') in 0.015124 seconds 
-  Import took 0.018575 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.036691 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/Materials/MagicProjectiles.mat
-  artifactKey: Guid(3c2166e448126a545b5140cccbd33266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/Materials/MagicProjectiles.mat using Guid(3c2166e448126a545b5140cccbd33266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09e311c28d9ab3d7d9b9253693b2617') in 0.078090 seconds 
-  Import took 0.082439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/Materials/verticalglow02.mat
-  artifactKey: Guid(0309b321872611d49911c38c9ccfe10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/Materials/verticalglow02.mat using Guid(0309b321872611d49911c38c9ccfe10b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d39833df503254f20acb98358a230d') in 0.035660 seconds 
-  Import took 0.038920 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000308 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/Materials/Material #28.mat
-  artifactKey: Guid(4b25ddfbcd0514943a5516528f118c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/Materials/Material #28.mat using Guid(4b25ddfbcd0514943a5516528f118c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aeb026f161ad9ae5f580e5820da8c6') in 0.028648 seconds 
-  Import took 0.031970 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/Materials/No Name.mat
-  artifactKey: Guid(1638da9598b15474e8180e1e2803e8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/Materials/No Name.mat using Guid(1638da9598b15474e8180e1e2803e8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fccf94bfe32ae0644590748f8b1d0483') in 0.032167 seconds 
-  Import took 0.035368 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000295 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/Materials/Material #28.mat
-  artifactKey: Guid(4b25ddfbcd0514943a5516528f118c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/Materials/Material #28.mat using Guid(4b25ddfbcd0514943a5516528f118c55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aeb026f161ad9ae5f580e5820da8c6') in 0.024469 seconds 
-  Import took 0.027564 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000379 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Models/Materials/sphereshield.mat
-  artifactKey: Guid(30e75d99015403841af27d1d015af2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Models/Materials/sphereshield.mat using Guid(30e75d99015403841af27d1d015af2c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a813f47b6b040c12e26b668cff61886a') in 0.028471 seconds 
-  Import took 0.032205 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.465070 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast
-  artifactKey: Guid(6da44cdcb8c58e940a111ee60c5eb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast using Guid(6da44cdcb8c58e940a111ee60c5eb72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee86cdcd0f144f3043b4738576f9231') in 0.017152 seconds 
-  Import took 0.020684 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084125 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/EarthPillarBlast.prefab
-  artifactKey: Guid(5d0c6afdcfb9c8440840b5b6f53792a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/EarthPillarBlast.prefab using Guid(5d0c6afdcfb9c8440840b5b6f53792a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745152acf9a3c6d531cb8bd6a0a29806') in 0.448139 seconds 
-  Import took 0.467310 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000288 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/LightPillarBlast.prefab
-  artifactKey: Guid(557a7e3cafb257e4186fb8129433a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/LightPillarBlast.prefab using Guid(557a7e3cafb257e4186fb8129433a303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c73d6136d7168a184b1b071395f5ded') in 0.119272 seconds 
-  Import took 0.122884 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/ShadowPillarBlast.prefab
-  artifactKey: Guid(1ededa2e5f5650d48978cca088b4e47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/ShadowPillarBlast.prefab using Guid(1ededa2e5f5650d48978cca088b4e47b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a794911bc206abc861913ba8e67f31a7') in 0.108837 seconds 
-  Import took 0.112451 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/WaterPillarBlast.prefab
-  artifactKey: Guid(08024a0f969f6a04ebcd83afbfde2200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/WaterPillarBlast.prefab using Guid(08024a0f969f6a04ebcd83afbfde2200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a2d13d00a1d29a8cfe2ca1b73d3f4e') in 0.296830 seconds 
-  Import took 0.301793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/StormPillarBlast.prefab
-  artifactKey: Guid(5741fc0e8c2edfd4c8bd5b2b540f65d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/StormPillarBlast.prefab using Guid(5741fc0e8c2edfd4c8bd5b2b540f65d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a9751a7a03b28a6056a9c4ab64b666e') in 0.132993 seconds 
-  Import took 0.137886 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/LifePillarBlast.prefab
-  artifactKey: Guid(01455581ef3749d4b98d8ddabe5d3005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/LifePillarBlast.prefab using Guid(01455581ef3749d4b98d8ddabe5d3005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f18e95aa82261b19fefe9587291409') in 0.117124 seconds 
-  Import took 0.121262 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/LightningPillarBlast.prefab
-  artifactKey: Guid(645eae06276896e4887a669cbc08cb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Pillar Blast/LightningPillarBlast.prefab using Guid(645eae06276896e4887a669cbc08cb22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ccba1136de7103ce8f7f8f7a4485f04') in 0.163661 seconds 
-  Import took 0.167453 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.488363 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Slash
-  artifactKey: Guid(cdccb7d2f75bec3498722d6f30ffdf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Slash using Guid(cdccb7d2f75bec3498722d6f30ffdf57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c08d31f6df0b0589ff3e82481ab874b6') in 0.015202 seconds 
-  Import took 0.018708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.004310 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Slash Hit
-  artifactKey: Guid(596f3b191f347184e92aa6c7330a5214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Slash Hit using Guid(596f3b191f347184e92aa6c7330a5214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5661f030013cd6f96793bc28bc6fe7') in 0.017043 seconds 
-  Import took 0.020687 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.443711 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/SphereBlast
-  artifactKey: Guid(22bf2d51b7f79b646a0b6542f8500459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/SphereBlast using Guid(22bf2d51b7f79b646a0b6542f8500459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9156f4537bcdd482c9f4a4a2e55cdf98') in 0.015620 seconds 
-  Import took 0.019448 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.831870 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls
-  artifactKey: Guid(60294b195a5521d4e8f7e48a362b1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls using Guid(60294b195a5521d4e8f7e48a362b1a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acdf0910c124221371418a1a9ba0459b') in 0.015980 seconds 
-  Import took 0.019649 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.750618 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall
-  artifactKey: Guid(00c99301a8796d74cb3b02c281d6f7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall using Guid(00c99301a8796d74cb3b02c281d6f7e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4adbb563d89a0cd5124fcae89a8be124') in 0.015750 seconds 
-  Import took 0.019639 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.080724 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/EarthWall.prefab
-  artifactKey: Guid(c2016b8d617f56b45a8d70d0ab9c5480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/EarthWall.prefab using Guid(c2016b8d617f56b45a8d70d0ab9c5480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481755a097ace507d12953624a48980f') in 0.221969 seconds 
-  Import took 0.225632 seconds .
+  Time since last request: 0.065602 seconds.
+  path: Assets/MENU/Prefabs/Buttons/play.png
+  artifactKey: Guid(2538ff09c8c22b34b88ece19bd6e99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MENU/Prefabs/Buttons/play.png using Guid(2538ff09c8c22b34b88ece19bd6e99e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e847268bc5528ef77a88542b1740df01') in 0.279443 seconds 
+  Import took 0.290204 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000337 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/LightningWall.prefab
-  artifactKey: Guid(5c70db7b703330a47a207b71ec26a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/LightningWall.prefab using Guid(5c70db7b703330a47a207b71ec26a326) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8a2bb40adabfb85f70f597ca0cb257') in 0.066788 seconds 
-  Import took 0.070969 seconds .
+  path: Assets/MENU/Prefabs/Buttons/practise.png
+  artifactKey: Guid(98fe78eede448ec4c824488f5c39be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MENU/Prefabs/Buttons/practise.png using Guid(98fe78eede448ec4c824488f5c39be2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f03115725660c923abdf9830bf2b41') in 0.068908 seconds 
+  Import took 0.074426 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/LightWall.prefab
-  artifactKey: Guid(cdc52f261c0a7824e8b42a627c2a2913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/LightWall.prefab using Guid(cdc52f261c0a7824e8b42a627c2a2913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8b535d643e6ead5d7c0d2a7d736090') in 0.079043 seconds 
-  Import took 0.082581 seconds .
+  Time since last request: 0.000312 seconds.
+  path: Assets/MENU/Prefabs/Buttons/tutorial.png
+  artifactKey: Guid(3890ce32cce917e4abd3a326ed4988b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MENU/Prefabs/Buttons/tutorial.png using Guid(3890ce32cce917e4abd3a326ed4988b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fe06cf896caea5473478d00dea5bb6') in 0.056973 seconds 
+  Import took 0.062948 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/ShadowWall.prefab
-  artifactKey: Guid(d0daaa4a3fb692642841be644301c177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/ShadowWall.prefab using Guid(d0daaa4a3fb692642841be644301c177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8576ee269e796e7d4ab15d310caf35ff') in 0.096615 seconds 
-  Import took 0.100491 seconds .
+  Time since last request: 17.067956 seconds.
+  path: Assets/MENU 1
+  artifactKey: Guid(d330f5d8dfb20054f9854a93ea9915e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MENU 1 using Guid(d330f5d8dfb20054f9854a93ea9915e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba259c371491c4cd7022e48d2ed8f621') in 0.015969 seconds 
+  Import took 0.031130 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/StormWall.prefab
-  artifactKey: Guid(a1e821dea7f64684ab9b3f83417330be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/StormWall.prefab using Guid(a1e821dea7f64684ab9b3f83417330be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a5657ea700dd5e8023bd753a4cd36a') in 0.126394 seconds 
-  Import took 0.140670 seconds .
+  Time since last request: 12.586178 seconds.
+  path: Assets/VICTORY
+  artifactKey: Guid(d330f5d8dfb20054f9854a93ea9915e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY using Guid(d330f5d8dfb20054f9854a93ea9915e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2f01bd9a75b1c57f6cfaaf895a2e6d') in 0.026199 seconds 
+  Import took 0.040595 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/WaterWall.prefab
-  artifactKey: Guid(a7897177907ccd34a9674de2fe95d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/WaterWall.prefab using Guid(a7897177907ccd34a9674de2fe95d1ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43f3137956e88928e9dfae5a3d99ce0') in 0.037094 seconds 
-  Import took 0.040445 seconds .
+  Time since last request: 21.787239 seconds.
+  path: Assets/VICTORY/Scripts
+  artifactKey: Guid(9d9216dbb86ef6247856ad77069c497d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY/Scripts using Guid(9d9216dbb86ef6247856ad77069c497d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5ca1aaa984dc60d86e4ea81689263f8') in 0.015581 seconds 
+  Import took 0.022068 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/LifeWall.prefab
-  artifactKey: Guid(9c0a783a7ad1dc945a8cfb9a36539226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/LifeWall.prefab using Guid(9c0a783a7ad1dc945a8cfb9a36539226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c92a7a84404401040c3c6254374eb11') in 0.082332 seconds 
-  Import took 0.086521 seconds .
+  Time since last request: 1.033448 seconds.
+  path: Assets/VICTORY/Scripts/Menu
+  artifactKey: Guid(7e5abdeadd962f945888b68dfa415dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY/Scripts/Menu using Guid(7e5abdeadd962f945888b68dfa415dd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ddcdd77508ec7c6a6625745c3271e5') in 0.019272 seconds 
+  Import took 0.030625 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 83.307390 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Materials/Modular/smallglow01(Modular).mat
-  artifactKey: Guid(bafdb712bebb28d40988e5644ed9bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Materials/Modular/smallglow01(Modular).mat using Guid(bafdb712bebb28d40988e5644ed9bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9fb78c2149d1e3277b1ddcfa03615a') in 0.042482 seconds 
-  Import took 0.047680 seconds .
+  Time since last request: 1.444641 seconds.
+  path: Assets/VICTORY/Scripts/Menu/TransformManager.cs
+  artifactKey: Guid(a4a2c1a17d1510343982a02dcdbf1879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY/Scripts/Menu/TransformManager.cs using Guid(a4a2c1a17d1510343982a02dcdbf1879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a23b19d9fe38f47bbfde3e03557a85') in 0.025831 seconds 
+  Import took 0.033559 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006144 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Materials/Modular/smallglow01(Modular).mat
-  artifactKey: Guid(bafdb712bebb28d40988e5644ed9bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Materials/Modular/smallglow01(Modular).mat using Guid(bafdb712bebb28d40988e5644ed9bf5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d9fb78c2149d1e3277b1ddcfa03615a') in 0.025268 seconds 
-  Import took 0.031278 seconds .
+  Time since last request: 0.901545 seconds.
+  path: Assets/VICTORY/Scripts/Menu/MenuManager.cs
+  artifactKey: Guid(980189778e85fe84fbb3fa4c670e9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY/Scripts/Menu/MenuManager.cs using Guid(980189778e85fe84fbb3fa4c670e9b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b77601be027c66228e2fd2a2526e1cb') in 0.014060 seconds 
+  Import took 0.021671 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028966 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.60 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 0.25 ms.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00048] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:249 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\amministratore\Desktop\Swords&Elements\Swords-Elements\VR_Game1\Library\PackageCache\com.unity.xr.oculus@1.9.1\Runtime\OculusLoader.cs:234 
+  at (wrapper managed-to-native) System.Reflection.MonoMethod.InternalInvoke(System.Reflection.MonoMethod,object,object[],System.Exception&)
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00032] in <695d1cc93cca45069c528c15c9fdd749>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.MonoMethod.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00048] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <695d1cc93cca45069c528c15c9fdd749>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x00047] in <ef3b6bf002d8435a97b4e938f6c49b02>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.199 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3200ms)
+		BeginReloadAssembly (294ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (82ms)
+		EndReloadAssembly (2685ms)
+			LoadAssemblies (229ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (861ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (92ms)
+			SetupLoadedEditorAssemblies (1029ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (206ms)
+				ProcessInitializeOnLoadAttributes (760ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (18ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 21.39 ms, found 11 plugins.
+Preloading 2 native plugins for Editor in 6.83 ms.
+Unloading 2169 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 193.9 MB.
+System memory in use after: 194.1 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2684.
+Total: 9.310400 ms (FindLiveObjects: 0.644900 ms CreateObjectMapping: 0.221100 ms MarkObjects: 8.387900 ms  DeleteObjects: 0.053500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 20.856800 seconds.
+  path: Assets/VICTORY/Scenes
+  artifactKey: Guid(d7cf605fedb382f4097bb336b5c01a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY/Scenes using Guid(d7cf605fedb382f4097bb336b5c01a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9c8dda28d45dbf4eea2ad9bbad560a') in 0.010677 seconds 
+  Import took 0.024840 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.328763 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/EarthWall.prefab
-  artifactKey: Guid(c2016b8d617f56b45a8d70d0ab9c5480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/EarthWall.prefab using Guid(c2016b8d617f56b45a8d70d0ab9c5480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c96b0eef0eb3aab685e9bcc56e4f6a4') in 0.029682 seconds 
-  Import took 0.034928 seconds .
+  Time since last request: 0.009612 seconds.
+  path: Assets/VICTORY/Scenes
+  artifactKey: Guid(d7cf605fedb382f4097bb336b5c01a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY/Scenes using Guid(d7cf605fedb382f4097bb336b5c01a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b9c8dda28d45dbf4eea2ad9bbad560a') in 0.009076 seconds 
+  Import took 0.020464 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 8.248698 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/EarthWall.prefab
-  artifactKey: Guid(c2016b8d617f56b45a8d70d0ab9c5480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Prefabs/Walls/Straight Wall/EarthWall.prefab using Guid(c2016b8d617f56b45a8d70d0ab9c5480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59ac5baa22c604290b12c902ec85238e') in 0.030110 seconds 
-  Import took 0.034396 seconds .
+  Time since last request: 1.121784 seconds.
+  path: Assets/VICTORY/Scenes/MenuScene.unity
+  artifactKey: Guid(4e01e05aae952e04cb66a7d2308a5b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY/Scenes/MenuScene.unity using Guid(4e01e05aae952e04cb66a7d2308a5b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93da84955694a965f8f785c558d1f4ef') in 0.063362 seconds 
+  Import took 0.086275 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.375394 seconds.
-  path: Assets/Prefabs/SuperPowersPrefabs/Sketchfab_2021_03_09_18_21_16.blend
-  artifactKey: Guid(c0005803f213fb44cbcd047f84057e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SuperPowersPrefabs/Sketchfab_2021_03_09_18_21_16.blend using Guid(c0005803f213fb44cbcd047f84057e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c70135063762c2b12dc1d0b6c4dd37') in 0.021311 seconds 
-  Import took 0.025193 seconds .
+  Time since last request: 10.561330 seconds.
+  path: Assets/VICTORY/Scenes/VictoryScene.unity
+  artifactKey: Guid(4e01e05aae952e04cb66a7d2308a5b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VICTORY/Scenes/VictoryScene.unity using Guid(4e01e05aae952e04cb66a7d2308a5b23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fa9ee23c5f84e89de8512f00bd875e4') in 0.037767 seconds 
+  Import took 0.060066 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.028050 seconds.
-  path: Assets/Prefabs/SuperPowersPrefabs/MagicMovments
-  artifactKey: Guid(48a92286669e98c45a9d1584b77e80bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SuperPowersPrefabs/MagicMovments using Guid(48a92286669e98c45a9d1584b77e80bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16edfc21356b59ed644d7c142a1aa8ca') in 0.016246 seconds 
-  Import took 0.020027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046895 seconds.
-  path: Assets/Prefabs/SuperPowersPrefabs/MagicMovments/InvertedTriangle.prefab
-  artifactKey: Guid(47dc0f78b0d30aa4785db2c9c4a7156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SuperPowersPrefabs/MagicMovments/InvertedTriangle.prefab using Guid(47dc0f78b0d30aa4785db2c9c4a7156a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa03e175146360648508c23a4b8b436f') in 0.017261 seconds 
-  Import took 0.020650 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000320 seconds.
-  path: Assets/Prefabs/SuperPowersPrefabs/MagicMovments/Wave.prefab
-  artifactKey: Guid(e3ed0328b9804074387e30ed3089ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SuperPowersPrefabs/MagicMovments/Wave.prefab using Guid(e3ed0328b9804074387e30ed3089ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '056e3c1420707797e242d232de1ab9de') in 0.016198 seconds 
-  Import took 0.041376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Prefabs/SuperPowersPrefabs/MagicMovments/Triangle.prefab
-  artifactKey: Guid(dcd0b251a47810544b2346d9227e757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SuperPowersPrefabs/MagicMovments/Triangle.prefab using Guid(dcd0b251a47810544b2346d9227e757e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '297684de9ecff1122a90909616890223') in 0.016405 seconds 
-  Import took 0.019704 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Prefabs/SuperPowersPrefabs/MagicMovments/Square.prefab
-  artifactKey: Guid(3dd1505960c30c140a2cfeb29724253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/SuperPowersPrefabs/MagicMovments/Square.prefab using Guid(3dd1505960c30c140a2cfeb29724253c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfcdc02aa6abacfddd9a6c912004ef7e') in 0.017553 seconds 
-  Import took 0.020939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 33.556375 seconds.
-  path: Assets/Persistent/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat
-  artifactKey: Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/MagicArsenal/Effects/Materials/Modular/modular_aura06(Modular).mat using Guid(b9e879cde921eb241bbc716410ae2b8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '995c82d530fd4d8b3361f299f147cd21') in 0.042327 seconds 
-  Import took 0.046946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 16.267926 seconds.
-  path: Assets/Persistent/Animations/WallStoneAnimated.controller
-  artifactKey: Guid(08496e861571e954bb12ea6bd35bd1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/Animations/WallStoneAnimated.controller using Guid(08496e861571e954bb12ea6bd35bd1d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1772ec0524fefa66412f7b84f8274ebe') in 0.163375 seconds 
-  Import took 0.189671 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.365346 seconds.
-  path: Assets/Persistent/Animations/Wall_rise_ground.anim
-  artifactKey: Guid(9b26f74ead64f3c48a04dfc429499042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/Animations/Wall_rise_ground.anim using Guid(9b26f74ead64f3c48a04dfc429499042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2617c583aea1c397dcab331f4ce3b9d6') in 0.033911 seconds 
-  Import took 0.038501 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010424 seconds.
-  path: Assets/Persistent/Animations/Wall_rise_ground.anim
-  artifactKey: Guid(9b26f74ead64f3c48a04dfc429499042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Persistent/Animations/Wall_rise_ground.anim using Guid(9b26f74ead64f3c48a04dfc429499042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2617c583aea1c397dcab331f4ce3b9d6') in 0.013000 seconds 
-  Import took 0.017175 seconds .
+  Time since last request: 182.987099 seconds.
+  path: Assets/Prefabs/Enviroment/Cementary.prefab
+  artifactKey: Guid(d966f81b7904bee42a56e058da797eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enviroment/Cementary.prefab using Guid(d966f81b7904bee42a56e058da797eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233b12c0bdbf06b477e52bb889c50dbe') in 0.259018 seconds 
+  Import took 0.275684 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
