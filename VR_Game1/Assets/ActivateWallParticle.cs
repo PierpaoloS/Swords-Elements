@@ -3,7 +3,8 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class ActivateWallParticle : MonoBehaviour
-{ 
+{
+   public GameObject wall;
    public ParticleSystem earthwall;
    public void StartParticleEffect()
    {
@@ -13,5 +14,7 @@ public class ActivateWallParticle : MonoBehaviour
    public void EndParticleEffect()
    {
       earthwall.Stop();
+      wall.isStatic = true;
+      
    }
 }

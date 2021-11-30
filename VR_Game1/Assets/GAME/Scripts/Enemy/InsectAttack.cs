@@ -6,10 +6,12 @@ using UnityEngine;
 public class InsectAttack : MonoBehaviour
 {
     public GameObject insect;
-    public PowerManager power;
+    private PowerManager power;
     public bool isEnemyHitted;
     void Start()
     {
+        GameObject player = GameObject.FindWithTag("Player");
+        power = player.GetComponent<PowerManager>();
         Collider collider = GetComponent<SphereCollider>();
     }
 
@@ -18,7 +20,7 @@ public class InsectAttack : MonoBehaviour
         if (other.gameObject.tag == "Player" && isEnemyHitted == false)
         {
             Debug.Log("Sei stato colpito");
-            power.TakeDamage(25);
+           // power.TakeDamage(25);
             isEnemyHitted = true;
         }
     }
