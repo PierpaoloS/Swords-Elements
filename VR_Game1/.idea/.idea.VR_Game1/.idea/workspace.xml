@@ -3,6 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAMEOVER/Scenes/GameOverScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAMEOVER/Scenes/GameOverScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MENU/Prefabs/Controllers/LQuestController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MENU/Prefabs/Controllers/LQuestController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MENU/Prefabs/Controllers/RQuestController.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MENU/Prefabs/Controllers/RQuestController.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MENU/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MENU/Scenes/MenuScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MENU/Scripts/Menu/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MENU/Scripts/Menu/MenuManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VICTORY/Scenes/VictoryScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VICTORY/Scenes/VictoryScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
@@ -175,6 +182,8 @@
       <workItem from="1638179349668" duration="4585000" />
       <workItem from="1638207231041" duration="565000" />
       <workItem from="1638265738591" duration="1832000" />
+      <workItem from="1638454690498" duration="1236000" />
+      <workItem from="1638459265618" duration="559000" />
     </task>
     <servers />
   </component>
