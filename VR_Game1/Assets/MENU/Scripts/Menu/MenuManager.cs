@@ -17,4 +17,17 @@ public class MenuManager : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+    public void Menu()
+    {
+        SceneManager.LoadScene(0);
+    }
+    public void Retry()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void Intro()
+    {
+        SceneManager.LoadScene(6);
+    }
+        
 }
