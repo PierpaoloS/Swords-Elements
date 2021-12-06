@@ -8,6 +8,7 @@ public class MenuManager : MonoBehaviour
     public void PlayGame()
     {
        SceneManager.LoadScene(3);
+       
     }
     public void Practise()
     {

@@ -26,6 +26,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/GAME/Scenes/IntroScene.unity
     guid: 8fa59fdb72b009e4bbb8b7f5a7cb5ce2
+  - enabled: 1
+    path: Assets/VICTORY/Scenes/IntroSceneVideo.unity
+    guid: f582f6b08ca482645aef3d3affd7b632
   - enabled: 0
     path: 
     guid: 00000000000000000000000000000000
