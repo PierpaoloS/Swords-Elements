@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 5191777223315721655}
   m_Layer: 10
   m_Name: ShotPoint
-  m_TagString: Enemy
+  m_TagString: Insect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

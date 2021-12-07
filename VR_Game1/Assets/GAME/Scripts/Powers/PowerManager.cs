@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.XR;
 
 public class PowerManager : MonoBehaviour
@@ -104,16 +105,28 @@ public class PowerManager : MonoBehaviour
         
 
         //Testing dell'effetto della vita.
-        targetDevice.TryGetFeatureValue(CommonUsages.secondaryButton, out bool secondaryButtonValue);
-        if (secondaryButtonValue == true)
-        {
-            TakeDamage(20);
-        }
+        
     }
 
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Insect")
+        {
+            TakeDamage(5);
+        }
+
+        if (other.gameObject.tag == "Golem")
+        {
+            TakeDamage(70);
+        }
+    }
     public void TakeDamage(int damage)
     {
         currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
         healthBar.SetHealth(currentHealth);
         takedamageeffect.ChangeAlphaValue();
     }
@@ -229,5 +242,10 @@ public class PowerManager : MonoBehaviour
     private void ResetTornadoCounter()
     {
         isTornadoBuilt = false;
+    }
+
+    private void Die()
+    {
+        SceneManager.LoadScene(5);
     }
 }
