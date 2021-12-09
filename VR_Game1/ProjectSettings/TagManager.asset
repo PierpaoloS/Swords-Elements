@@ -13,6 +13,7 @@ TagManager:
   - Insect
   - InsectAttackPoint
   - Ground
+  - Player2
   layers:
   - Default
   - TransparentFX
