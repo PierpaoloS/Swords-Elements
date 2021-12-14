@@ -15,6 +15,7 @@ TagManager:
   - Ground
   - Enviroment
   - Ice
+  - Player2
   layers:
   - Default
   - TransparentFX

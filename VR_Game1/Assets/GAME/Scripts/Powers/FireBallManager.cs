@@ -18,11 +18,11 @@ public class FireBallManager : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag != "Player" && other.gameObject.tag != "MagicCircle" && other.gameObject.tag != "MainCamera" && other.gameObject.tag != "Sword")
+        if (other.gameObject.tag != "Player" && other.gameObject.tag != "MagicCircle" && other.gameObject.tag != "MainCamera" && other.gameObject.tag != "Sword" && other.gameObject.tag != "Player2")
         {
-            Destroy(fireBall);
+            //Destroy(fireBall);
             explosion.Play();
-            Destroy(gameObject,1f);
+            Destroy(gameObject,0.4f);
         }
     }
 }
