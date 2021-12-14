@@ -9,11 +9,15 @@ public class ExplosionParticles : MonoBehaviour
 
    private void OnCollisionEnter(Collision other)
    {
-      ContactPoint contact = other.contacts[0];
-      Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
-      Vector3 pos = contact.point;
-      //ParticleSystem particleExplosion = Instantiate(explosion, pos, rot);
-      //explosion.Play();
-      Destroy(gameObject);
+      //if (other.gameObject.tag == "Player" && other.gameObject.tag == "Ground" && other.gameObject.tag == "FireBall" && other.gameObject.tag == "Enviroment")
+      //{
+         Destroy(gameObject);
+         ContactPoint contact = other.contacts[0];
+         Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
+         Vector3 pos = contact.point;
+         ParticleSystem particleExplosion = Instantiate(explosion, pos, rot);
+         explosion.Play();
+      //}
    }
+   
 }

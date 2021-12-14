@@ -17,7 +17,7 @@ public class EnemyAIInsect : MonoBehaviour
     public bool isEnemyHitted = false;
     private Animator animator;
     public GenerateEnemies generateEnemies;
-    
+
     //healthbar
     public event Action<float> OnHealthPctChanged = delegate{  }; 
     
@@ -32,6 +32,7 @@ public class EnemyAIInsect : MonoBehaviour
     public GameObject projectile;
     public GameObject shotPoint;
     public Collider attackCollider;
+    public bool isSlowingDown = false;
     
     //States
     public float sightRange, attackRange;
@@ -120,7 +121,7 @@ public class EnemyAIInsect : MonoBehaviour
         alreadyAttacked = false;
     }
 
-    public void TakeDamage(int damage)
+    public void TakeDamage(float damage)
     {
         currentHealth += damage;
         float currentHealthPct = (float) currentHealth / (float) health;
@@ -132,31 +133,54 @@ public class EnemyAIInsect : MonoBehaviour
     {
         if (other.gameObject.tag == "Sword" && isEnemyHitted == false)
         {
-            print("Enemy Colpita - Entrata in collisione");
-            TakeDamage(-25);
+            //print("Enemy Colpita - Entrata in collisione");
+            TakeDamage(-25f);
             isEnemyHitted = true;
         } 
         if (other.gameObject.tag == "FireBall")
         {
-            TakeDamage(-50);
+            TakeDamage(-50f);
         }
+
+        if (other.gameObject.tag == "Ice" )
+        {
+            if (!isSlowingDown)
+            {
+                isSlowingDown = true;
+                ChangeVelocity(1);
+            }
+            TakeDamage(-0.5f);
+        }
+        
     }
     public void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Sword")
         {
-            print("Enemy Colpita - Uscita dalla collisione");
+            //print("Enemy Colpita - Uscita dalla collisione");
             isEnemyHitted = false;
         } 
-    } 
+    }
 
+    public void ChangeVelocity(int speed)
+    {
+        agent.speed = speed;
+        Invoke("ResetVelocity", 3f);
+    }
+
+    public void ResetVelocity()
+    {
+        isSlowingDown = false;
+        agent.speed = 5;
+    }
+    
     private void DestroyEnemy()
     {
         animator.SetTrigger("Die");
         generateEnemies.insectCount -= 1;
         Destroy(gameObject, 1.5f);
         Destroy(this);
-        print("Enemy Distrutta");
+        //print("Enemy Distrutta");
 
     }
 

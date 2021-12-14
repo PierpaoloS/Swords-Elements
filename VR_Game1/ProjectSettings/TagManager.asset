@@ -13,6 +13,8 @@ TagManager:
   - Insect
   - InsectAttackPoint
   - Ground
+  - Enviroment
+  - Ice
   - Player2
   layers:
   - Default
@@ -28,7 +30,7 @@ TagManager:
   - InsectAttackPoint
   - Fireball
   - Enviroment
-  - 
+  - Ice
   - 
   - 
   - 
