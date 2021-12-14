@@ -5015,7 +5015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026207588369048596, guid: d1120b57e21294d4285633ae82c85d0c, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5044641131394011669, guid: d1120b57e21294d4285633ae82c85d0c, type: 3}
       propertyPath: ground
@@ -10664,10 +10664,9 @@ MonoBehaviour:
   wallSpawnDistance: 7
   tornado: {fileID: 3079631137315440901, guid: 32cfc52fb13218f41a3816328ab0264b, type: 3}
   tornadoSpawnDistance: 7
-  IceBall: {fileID: 2468664956209684978, guid: 3a2bccb496dbaf84b917deade6609bc7, type: 3}
+  IceSpray: {fileID: 0}
   damageIce: 10
-  delayIceBall: 0
-  iceSpawnDistance: 2
+  delayIceSpray: 0
 --- !u!114 &426414254
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10699,7 +10698,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isFire: 0
-  isEarth: 0
+  isEarth: 1
   isWind: 0
   isIce: 0
   whichPower: 0
