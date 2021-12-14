@@ -13,6 +13,8 @@ TagManager:
   - Insect
   - InsectAttackPoint
   - Ground
+  - Enviroment
+  - Ice
   layers:
   - Default
   - TransparentFX
@@ -27,7 +29,7 @@ TagManager:
   - InsectAttackPoint
   - Fireball
   - Enviroment
-  - 
+  - Ice
   - 
   - 
   - 

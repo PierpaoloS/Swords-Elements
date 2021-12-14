@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 4968573375238518326}
   - component: {fileID: 4155047999506278983}
   - component: {fileID: -5314932695037496404}
+  - component: {fileID: 1831191420023535949}
   m_Layer: 9
   m_Name: Polyart_Rock
   m_TagString: Golem
@@ -127,6 +128,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 177428484432280677}
+--- !u!135 &1831191420023535949
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5298590762127773683}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.3240382
+  m_Center: {x: 0, y: 0.044174805, z: 0}
 --- !u!1001 &8531414656884242435
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -184,6 +198,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6893705208658894288, guid: 3af28d008f8a82843af700900cb91396, type: 3}
       propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364299592882865254, guid: 3af28d008f8a82843af700900cb91396, type: 3}
+      propertyPath: looping
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

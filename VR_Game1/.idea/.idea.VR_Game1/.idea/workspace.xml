@@ -3,29 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/introTimeline.playable" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/introTimeline.playable.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/IntroScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/IntroScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/GenerateEnemies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/GenerateEnemies.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MENU/Scenes/MenuScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MENU/Scenes/MenuScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/MENU/Scripts/Menu/MenuManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MENU/Scripts/Menu/MenuManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Persistent/Animations/ActiveFinalPortal.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Persistent/Animations/ActiveFinalPortal.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VICTORY/Scenes/IntroSceneVideo.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VICTORY/Scenes/IntroSceneVideo.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/ApiUpdaterCheck.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/EnemyInsect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/EnemyInsect.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/RockGolem/Prefabs/Polyart_Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/RockGolem/Prefabs/Polyart_Rock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/EnemyAIInsect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/EnemyAIInsect.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ExplosionParticles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ExplosionParticles.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ThrowRock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ThrowRock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Powers/PowerManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Powers/PowerManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Persistent/MagicArsenal/Effects/Prefabs/Sprays/FrostSpray.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Persistent/MagicArsenal/Effects/Prefabs/Sprays/FrostSpray.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimatedDetailed.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/SuperPowersPrefabs/WallStoneAnimatedDetailed.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe11.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe6.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe7.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe8.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe9.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,9 +46,12 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.8/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.inputsystem@1.0.2/InputSystem/Actions/InputActionState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/IceSprayDamage.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.oculus@1.9.1/Runtime/OculusLoader.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/GizmosSpawnPoint.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.xr.interaction.toolkit@1.0.0-pre.8/Runtime/Interaction/Interactors/XRDirectInteractor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/IceSpray.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -77,6 +82,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -191,6 +197,10 @@
       <workItem from="1638459265618" duration="559000" />
       <workItem from="1638786976734" duration="1723000" />
       <workItem from="1638788885970" duration="1173000" />
+      <workItem from="1638872459076" duration="457000" />
+      <workItem from="1639062311740" duration="4595000" />
+      <workItem from="1639476401546" duration="3644000" />
+      <workItem from="1639489712165" duration="1643000" />
     </task>
     <servers />
   </component>

@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1026207588369048592}
   - component: {fileID: 6333951714571220355}
   - component: {fileID: 5044641131394011669}
+  - component: {fileID: 3708496403154697349}
   m_Layer: 8
   m_Name: EnemyGolem
   m_TagString: Enemy
@@ -85,10 +86,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 1
   m_Enabled: 1
-  m_Radius: 0.96944726
-  m_Height: 2.598286
+  m_Radius: 0.7100556
+  m_Height: 1.4201112
   m_Direction: 1
-  m_Center: {x: 0.05415523, y: 0.8418592, z: 0.14248955}
+  m_Center: {x: 0.05415523, y: 0.6422243, z: -0.11690211}
 --- !u!114 &5044641131394011669
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -124,6 +125,20 @@ MonoBehaviour:
   attackRange: 10
   playerInsightRange: 0
   playerInAttackRange: 0
+--- !u!136 &3708496403154697349
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026207588369048596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4893658709294875126
 GameObject:
   m_ObjectHideFlags: 0
@@ -286,7 +301,6 @@ MonoBehaviour:
   rock: {fileID: 5298590762127773683, guid: cad9f745870d9f448bf225d2a253d382, type: 3}
   golem: {fileID: 1026207588369048596}
   isHoldingRock: 0
-  explosionParticles: {fileID: 0}
 --- !u!1 &7850818265724161571
 GameObject:
   m_ObjectHideFlags: 0
