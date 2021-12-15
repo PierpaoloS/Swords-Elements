@@ -10653,7 +10653,9 @@ MonoBehaviour:
   leftHand: {fileID: 1526025428}
   player: {fileID: 426414251}
   power: {fileID: 426414255}
-  maxHealth: 100000
+  health1: {fileID: 1159945539}
+  health2: {fileID: 1146262199}
+  maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 802842045}
   takedamageeffect: {fileID: 1067649339}
@@ -24899,11 +24901,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: d1ae683e83a206e42a7a3ebb52114c56, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -25285,11 +25287,11 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 2441aac8551bcf44cb8a98d52b99ec92, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
-  Loop: 0
+  Loop: 1
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0

@@ -13,6 +13,10 @@ public class PowerManager : MonoBehaviour
     public GameObject player;
     public SwitchPower power; 
     
+    //Audio Source Component
+    public AudioSource health1;
+    public AudioSource health2;
+    
     
     //Player's variables
     public int maxHealth = 100;
@@ -52,6 +56,8 @@ public class PowerManager : MonoBehaviour
         power = player.GetComponent<SwitchPower>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+
+        StartCoroutine(addHealth());
         
         List<InputDevice> devices = new List<InputDevice>();
         InputDeviceCharacteristics leftControllerCharacteristics = InputDeviceCharacteristics.Left | InputDeviceCharacteristics.Controller;
@@ -71,7 +77,11 @@ public class PowerManager : MonoBehaviour
 
     void Update()
     {
-       
+        if (currentHealth >= 100)
+        {
+            health1.Pause();
+            health2.Pause();
+        }
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
         if (primaryButtonValue == true)
         {
@@ -100,10 +110,37 @@ public class PowerManager : MonoBehaviour
                 ShootIce();
             }
         }
-        
-
-        //Testing dell'effetto della vita.
-        
+    } 
+    IEnumerator addHealth()
+    {
+        while (true)
+        {
+            if (currentHealth < 100)
+            {
+                if (currentHealth <= 30)
+                {
+                    if (health2 != null)
+                    {
+                        health2.Pause();
+                    }
+                    health1.Play();
+                }
+                else
+                {
+                    if (health1 != null)
+                    {
+                        health1.Pause();
+                    }
+                    health2.Play();
+                }
+                currentHealth += 10;
+                yield return new WaitForSeconds(2);
+            }
+            else
+            {
+                yield return null;
+            }
+        }
     }
 
     public void OnTriggerEnter(Collider other)
