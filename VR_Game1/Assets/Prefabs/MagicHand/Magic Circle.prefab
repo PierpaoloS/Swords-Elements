@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8352827375519774463}
   - component: {fileID: 409418591040036489}
   - component: {fileID: 6658463627371251909}
+  - component: {fileID: 5774022776706177437}
   m_Layer: 0
   m_Name: Magic Circle
   m_TagString: MagicCircle
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 9a03a99bc70d7c943820fc4afa3ebb80, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a515f5180f57d294295fbb3bc722fb59, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -116,3 +117,16 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 6.398012, y: 5.8062396, z: 0.2000028}
   m_Center: {x: 0.1973569, y: -0.22004928, z: -0.000000032192}
+--- !u!114 &5774022776706177437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1837311276699033869}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b07b5afe73bd2c34a80485cc681cbd41, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFading: 0

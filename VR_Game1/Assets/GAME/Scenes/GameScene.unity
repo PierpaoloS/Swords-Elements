@@ -10653,8 +10653,9 @@ MonoBehaviour:
   leftHand: {fileID: 1526025428}
   player: {fileID: 426414251}
   power: {fileID: 426414255}
-  health1: {fileID: 1159945539}
-  health2: {fileID: 1146262199}
+  fadeCircle: {fileID: 5774022776706177437, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
+  health1: {fileID: 1159945537}
+  health2: {fileID: 1146262197}
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 802842045}
@@ -10686,6 +10687,7 @@ MonoBehaviour:
   windSprite: {fileID: 21300000, guid: 9953841e623661b4b8056c6c7d591b25, type: 3}
   iceSprite: {fileID: 21300000, guid: 9149232d24e6a264ea7c849d0d281549, type: 3}
   leftHand: {fileID: 1526025428}
+  isDelaying: 0
   power: {fileID: 426414255}
 --- !u!114 &426414255
 MonoBehaviour:
@@ -10699,8 +10701,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe322276ff47f704c87a0ea557095820, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isFire: 0
-  isEarth: 1
+  isFire: 1
+  isEarth: 0
   isWind: 0
   isIce: 0
   whichPower: 0
@@ -24876,7 +24878,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1146262198
 Transform:
   m_ObjectHideFlags: 0
@@ -24902,7 +24904,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d1ae683e83a206e42a7a3ebb52114c56, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1
@@ -25262,7 +25264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1159945538
 Transform:
   m_ObjectHideFlags: 0
@@ -25288,7 +25290,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 2441aac8551bcf44cb8a98d52b99ec92, type: 3}
-  m_PlayOnAwake: 0
+  m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
   Loop: 1

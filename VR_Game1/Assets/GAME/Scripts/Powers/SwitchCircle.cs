@@ -11,7 +11,8 @@ public class SwitchCircle : MonoBehaviour
     public Sprite windSprite;
     public Sprite iceSprite;
     public GameObject leftHand;
-    
+
+    public bool isDelaying;
     public SwitchPower power;
     
     private void Update()

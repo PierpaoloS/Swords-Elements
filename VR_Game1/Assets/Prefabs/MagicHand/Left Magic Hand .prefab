@@ -81,18 +81,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5774022776706177437
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1697922577860560180}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b07b5afe73bd2c34a80485cc681cbd41, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &3233682034972244008
 GameObject:
   m_ObjectHideFlags: 0
@@ -280,17 +268,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: Magic Circle
       objectReference: {fileID: 0}
-    - target: {fileID: 8352827375519774463, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
-      propertyPath: m_Sprite
-      value: 
-      objectReference: {fileID: 21300000, guid: a515f5180f57d294295fbb3bc722fb59, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
---- !u!1 &1697922577860560180 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1837311276699033869, guid: 3d6b7b19e398fb14e9d460f39ce7a54a, type: 3}
-  m_PrefabInstance: {fileID: 1076161615151866937}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6554205789610798252
 PrefabInstance:
   m_ObjectHideFlags: 0

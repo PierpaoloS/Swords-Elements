@@ -11,11 +11,12 @@ public class PowerManager : MonoBehaviour
     public GameObject camDir;
     public GameObject leftHand;
     public GameObject player;
-    public SwitchPower power; 
-    
+    public SwitchPower power;
+    public FadeCircle fadeCircle;
+
     //Audio Source Component
-    public AudioSource health1;
-    public AudioSource health2;
+    public GameObject health1;
+    public GameObject health2;
     
     
     //Player's variables
@@ -54,6 +55,7 @@ public class PowerManager : MonoBehaviour
     {
         
         power = player.GetComponent<SwitchPower>();
+        fadeCircle = leftHand.GetComponentInChildren<FadeCircle>();
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
 
@@ -79,8 +81,8 @@ public class PowerManager : MonoBehaviour
     {
         if (currentHealth >= 100)
         {
-            health1.Pause();
-            health2.Pause();
+            health1.SetActive(false);
+            health2.SetActive(false);
         }
         targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool primaryButtonValue);
         if (primaryButtonValue == true)
@@ -119,19 +121,13 @@ public class PowerManager : MonoBehaviour
             {
                 if (currentHealth <= 30)
                 {
-                    if (health2 != null)
-                    {
-                        health2.Pause();
-                    }
-                    health1.Play();
+                   health1.SetActive(true);
+                   health2.SetActive(false);
                 }
                 else
                 {
-                    if (health1 != null)
-                    {
-                        health1.Pause();
-                    }
-                    health2.Play();
+                    health1.SetActive(false);
+                    health2.SetActive(true);
                 }
                 currentHealth += 10;
                 yield return new WaitForSeconds(2);
@@ -180,6 +176,7 @@ public class PowerManager : MonoBehaviour
         
         Rigidbody rb = fireball.GetComponent<Rigidbody>();
         isFireBallShooted = true;
+        fadeCircle.isFading = true;
         rb.AddForce(circle.transform.forward * 10f, ForceMode.VelocityChange);
         Invoke("ResetFireBallCount", delayFireBall);
     }
@@ -194,6 +191,7 @@ public class PowerManager : MonoBehaviour
 
         var iceSpray = Instantiate(IceSpray, new Vector3(posX, posY, posZ), Quaternion.identity);
         isIceSprayShooted = true;
+        fadeCircle.isFading = true;
         Destroy(iceSpray, 5f);
         Invoke("ResetIceBallCount", delayIceSpray);
     }
@@ -209,6 +207,7 @@ public class PowerManager : MonoBehaviour
         var cloneWall = Instantiate(wall, spawnPos, playerRotation);
         Debug.Log("Muro Spawnato");
         isWallBuilt = true;
+        fadeCircle.isFading = true;
         Destroy(cloneWall, 7.0f);
         Invoke("ResetWallCount", 7.0f);
     }
@@ -224,26 +223,31 @@ public class PowerManager : MonoBehaviour
         var cloneTornado = Instantiate(tornado, spawnPos, playerRotation);
         
         isTornadoBuilt = true;
+        fadeCircle.isFading = true;
         Destroy(cloneTornado, 7.0f);
         Invoke("ResetTornadoCounter", 7.0f);
     }
     private void ResetFireBallCount()
     {
         isFireBallShooted = false;
+        fadeCircle.isFading = false;
     }
     private void ResetIceBallCount()
     {
         isIceSprayShooted = false;
+        fadeCircle.isFading = false;
     }
 
     private void ResetWallCount()
     {
         isWallBuilt = false;
+        fadeCircle.isFading = false;
     }
     
     private void ResetTornadoCounter()
     {
         isTornadoBuilt = false;
+        fadeCircle.isFading = false;
     }
 
     private void Die()
