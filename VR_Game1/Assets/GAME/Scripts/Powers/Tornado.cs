@@ -15,21 +15,18 @@ public class Tornado : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "Enemy")
+        if (other.tag == "Insect")
         {
             StartCoroutine(pullObject(other, true));
         }
-        //throw new NotImplementedException();
     }
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.tag == "Enemy")
+        if (other.tag == "Insect")
         {
             StartCoroutine(pullObject(other, false));
         }
-
-        //throw new NotImplementedException();
     }
 
     IEnumerator pullObject(Collider x, bool shouldPull)

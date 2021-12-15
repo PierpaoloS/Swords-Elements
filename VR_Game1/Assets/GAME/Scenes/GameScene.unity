@@ -5015,7 +5015,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026207588369048596, guid: d1120b57e21294d4285633ae82c85d0c, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5044641131394011669, guid: d1120b57e21294d4285633ae82c85d0c, type: 3}
       propertyPath: ground
@@ -8549,7 +8549,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026207588369048596, guid: f9250124853b3544981eaf81f3e9d314, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3180091054874152430, guid: f9250124853b3544981eaf81f3e9d314, type: 3}
       propertyPath: ground
@@ -10653,7 +10653,7 @@ MonoBehaviour:
   leftHand: {fileID: 1526025428}
   player: {fileID: 426414251}
   power: {fileID: 426414255}
-  maxHealth: 100
+  maxHealth: 100000
   currentHealth: 0
   healthBar: {fileID: 802842045}
   takedamageeffect: {fileID: 1067649339}
@@ -10664,7 +10664,7 @@ MonoBehaviour:
   wallSpawnDistance: 7
   tornado: {fileID: 3079631137315440901, guid: 32cfc52fb13218f41a3816328ab0264b, type: 3}
   tornadoSpawnDistance: 7
-  IceSpray: {fileID: 0}
+  IceSpray: {fileID: 100002, guid: 1b1ef023459b0d548bf9b970a9ec0559, type: 3}
   damageIce: 10
   delayIceSpray: 0
 --- !u!114 &426414254
@@ -16552,7 +16552,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026207588369048596, guid: f9250124853b3544981eaf81f3e9d314, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3180091054874152430, guid: f9250124853b3544981eaf81f3e9d314, type: 3}
       propertyPath: ground
@@ -35271,7 +35271,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1026207588369048596, guid: f9250124853b3544981eaf81f3e9d314, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3180091054874152430, guid: f9250124853b3544981eaf81f3e9d314, type: 3}
       propertyPath: ground
@@ -47380,6 +47380,10 @@ PrefabInstance:
     - target: {fileID: 2499856354606097069, guid: d966f81b7904bee42a56e058da797eba, type: 3}
       propertyPath: m_Layer
       value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2499856354606097069, guid: d966f81b7904bee42a56e058da797eba, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2499856354611640425, guid: d966f81b7904bee42a56e058da797eba, type: 3}
       propertyPath: m_Layer
