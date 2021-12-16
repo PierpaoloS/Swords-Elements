@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 3180091054874152430}
   - component: {fileID: 3225371282701017468}
   - component: {fileID: 8068645710853762553}
+  - component: {fileID: 4531337186853195099}
   m_Layer: 8
   m_Name: EnemyInsect
   m_TagString: Insect
@@ -125,6 +126,19 @@ CapsuleCollider:
   m_Height: 0.71806395
   m_Direction: 1
   m_Center: {x: 0, y: 0.38, z: 0.059339404}
+--- !u!65 &4531337186853195099
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026207588369048596}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.9782672, y: 0.45816755, z: 0.68161994}
+  m_Center: {x: 0.010866344, y: 0.26908374, z: 0.10297364}
 --- !u!1 &4893658709294875126
 GameObject:
   m_ObjectHideFlags: 0
