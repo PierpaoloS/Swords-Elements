@@ -104,7 +104,7 @@ public class EnemyAIInsect : MonoBehaviour
         
         if (!alreadyAttacked)
         {
-            print("Insetto attacca");
+            //print("Insetto attacca");
             //Attack code here
             attackCollider.enabled = true;
             animator.SetTrigger("Stab Attack");
