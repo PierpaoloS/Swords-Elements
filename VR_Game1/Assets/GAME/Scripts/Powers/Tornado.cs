@@ -38,5 +38,11 @@ public class Tornado : MonoBehaviour
             yield return refreshRate;
             StartCoroutine(pullObject(x, shouldPull));
         }
+        else
+        {
+            x.GetComponent<Rigidbody>().velocity = Vector3.zero;
+            x.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            yield return refreshRate;
+        }
     }
 }
