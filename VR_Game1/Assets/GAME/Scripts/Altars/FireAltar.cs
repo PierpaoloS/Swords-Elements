@@ -12,7 +12,7 @@ public class FireAltar : MonoBehaviour
     public Portal portal;
     public GameObject fireFlare;
     public GenerateEnemies generateEnemies;
-    
+    private bool isAltarCounterIncreased = false;
     private void Start()
     {
         fireFlare.SetActive(false);
@@ -27,17 +27,19 @@ public class FireAltar : MonoBehaviour
                 fireFlare.SetActive(true);
                 charge += increasingCharge * Time.deltaTime;
                 Debug.Log("Siamo nel primo if, charge: "+charge);
-                
             }
             else if(charge >= maxCharge)
             {
                 Debug.Log("Attivazione altare fuoco");
                 portal.isFire = true;
-                generateEnemies.altarCounter += 1;
+                if (!isAltarCounterIncreased)
+                {
+                    generateEnemies.altarCounter += 1;
+                    isAltarCounterIncreased = true;
+                }
                 fireFlare.SetActive(false);
             }
         }
-        
     }
     
     public void OnTriggerExit(Collider other)

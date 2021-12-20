@@ -24,6 +24,7 @@ public class PowerManager : MonoBehaviour
     public int currentHealth;
     public HealthBarUI healthBar;
     public TakeDamageEffect takedamageeffect;
+    public GameObject circle;
     
     //Fireball's variables
     [Header("Fire Power")]
@@ -53,11 +54,9 @@ public class PowerManager : MonoBehaviour
     public float delayIceSpray;
     void Start()
     {
-        
         power = player.GetComponent<SwitchPower>();
-        fadeCircle = leftHand.GetComponentInChildren<FadeCircle>();
         currentHealth = maxHealth;
-        healthBar.SetMaxHealth(maxHealth);
+        //healthBar.SetMaxHealth(maxHealth);
 
         StartCoroutine(addHealth());
         
@@ -74,9 +73,15 @@ public class PowerManager : MonoBehaviour
         {
             targetDevice = devices[0];
         }
-        
+        Invoke("GettingHand",2f);
     }
 
+    void GettingHand()
+    {
+        circle = GameObject.FindWithTag("MagicCircle");
+        fadeCircle = circle.GetComponent<FadeCircle>();
+    }
+    
     void Update()
     {
         if (currentHealth >= 100)
@@ -143,12 +148,12 @@ public class PowerManager : MonoBehaviour
     {
         if (other.gameObject.tag == "Insect")
         {
-            TakeDamage(5);
+            TakeDamage(10);
         }
 
         if (other.gameObject.tag == "Golem")
         {
-            TakeDamage(70);
+            TakeDamage(45);
         }
     }
     public void TakeDamage(int damage)
@@ -158,13 +163,13 @@ public class PowerManager : MonoBehaviour
         {
             Die();
         }
-        healthBar.SetHealth(currentHealth);
+        //healthBar.SetHealth(currentHealth);
         takedamageeffect.ChangeAlphaValue();
     }
 
     private void Shoot()
     {
-        GameObject circle = GameObject.FindWithTag("MagicCircle");
+        //GameObject circle = GameObject.FindWithTag("MagicCircle");
      
 
         float posX = circle.transform.position.x;
@@ -176,14 +181,14 @@ public class PowerManager : MonoBehaviour
         
         Rigidbody rb = fireball.GetComponent<Rigidbody>();
         isFireBallShooted = true;
-        fadeCircle.isFading = true;
+        fadeCircle.Fade(0.6f);
         rb.AddForce(circle.transform.forward * 10f, ForceMode.VelocityChange);
         Invoke("ResetFireBallCount", delayFireBall);
     }
     
     private void ShootIce()
     {
-        GameObject circle = GameObject.FindWithTag("MagicCircle");
+       // GameObject circle = GameObject.FindWithTag("MagicCircle");
 
         float posX = circle.transform.position.x;
         float posY = circle.transform.position.y;
@@ -191,7 +196,7 @@ public class PowerManager : MonoBehaviour
 
         var iceSpray = Instantiate(IceSpray, new Vector3(posX, posY, posZ), Quaternion.identity);
         isIceSprayShooted = true;
-        fadeCircle.isFading = true;
+        fadeCircle.Fade(0.5f);
         Destroy(iceSpray, 5f);
         Invoke("ResetIceBallCount", delayIceSpray);
     }
@@ -207,7 +212,7 @@ public class PowerManager : MonoBehaviour
         var cloneWall = Instantiate(wall, spawnPos, playerRotation);
         Debug.Log("Muro Spawnato");
         isWallBuilt = true;
-        fadeCircle.isFading = true;
+        fadeCircle.Fade(0.7f);
         Destroy(cloneWall, 7.0f);
         Invoke("ResetWallCount", 7.0f);
     }
@@ -223,31 +228,27 @@ public class PowerManager : MonoBehaviour
         var cloneTornado = Instantiate(tornado, spawnPos, playerRotation);
         
         isTornadoBuilt = true;
-        fadeCircle.isFading = true;
+        fadeCircle.Fade(0.7f);
         Destroy(cloneTornado, 7.0f);
         Invoke("ResetTornadoCounter", 7.0f);
     }
     private void ResetFireBallCount()
     {
         isFireBallShooted = false;
-        fadeCircle.isFading = false;
     }
     private void ResetIceBallCount()
     {
         isIceSprayShooted = false;
-        fadeCircle.isFading = false;
     }
 
     private void ResetWallCount()
     {
         isWallBuilt = false;
-        fadeCircle.isFading = false;
     }
     
     private void ResetTornadoCounter()
     {
         isTornadoBuilt = false;
-        fadeCircle.isFading = false;
     }
 
     private void Die()

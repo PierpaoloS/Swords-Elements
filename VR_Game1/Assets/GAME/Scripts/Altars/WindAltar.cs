@@ -12,6 +12,7 @@ public class WindAltar : MonoBehaviour
     public Portal portal;
     public GameObject windFlare;
     public GenerateEnemies generateEnemies;
+    private bool isAltarCounterIncreased = false;
     
     private void Start()
     {
@@ -33,7 +34,13 @@ public class WindAltar : MonoBehaviour
             {
                 Debug.Log("Attivazione altare vento");
                 portal.isWind = true;
-                generateEnemies.altarCounter += 1;
+                //hhhhh
+                if (!isAltarCounterIncreased)
+                {
+                    generateEnemies.altarCounter += 1;
+                    isAltarCounterIncreased = true;
+                }
+                
                 windFlare.SetActive(false);
             }
         }

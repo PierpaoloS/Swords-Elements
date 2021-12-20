@@ -2825,7 +2825,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 02ea835095ae7bd46bac0e6ca4d5399f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 1
   m_Pitch: 1
@@ -10073,6 +10073,7 @@ MonoBehaviour:
   windSprite: {fileID: 21300000, guid: cf8d99c22ce977b419b941b827ddc7af, type: 3}
   iceSprite: {fileID: 21300000, guid: 9149232d24e6a264ea7c849d0d281549, type: 3}
   leftHand: {fileID: 1654352374}
+  isDelaying: 0
   power: {fileID: 1654352377}
 --- !u!114 &1654352379
 MonoBehaviour:
@@ -10091,6 +10092,9 @@ MonoBehaviour:
   leftHand: {fileID: 1654352374}
   player: {fileID: 1654352376}
   power: {fileID: 1654352377}
+  fadeCircle: {fileID: 0}
+  health1: {fileID: 0}
+  health2: {fileID: 0}
   maxHealth: 100
   currentHealth: 0
   healthBar: {fileID: 0}
@@ -10102,10 +10106,9 @@ MonoBehaviour:
   wallSpawnDistance: 7
   tornado: {fileID: 3079631137315440901, guid: 32cfc52fb13218f41a3816328ab0264b, type: 3}
   tornadoSpawnDistance: 7
-  IceBall: {fileID: 2468664956209684978, guid: 3a2bccb496dbaf84b917deade6609bc7, type: 3}
+  IceSpray: {fileID: 0}
   damageIce: 10
-  delayIceBall: 3
-  iceSpawnDistance: 2
+  delayIceSpray: 0
 --- !u!1001 &1657667336
 PrefabInstance:
   m_ObjectHideFlags: 0

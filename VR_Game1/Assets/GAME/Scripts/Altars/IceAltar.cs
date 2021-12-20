@@ -13,7 +13,7 @@ public class IceAltar : MonoBehaviour
     public Portal portal;
     public GameObject iceFlare;
     public GenerateEnemies generateEnemies;
-    
+    private bool isAltarCounterIncreased = false;
     private void Start()
     {
         iceFlare.SetActive(false);
@@ -33,11 +33,14 @@ public class IceAltar : MonoBehaviour
             {
                 Debug.Log("Attivazione altare ghiaccio");
                 portal.isIce = true;
-                generateEnemies.altarCounter += 1;
+                if (!isAltarCounterIncreased)
+                {
+                    generateEnemies.altarCounter += 1;
+                    isAltarCounterIncreased = true;
+                }
                 iceFlare.SetActive(false);
             }
         }
-        
     }
     public void OnTriggerExit(Collider other)
     {

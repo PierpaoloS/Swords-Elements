@@ -12,7 +12,7 @@ public class EarthAltar : MonoBehaviour
     public Portal portal;
     public GameObject earthFlare;
     public GenerateEnemies generateEnemies;
-
+    private bool isAltarCounterIncreased = false;
     private void Start()
     {
         earthFlare.SetActive(false);
@@ -27,17 +27,19 @@ public class EarthAltar : MonoBehaviour
                 earthFlare.SetActive(true);
                 charge += increasingCharge * Time.deltaTime;
                 Debug.Log("Siamo nel primo if, charge: "+charge);
-                
             }
             else if(charge >= maxCharge)
             {
                 Debug.Log("Attivazione Altare terra");
                 portal.isEarth = true;
-                generateEnemies.altarCounter += 1;
+                if (!isAltarCounterIncreased)
+                {
+                    generateEnemies.altarCounter += 1;
+                    isAltarCounterIncreased = true;
+                }
                 earthFlare.SetActive(false);
             }
         }
-        
     }
 
     public void OnTriggerExit(Collider other)

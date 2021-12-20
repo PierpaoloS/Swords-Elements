@@ -10,6 +10,8 @@ public class InsectAttack : MonoBehaviour
     public bool isEnemyHitted;
     void Start()
     {
+        GameObject player = GameObject.FindWithTag("Player");
+        power = player.GetComponentInChildren<PowerManager>();
         Collider collider = GetComponent<SphereCollider>();
     }
 
@@ -18,7 +20,7 @@ public class InsectAttack : MonoBehaviour
         if (other.gameObject.tag == "Player" && isEnemyHitted == false)
         {
             Debug.Log("Sei stato colpito");
-            power.TakeDamage(25);
+            power.TakeDamage(5);
             isEnemyHitted = true;
         }
     }

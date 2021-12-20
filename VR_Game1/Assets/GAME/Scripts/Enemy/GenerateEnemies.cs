@@ -16,6 +16,7 @@ public class GenerateEnemies : MonoBehaviour
     public int insectCount;
     public int golemCount;
     public int altarCounter;
+    private bool isSecondPhaseActivated = false;
     
     //Spawn Point Components
     public List<GameObject> spawnPoint = new List<GameObject>();
@@ -27,8 +28,11 @@ public class GenerateEnemies : MonoBehaviour
 
     private void Update()
     {
-        if(altarCounter >=3)
+        if (altarCounter >= 3 && !isSecondPhaseActivated)
+        {
             StartSecondPhase();
+            isSecondPhaseActivated = true;
+        }
     }
 
     public void StartSecondPhase()
