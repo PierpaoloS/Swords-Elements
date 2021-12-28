@@ -6,18 +6,22 @@ using UnityEngine;
 public class ExplosionParticles : MonoBehaviour
 {
    public ParticleSystem explosion;
-
+    //public Gameobject explosion;
+   private void Start()
+   {
+       //explosion.SetActive(false);
+   }
    private void OnCollisionEnter(Collision other)
    {
-      //if (other.gameObject.tag == "Player" && other.gameObject.tag == "Ground" && other.gameObject.tag == "FireBall" && other.gameObject.tag == "Enviroment")
-      //{
-         Destroy(gameObject);
-         ContactPoint contact = other.contacts[0];
+       ContactPoint contact = other.contacts[0];
          Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
          Vector3 pos = contact.point;
          ParticleSystem particleExplosion = Instantiate(explosion, pos, rot);
-         explosion.Play();
-      //}
+         if (other.gameObject.tag != "Enemy" && other.gameObject.tag != "Ground")
+         {
+             explosion.Play();
+             //explosion.SetActive(true);
+         }
+         Destroy(gameObject);
    }
-   
 }

@@ -22,6 +22,8 @@ public class GenerateEnemies : MonoBehaviour
     public List<GameObject> spawnPoint = new List<GameObject>();
     private void Start()
     {
+        insectCount = 0;
+        golemCount = 0;
         StartCoroutine(InsectDrop());
         StartCoroutine(GolemDrop());
     }

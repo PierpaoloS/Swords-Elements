@@ -3324,12 +3324,12 @@ MonoBehaviour:
   debugCubePrefab: {fileID: 1888614400631169287, guid: 70c836d91f54f054398c52426875404e, type: 3}
   creationMode: 0
   newGestureName: Wave
-  movementSource: {fileID: 0}
+  movementSource: {fileID: 1231675506}
   recognitionThreshold: 0.85
   OnRecognize:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1512681294}
         m_TargetAssemblyTypeName: SwitchPower, Assembly-CSharp
         m_MethodName: SelectPower
         m_Mode: 0
@@ -11258,6 +11258,11 @@ Transform:
 --- !u!1 &1231675505 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5422075425348355887, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
+  m_PrefabInstance: {fileID: 1105556952}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1231675506 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 5422075425348355886, guid: 837ad7aa0d079474c984d2aa4dddfb5a, type: 3}
   m_PrefabInstance: {fileID: 1105556952}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1238202507
