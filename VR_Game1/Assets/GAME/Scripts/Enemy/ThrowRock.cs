@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class ThrowRock : MonoBehaviour
 {
+    public ExplosionParticles explosionParticles;
     public GameObject spawnPoint;
     public GameObject rock;
     public GameObject golem;

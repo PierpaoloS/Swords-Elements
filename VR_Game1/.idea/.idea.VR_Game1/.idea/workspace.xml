@@ -4,20 +4,24 @@
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/EnemyGolem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/EnemyGolem.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/EnemyInsect.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/EnemyInsect.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/RockGolem/Prefabs/Polyart_Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/RockGolem/Prefabs/Polyart_Rock.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene/NavMesh-NavSurface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene/NavMesh-NavSurface.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/EnemyAIInsect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/EnemyAIInsect.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ExplosionParticles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ExplosionParticles.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/GenerateEnemies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/GenerateEnemies.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/CastleRuins2.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/CastleRuins2.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Sword/SecondSword.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Sword/SecondSword.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TUTORIAL/Scenes/TutorialScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TUTORIAL/Scenes/TutorialScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/VICTORY/Scenes/VictoryScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VICTORY/Scenes/VictoryScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ThrowRock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ThrowRock.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,6 +211,7 @@
       <workItem from="1640167747920" duration="1448000" />
       <workItem from="1640170999850" duration="601000" />
       <workItem from="1640689967854" duration="1192000" />
+      <workItem from="1640796212111" duration="2436000" />
     </task>
     <servers />
   </component>

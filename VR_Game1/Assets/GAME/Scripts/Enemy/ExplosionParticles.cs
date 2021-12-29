@@ -7,9 +7,14 @@ public class ExplosionParticles : MonoBehaviour
 {
    public ParticleSystem explosion;
     //public Gameobject explosion;
-   private void Start()
+    private void Awake()
+    {
+        explosion.Stop();
+    }
+
+    private void Start()
    {
-       //explosion.SetActive(false);
+       //ThrowRock throwRock;
    }
    private void OnCollisionEnter(Collision other)
    {
@@ -17,10 +22,9 @@ public class ExplosionParticles : MonoBehaviour
          Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
          Vector3 pos = contact.point;
          ParticleSystem particleExplosion = Instantiate(explosion, pos, rot);
-         if (other.gameObject.tag != "Enemy" && other.gameObject.tag != "Ground")
+         if (other.gameObject.tag != "Enemy" /*&& !throwRock.isHoldingRock*/)
          {
              explosion.Play();
-             //explosion.SetActive(true);
          }
          Destroy(gameObject);
    }
