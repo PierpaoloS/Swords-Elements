@@ -58,6 +58,8 @@ public class EnemyAIInsect : MonoBehaviour
         if (!playerInsightRange && !playerInAttackRange) Patroling();
         if (playerInsightRange && !playerInAttackRange) ChasePlayer();
         if (playerInsightRange && playerInAttackRange) AttackPlayer();
+        //Debug.Log("Velocità: "+ gameObject.GetComponent<Rigidbody>().velocity );
+        //Debug.Log("Velocità Angolosa: "+ gameObject.GetComponent<Rigidbody>().angularVelocity );
         
     }
 

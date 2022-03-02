@@ -148,7 +148,7 @@ public class PowerManager : MonoBehaviour
     {
         if (other.gameObject.tag == "Insect")
         {
-            TakeDamage(10);
+            TakeDamage(7);
         }
 
         if (other.gameObject.tag == "Golem")

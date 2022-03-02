@@ -10005,7 +10005,7 @@ MonoBehaviour:
   fadeCircle: {fileID: 0}
   health1: {fileID: 1159945537}
   health2: {fileID: 1146262197}
-  maxHealth: 100
+  maxHealth: 2147483647
   currentHealth: 0
   healthBar: {fileID: 802842045}
   takedamageeffect: {fileID: 1067649339}

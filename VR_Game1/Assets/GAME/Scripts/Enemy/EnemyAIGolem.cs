@@ -100,7 +100,7 @@ public class EnemyAIGolem : MonoBehaviour
         if (!alreadyAttacked /*&& Physics.Raycast(shotPoint.transform.position,shotPoint.transform.forward,50f,6)*/)
         {
             animator.SetTrigger("Attack");
-            print("Fuoco");
+           // print("Fuoco");
             
            /* Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
             rb.AddForce(transform.forward * 32f, ForceMode.Impulse);

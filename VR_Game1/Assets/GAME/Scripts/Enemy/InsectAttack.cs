@@ -19,7 +19,7 @@ public class InsectAttack : MonoBehaviour
     {
         if (other.gameObject.tag == "Player" && isEnemyHitted == false)
         {
-            Debug.Log("Sei stato colpito");
+            //Debug.Log("Sei stato colpito");
             power.TakeDamage(5);
             isEnemyHitted = true;
         }

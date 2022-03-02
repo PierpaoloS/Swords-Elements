@@ -9,7 +9,7 @@ public class TakeDamageEffect : MonoBehaviour
     public Color alpha;
     public void ChangeAlphaValue()
     {
-        print("Sono in takedamageeffect");
+       // print("Sono in takedamageeffect");
         image.color = alpha;
         Invoke("ResetAlphaValue", 0.1f);
     }

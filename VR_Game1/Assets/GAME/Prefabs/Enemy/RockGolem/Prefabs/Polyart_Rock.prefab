@@ -1,5 +1,18 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &7876711775791329602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3012609294865196499}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89117832fbc845a43b49095e652ecd51, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  psIsCreated: 0
 --- !u!1 &5298590762127773683
 GameObject:
   m_ObjectHideFlags: 0
@@ -128,6 +141,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   explosion: {fileID: 177428484432280677}
+  destroyParticle: {fileID: 7876711775791329602}
 --- !u!135 &1831191420023535949
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -205,11 +219,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8364299592882865254, guid: 3af28d008f8a82843af700900cb91396, type: 3}
+      propertyPath: stopAction
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8364299592882865254, guid: 3af28d008f8a82843af700900cb91396, type: 3}
       propertyPath: playOnAwake
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3af28d008f8a82843af700900cb91396, type: 3}
+--- !u!1 &3012609294865196499 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6893705208658894288, guid: 3af28d008f8a82843af700900cb91396, type: 3}
+  m_PrefabInstance: {fileID: 8531414656884242435}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &8941648755845391841 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 752860105491291618, guid: 3af28d008f8a82843af700900cb91396, type: 3}
