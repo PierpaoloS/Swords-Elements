@@ -7,7 +7,6 @@ using Random = UnityEngine.Random;
 
 public class EnemyAIInsect : MonoBehaviour
 {
-    
     public NavMeshAgent agent;
     public Transform player;
     public GameObject ground;
@@ -16,7 +15,8 @@ public class EnemyAIInsect : MonoBehaviour
     public float currentHealth;
     public bool isEnemyHitted = false;
     private Animator animator;
-    public GenerateEnemies generateEnemies;
+    private GenerateEnemies generateEnemies;
+    private GameObject spawner;
 
     //healthbar
     public event Action<float> OnHealthPctChanged = delegate{  }; 
@@ -42,6 +42,7 @@ public class EnemyAIInsect : MonoBehaviour
     {
         player = GameObject.Find("Player").transform;
         ground = GameObject.Find("Ground");
+        spawner = GameObject.Find("SpawnEnemy");
         agent = GetComponent<NavMeshAgent>();
         currentHealth = health;
         animator = GetComponentInChildren<Animator>();
@@ -58,9 +59,6 @@ public class EnemyAIInsect : MonoBehaviour
         if (!playerInsightRange && !playerInAttackRange) Patroling();
         if (playerInsightRange && !playerInAttackRange) ChasePlayer();
         if (playerInsightRange && playerInAttackRange) AttackPlayer();
-        //Debug.Log("Velocità: "+ gameObject.GetComponent<Rigidbody>().velocity );
-        //Debug.Log("Velocità Angolosa: "+ gameObject.GetComponent<Rigidbody>().angularVelocity );
-        
     }
 
     private void Patroling()
@@ -86,7 +84,7 @@ public class EnemyAIInsect : MonoBehaviour
         if(consY <= ground.transform.position.y){
             consY = consY - ground.transform.position.y;
         }
-        walkPoint = new Vector3(transform.position.x + randomX, consY/*transform.position.y*/, transform.position.z + randomZ);
+        walkPoint = new Vector3(transform.position.x + randomX, consY, transform.position.z + randomZ);
 
         if (Physics.Raycast(walkPoint, -transform.up, 5f, whatIsGround))
             walkPointSet = true;
@@ -106,15 +104,10 @@ public class EnemyAIInsect : MonoBehaviour
         
         if (!alreadyAttacked)
         {
-            //print("Insetto attacca");
-            //Attack code here
             attackCollider.enabled = true;
             animator.SetTrigger("Stab Attack");
-            //End of attack code
-        
-            alreadyAttacked = true;
+             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
-            
         }
     }
 
@@ -135,7 +128,6 @@ public class EnemyAIInsect : MonoBehaviour
     {
         if (other.gameObject.tag == "Sword" && isEnemyHitted == false)
         {
-            //print("Enemy Colpita - Entrata in collisione");
             TakeDamage(-25f);
             isEnemyHitted = true;
         } 
@@ -143,7 +135,6 @@ public class EnemyAIInsect : MonoBehaviour
         {
             TakeDamage(-50f);
         }
-
         if (other.gameObject.tag == "Ice" )
         {
             if (!isSlowingDown)
@@ -153,13 +144,11 @@ public class EnemyAIInsect : MonoBehaviour
             }
             TakeDamage(-0.5f);
         }
-        
     }
     public void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "Sword")
         {
-            //print("Enemy Colpita - Uscita dalla collisione");
             isEnemyHitted = false;
         } 
     }
@@ -179,11 +168,9 @@ public class EnemyAIInsect : MonoBehaviour
     private void DestroyEnemy()
     {
         animator.SetTrigger("Die");
-        generateEnemies.insectCount -= 1;
+        spawner.GetComponent<GenerateEnemies>().insectCount -= 1;
         Destroy(gameObject, 1.5f);
         Destroy(this);
-        //print("Enemy Distrutta");
-
     }
 
     private void OnDrawGizmosSelected()

@@ -17,7 +17,8 @@ public class EnemyAIGolem : MonoBehaviour
     public bool isEnemyHitted = false;
     private Animator animator;
     public GenerateEnemies generateEnemies;
-    
+
+    private GameObject spawner;
     //healthbar
     public event Action<float> OnHealthPctChanged = delegate{  }; 
     
@@ -41,6 +42,7 @@ public class EnemyAIGolem : MonoBehaviour
         animator = GetComponentInChildren<Animator>();
         player = GameObject.Find("Player").transform;
         ground = GameObject.Find("Ground");
+        spawner = GameObject.Find("SpawnEnemy");
         agent = GetComponent<NavMeshAgent>();
         currentHealth = health;
     }
@@ -97,20 +99,12 @@ public class EnemyAIGolem : MonoBehaviour
         agent.SetDestination(transform.position);
         transform.LookAt(player);
         
-        if (!alreadyAttacked /*&& Physics.Raycast(shotPoint.transform.position,shotPoint.transform.forward,50f,6)*/)
+        if (!alreadyAttacked)
         {
             animator.SetTrigger("Attack");
-           // print("Fuoco");
-            
-           /* Rigidbody rb = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Rigidbody>();
-            rb.AddForce(transform.forward * 32f, ForceMode.Impulse);
-            rb.AddForce(transform.up * 8f, ForceMode.Impulse);*/
-            
-            alreadyAttacked = true;
+           alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
-            
         }
-        
     }
 
     private void ResetAttack()
@@ -154,6 +148,7 @@ public class EnemyAIGolem : MonoBehaviour
     public void DestroyEnemy()
     {
         animator.SetTrigger("Die");
+        spawner.GetComponent<GenerateEnemies>().golemCount -= 1;
         generateEnemies.golemCount -= 1;
         Destroy(this);
         print("Enemy Distrutta");
