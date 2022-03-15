@@ -12,6 +12,7 @@ public class EnemyAIGolem : MonoBehaviour
     public Transform player;
     public GameObject ground;
     public LayerMask whatIsGround, whatIsPlayer;
+    public LayerMask Walls;
     public float health;
     public float currentHealth;
     public bool isEnemyHitted = false;
@@ -82,7 +83,7 @@ public class EnemyAIGolem : MonoBehaviour
         if(consY <= ground.transform.position.y){
             consY = consY - ground.transform.position.y;
         }
-        walkPoint = new Vector3(transform.position.x + randomX, consY/*transform.position.y*/, transform.position.z + randomZ);
+        walkPoint = new Vector3(transform.position.x + randomX, consY, transform.position.z + randomZ);
 
         if (Physics.Raycast(walkPoint, -transform.up, 5f, whatIsGround))
             walkPointSet = true;
@@ -98,12 +99,14 @@ public class EnemyAIGolem : MonoBehaviour
         //Make sure enemy doesn't move
         agent.SetDestination(transform.position);
         transform.LookAt(player);
-        
-        if (!alreadyAttacked)
+        if (!Physics.Raycast(transform.position, transform.forward, 5f, Walls))
         {
-            animator.SetTrigger("Attack");
-           alreadyAttacked = true;
-            Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            if (!alreadyAttacked)
+            {
+                animator.SetTrigger("Attack");
+                alreadyAttacked = true;
+                Invoke(nameof(ResetAttack), timeBetweenAttacks);
+            }
         }
     }
 

@@ -40,6 +40,7 @@ public class Tornado : MonoBehaviour
         }
         else
         {
+            Debug.Log("Reset Velocità");
             x.GetComponent<Rigidbody>().velocity = Vector3.zero;
             x.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
             yield return refreshRate;

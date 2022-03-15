@@ -3,20 +3,26 @@
   <component name="ChangeListManager">
     <list default="true" id="f23bb53b-6563-4fde-9780-3c9d501ff56a" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.VR_Game1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/EnemyGolem.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Prefabs/Enemy/EnemyGolem.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene/NavMesh-NavSurface.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scenes/GameScene/NavMesh-NavSurface.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/EnemyAIGolem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/EnemyAIGolem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/EnemyAIInsect.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/EnemyAIInsect.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ExplosionParticles.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/ExplosionParticles.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/GenerateEnemies.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Enemy/GenerateEnemies.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/ForestPrefab.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enviroment/ForestPrefab.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GAME/Scripts/Powers/Tornado.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GAME/Scripts/Powers/Tornado.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/VICTORY/Scenes/VictoryScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/VICTORY/Scenes/VictoryScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0-prev.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/AssetImportWorker0.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1-prev.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/NavMeshAreas.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/AssetImportWorker1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-AssetImportWorker0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" beforeDir="false" afterPath="$PROJECT_DIR$/Logs/shadercompiler-UnityShaderCompiler.exe5.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/DynamicsManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -212,6 +218,8 @@
       <workItem from="1646142494366" duration="4061000" />
       <workItem from="1646237108921" duration="3748000" />
       <workItem from="1646300436687" duration="3600000" />
+      <workItem from="1646313952083" duration="1062000" />
+      <workItem from="1646493435455" duration="1071000" />
     </task>
     <servers />
   </component>

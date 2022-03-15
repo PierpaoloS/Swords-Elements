@@ -112,6 +112,9 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 64
+  Walls:
+    serializedVersion: 2
+    m_Bits: 16384
   health: 500
   currentHealth: 0
   isEnemyHitted: 0

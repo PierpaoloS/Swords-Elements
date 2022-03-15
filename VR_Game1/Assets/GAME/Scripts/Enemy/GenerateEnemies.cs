@@ -27,7 +27,7 @@ public class GenerateEnemies : MonoBehaviour
 
     private void Update()
     {
-        if (insectCount < 5 && !isSecondPhaseActivated && !isRunningInsect)
+        if (insectCount < 8 && !isSecondPhaseActivated && !isRunningInsect)
         {
             StartCoroutine(InsectDrop());
         }

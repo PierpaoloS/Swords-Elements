@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: a78c13ec7d8f8b5488574994299257f7, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -10725,7 +10725,7 @@ MonoBehaviour:
   fadeCircle: {fileID: 0}
   health1: {fileID: 1159945537}
   health2: {fileID: 1146262197}
-  maxHealth: 2147483647
+  maxHealth: 150
   currentHealth: 0
   healthBar: {fileID: 802842045}
   takedamageeffect: {fileID: 1067649339}
